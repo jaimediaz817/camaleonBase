@@ -505,6 +505,7 @@ CLS_ajaxRequest.prototype.registrarUsuarioAJAXRequest =
                 alertify.alert("Registro exitoso! Iniciara sesion...");
                 setTimeout(function ()
                 {
+                    //recarga de la pagina
                     location.reload();
                 },2000);                
             } 
