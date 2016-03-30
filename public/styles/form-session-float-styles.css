@@ -1,0 +1,135 @@
+/*
+*  CONKRETEMOS SAS
+*  Licencia de cabeceras para el proyecto CONKRETEMOS SAS
+*  author:  ing Jaime Diaz G.
+*  2016  COMPANY
+*/
+
+/* 
+    Created on : 26/03/2016, 07:57:53 PM
+    Author     : Jaime Diaz <jaimeivan0017@gmail.com>
+*/
+
+/* 
+    Created on : 23/03/2016, 04:21:15 PM
+    Author     : JaimeI
+*/
+
+/*------------------------[ IDS ]-----------------------------------------------*/
+#id-header-main{
+     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#id-login {
+    line-height: 46px;
+    height: 100%;
+    padding: 0 20px;
+    border-left: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;    
+}
+#id-login:hover{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+}
+
+#id-window-userOptions {
+    max-width: 150px;
+    width: 150px;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+    left: 86%;
+    max-width: 200px;
+    width: 156px;    
+    /*padding: 10px 5px 5px 5px;*/
+}
+#id-window-userOptions ul li{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    padding: 3px 3px;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+#id-window-userOptions ul li:hover{
+/*    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.45);*/
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+}
+div.cls-tittle-form {
+    margin-top: 15px;
+}
+/*---------------------------[ VENTANA DE LOGIN ]-------------------------------*/
+.cls-floating-window {
+    background: #fff;
+    display: none;
+    margin-top: 0px;
+    /*position: absolute;*/
+    max-width: 340px;
+    width: 365px;
+    height: auto;
+    border: 1px solid rgba(0,0,0,0.2);
+    position: fixed;
+    margin-top: 46px;
+    left: 74%;
+    padding: 10px 15px;
+}
+.cls-floating-window form {
+    margin-top: 20px;
+}
+/*titulo de cada formulario*/
+div.cls-tittle-form{
+    color: #2fabc4;
+}
+/*INPUTS :: TEXT ---------------------------------------------------------------*/ 
+.cls-floating-window form input{
+    display: block;
+    width: 100%;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 5px;
+}
+.cls-floating-window form input:focus{
+   border-radius: 5px; 
+}
+/*------------------------------------------------------------------------------*/
+.float-right{
+    /*left: 74%;*/
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.hideElement{
+    display: none;
+}
+
+div.cls-small-text {
+    margin-top:  13px;
+    font-size: 0.65em;
+    margin-bottom: 15px;
+}
+div.cls-small-text span {
+    cursor: pointer;
+}
+div.cls-small-text span:last-child{
+    float: right;
+}
+div.cls-small-text span:first-child{
+    float: left;
+}
+
+/*----------------------------[ VALIDACIONES REAL-TIME ]------------------------*/
+.inputCorrect{
+    border: 1px solid #27ae60 !important;
+    background: rgba(0,200,0,0.2);
+}
+.inputWrong{
+    border: 1px solid #c0392b !important;
+    background: rgba(200,0,0,0.2);
+}

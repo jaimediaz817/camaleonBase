@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    #permitir la sobreescritura
+    RewriteEngine on
+    #sobreescribir solamente si la peticion NO apunta a una carpeta, archivo o 
+    #libreria especifica
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-l
+    #toma toda la peticion GET embebido en la URL
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+    #AddType text/css .css 
+</IfModule>

@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/03/2016, 04:23:20 PM
+    Author     : JaimeI
+*/
+
+div .cls-form-container{
+    margin-top: 15%;
+}
+input#id-txt-userName, input#id-txt-password{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+input.cls-btn-submitSess{
+    padding: 5px;
+    width:  100%;
+}
+/*clase generica para INPUT TEXT:*/ 
+.cls-with-inputs {
+    padding: 5px;
+    width:  100%;   
+}
+span.cls-span-registrar{
+    display: block;
+    margin-bottom: 5px;
+}
+div.cls-form-signIn{
+    margin-bottom: 10px;
+    margin: auto auto;
+    width: 300px;
+}
+div.cls-tittle-form{
+    color: #387385;
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+}
+div .cls-small-text{
+    font-size: 80%;
+    margin: 8px 0;
+}
+a, a:hover, a:active, div.cls-btn-small{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2fabc4;
+}
+div.cls-btn-small{
+    display: inline;
+    cursor: pointer;
+}
+/*OCULTAR POR DEFECTO FORMULARIOS*/
+div.hide-element-class{
+    display: none;
+}
+
+/*EXISTENCIA DE USUARIO :: VAR SESSION*/ 
+div#id-div-sessionInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: #DEE5E1;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    height: 43px;
+}
+div #id-div-user{
+    display: inline-block;
+    order: 1;
+}
+input#btn-cerrar-session{
+    padding-bottom: 1px;
+    order: 2;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+/*----------------------------------------------------------------------------*/
+form#id-form-session{
+    position: relative;
+}
+div.loader{
+    display: none;
+}

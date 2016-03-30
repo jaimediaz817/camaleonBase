@@ -1,0 +1,4 @@
+localHost=concretospiura.com.mysql
+userName=concretospiura_
+password=gidetdatabase817
+databaseName=concretospiura_

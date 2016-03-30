@@ -1,0 +1,4 @@
+localHost=localhost
+userName=root
+password=12345
+databaseName=cpiura_shema

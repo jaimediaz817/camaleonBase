@@ -1,0 +1,77 @@
+/*
+*  CONKRETEMOS SAS
+*  Licencia de cabeceras para el proyecto CONKRETEMOS SAS
+*  author:  ing Jaime Diaz G.
+*  2016  COMPANY
+*/
+
+
+
+
+/* 
+    Created on : 26/03/2016, 07:59:56 PM
+    Author     : Jaime Diaz <jaimeivan0017@gmail.com>
+*/
+
+/*CABECERAS DE INFORMACION -----------------------------------------------------*/
+div#id-div-preHeaderInfo{
+    color: grey;
+    width: 70%;
+    background: #ddd;
+    margin: 0 auto;
+}
+div#id-info-tittle{
+    width: 100%;
+    text-align: center;
+}
+
+/*BARRA DE INFORMACION ---------------------------------------------------------*/
+div.band-status-action.hide-bandStatus{
+    display: none;
+}
+div.band-status-action{
+    width: 99%;
+    /* border: solid 1px #ccc; */
+    border-radius: 10px;
+    margin: 6px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 0 4px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+div.band-status-action#success{
+    background: #3D7A4F;
+    border: 1px solid #58A06D;
+}    
+div.band-status-action#error{
+    background: #DD5A5A;
+    border: 1px solid #B35454;
+}      
+
+span.icon-info, 
+span.icon-warning{
+    margin: 0;
+    font-size: 24px;
+    padding: 0;
+    margin-left: 10px;
+}
+span.icon-cross{
+    justify-content: flex-end;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    font-size: 20px;
+    top: 0;  
+    cursor: pointer;
+}
+div.band-status-action p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}    
+ /*FINAL BANDA DE INFORMACION --------------------------------------------------*/
+
+

@@ -1,0 +1,97 @@
+/*
+*  CONKRETEMOS SAS
+*  Licencia de cabeceras para el proyecto CONKRETEMOS SAS
+*  author:  ing Jaime Diaz G.
+*  2016  COMPANY
+*/
+
+
+
+
+/* 
+    Created on : 26/03/2016, 08:00:44 PM
+    Author     : Jaime Diaz <jaimeivan0017@gmail.com>
+*/
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+header{
+    position: fixed;
+    min-height: 46px;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 99;
+}
+#id-container-wrapper{
+    margin-top: 46px;
+}
+/*separadores horizontales ------------------*/
+.cls-separador{
+    width: 100%;
+    background: #fff;
+    position:  relative;
+}
+.cls-contenido{
+    width: 100%;
+    max-width: 75%;
+    padding: 20px 0;
+    margin: auto auto;
+}
+.cls-separador-titulo{
+    width: 100%;
+    background: rgba(180,180,180,0.2);
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    padding: 50px 0;
+}
+ /*IMAGENES INTERNAS - PRODUCTOS ------------*/ 
+ .cls-img-product{
+     display: inline-block;
+     width: 30%;
+     margin: 0px 1.5%;
+     cursor: pointer;
+     background: black;
+ }
+ .cls-img-product img {
+     width: 100%;
+     -webkit-transition: opacity 0.5s ease;
+     transition: opacity 0.5s ease;
+ }
+ .cls-img-product img:hover{
+     opacity: 0.5;
+ }
+ /*titulos de imagenes product*/
+ .cls-separador .cls-contenido .cls-title-product{
+     text-align: center;
+     font-size: 150%;
+     margin: 20px 0;
+ }
+ #id-debug{
+     position: fixed;
+     top: 2px;
+     /*right: 2%;*/     
+     padding: 10px 35px;
+     left: 75%;
+     margin: auto auto;
+     margin-left: 5px;
+     background: rgba(0,0,0,0.5);
+     color: white;
+     border-radius: 50px;
+     z-index: 100;     
+ }
+ #id-liked{
+     position: absolute;
+     min-width: 5%;
+     margin-top: 5%;
+     /*OCULTO POR DEFECTO*/
+     margin-left:  -150px;
+ }
+  #id-liked img{ 
+      width: 60%;
+  }
+ /*-----------------------------------------------------------------------------*/
+

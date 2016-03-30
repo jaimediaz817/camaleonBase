@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>utilities/UrlGenerator.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>13</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/error.log</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/framework/View.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/models/Usuario.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/framework/Model.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/controllers/Index_controller.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/views/User/signIn.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/tests/index.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/public/styles/form-session-float-styles.css</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/debug-DATABASE.log</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/models/Bitacora.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/configApplication.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/framework/PDOManager.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/public/js/front-controllers/index-controller.js</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/controllers/User_controller.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/db/remote-production/concretospiura_.sql</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/views/Index/index.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/public/styles/concretemosSAS-main-styles.css</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/public/js/front-controllers/session-controller.js</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/business/User_business.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/views/User/userOptions.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/models/Tienda.php</file>
+            <file>file:/C:/xampp/htdocs/conkretemos-SAS-sistemaComercial-BETA/views/modules/header.php</file>
+        </group>
+    </open-files>
+</project-private>

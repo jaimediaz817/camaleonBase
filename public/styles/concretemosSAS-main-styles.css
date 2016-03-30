@@ -1,0 +1,174 @@
+/*
+*  CONKRETEMOS SAS
+*  Licencia de cabeceras para el proyecto CONKRETEMOS SAS
+*  author:  ing Jaime Diaz G.
+*  2016  COMPANY
+*/
+
+
+
+
+/* 
+    Created on : 26/03/2016, 08:01:42 PM
+    Author     : Jaime Diaz <jaimeivan0017@gmail.com>
+*/
+
+/*IMPORTANDO LAS FUENTES :: */
+
+/*@import url('loadersAndMessagesStyle.css');
+@import url('menu-desplegableV2.css');*/
+
+@import url('icons-application.css');
+/*@import url('headerStyles.css');*/
+/*@import url('blogStyles.css');*/
+/*@import url('formularios.css');*/
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url(https://fonts.googleapis.com/css?family=Viga);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+*/
+/*@import url('form-session-styles.css');*/
+/*ANIMACIONES Y LOADERS*/ 
+/*@import url('loadersAnimations.css');*/
+/*MAQUETACION DE CONTENIDOS INDEX :: PARALLAX*/
+@import url('contenidoIndex-styles.css');
+
+@import url('form-session-float-styles.css');
+
+* {
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	/* para que todo se contenga dentro del modelo de caja */
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+/* ------------------- RESET H1 --------------- */
+h1{
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: inline-block;
+}
+/*body{
+	font-size: 16px;
+}*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	/* para que todo se contenga dentro del modelo de caja */
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-size: 18px;
+}
+ 
+ /*ESTILOS PARALLAX EXAMPLE ----------------------------------------------------*/
+ html, body{
+     width: 100%;
+     height: 100%;
+     font-family: helvetica;
+ }
+ body {
+     overflow-x: hidden;
+ }
+
+  /*BANDAS DE ACCIONES GENERALES -----------------------------------------------*/
+/*BARRA DE INFORMACION ---------------------------------------------------------*/
+#id-band-container {
+    margin-top: 46px;
+}
+div.band-status-action.hide-bandStatus{
+    display: none;
+}
+div.band-status-action{
+    width: 99%;
+    /* border: solid 1px #ccc; */
+    border-radius: 10px;
+    margin: 6px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 0 4px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+div.band-status-action#success{
+    background: #3D7A4F;
+    border: 1px solid #58A06D;
+}    
+div.band-status-action#error{
+    background: #DD5A5A;
+    border: 1px solid #B35454;
+}      
+
+span.icon-info, 
+span.icon-warning{
+    margin: 0;
+    font-size: 24px;
+    padding: 0;
+    margin-left: 10px;
+}
+span.icon-cross{
+    justify-content: flex-end;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    font-size: 20px;
+    top: 0;  
+    cursor: pointer;
+}
+div.band-status-action p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}   
+@media  (min-width: 1138px){
+	body{
+		background-color: #CED0D0;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1137px){
+	body{
+		background-color: #CED0D0;
+	}
+}
+@media (min-width: 915px) and (max-width: 1023px){
+	body{
+		background-color: orange;
+	}
+}
+@media (min-width: 861px) and (max-width: 914px){
+	body{
+		background-color: green;
+	}
+}
+@media (min-width: 701px) and (max-width: 860px){
+	body{
+		background-color: green;
+	}	
+}
+@media (min-width: 481px) and (max-width: 700px){
+	body{
+		background-color: blue;
+	}
+}
+@media (min-width: 200px) and (max-width: 480px){
+	body{
+		background-color: yellow;
+	}
+}
+
