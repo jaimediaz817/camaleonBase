@@ -149,6 +149,16 @@ class ResourceBundleV2 {
             $ddf = fopen('debug-DATABASE.log','a'); 
             fwrite($ddf,"[".date("r")."] info $numero: $texto\r\n"); 
             fclose($ddf); 
-         }         
+         }
+         public static function writeHELPERSLog ($number, $text)
+         {
+             self::writeProcessLOG('helpersLOG', $number, $text);
+         }
+         static private function writeProcessLOG($fileName, $number, $text)
+         {
+            $file = fopen($fileName. 'log','a'); 
+            fwrite($file,"[".date("r")."] info $number: $text\r\n"); 
+            fclose($file);             
+         }
 }
 ?>

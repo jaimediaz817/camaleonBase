@@ -41,7 +41,7 @@ class Index_controller extends Controller {
         //-------------- [ INCRUSTANDO VISTAS EN INDEX ]------------------------
         $userController = new User_controller();
         $this->view->userControllerObj = $userController;//->signIn();
-        
+        ResourceBundleV2::writeHELPERSLog('001', 'hora :'. DataTimeManager::getFormatDate('-', 1) . " hora: " . DataTimeManager::getFormatTime(':', 1));
         //*****************************************************
         //             [ DEBUG MODE ]
         $this->view->debug = false;
