@@ -134,9 +134,12 @@ class User_controller extends Controller{
     {
         //preguntar por las llaves que existen actualmente
         $keys = Usuario::getKeys();
+        ResourceBundleV2::writeDATABASELOG("005_DATAPOST", "ARRAY_ ". $keys[4] . ' = '. $_POST["fechaCreacion"]);
+                
         //quitar elemento del array::
         unset($keys[0]);
         $_POST["id"] = null;
+        $_POST["fechaCreacion"] = 'changeDataVoid_LOL :)';
         /**
          *  para evitar que realice una insercion de mas o inyeccion se aplica
          *  un filtro

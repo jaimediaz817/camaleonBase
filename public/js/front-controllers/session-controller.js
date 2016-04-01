@@ -221,13 +221,15 @@ $("div.cls-floating-window form").submit(function(event)
                 dataJson = processDataForm(currentForm);
                 //procesar nuevamente los datos a enviar con los indices originales:
                 var dataResponse = processDataPOSTRegister( dataJson , 'register');
-                
+               
                 //una vez obtenidos los indices, eliminar los sobrantes
                 //var unqDataResponse = deleteColsInArrayObject({0:"names",1: "rpassword"}, dataResponse);
                 delete dataResponse.names;
                 delete dataResponse.rpassword;
                 //var res = deleteColsInArrayObjectSingle({0: "names", 1: "rpassword"}, dataResponse);
-                                
+                //-------[ EXPERIMENTAL TMP ]---------
+                dataResponse["fechaCreacion"] = 'dataVoid';
+                //-------[ END EXPERIMENTAL ]---------                                 
                 console.log(dataResponse);
                 //realizar la peticion AJAX
                 var actionRes = objRequests.registrarUsuarioAJAXRequest(dataResponse, 

@@ -14,7 +14,7 @@
  */
 class DataTimeManager 
 {
-    private $singleTime = null;
+    private static $singleTime = null;
     
     //put your code here
     function __construct() {
@@ -23,8 +23,8 @@ class DataTimeManager
     
     private static function getCurrentDate()
     {
-        $singleLocalTime = time ();
-        return $singleLocalTime;
+        $singleTime = time ();
+        return $singleTime;
     }
     
     private static function getCurrentTime ()
@@ -33,7 +33,8 @@ class DataTimeManager
     }
     public static function getFullDateTime ()
     {
-        
+        $fullTime = date("r");
+        return $fullTime;
     }
     public static function getFormatDate($delimitador = '-', $orden = 1)
     {

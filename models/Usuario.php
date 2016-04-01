@@ -32,7 +32,7 @@ class Usuario extends Model {
     private $password;
     //new properties ]----------------------------------------------------------
     private $email;
-  
+    private $fechaCreacion;
     //-------------------[ RELACIONES UNO A MUCHOS ]----------------------------
     private $has_many = array(
         //NOMBRE DE LA RELACION
@@ -58,11 +58,12 @@ class Usuario extends Model {
         
         );
     //--------------------------------------------------------------------------
-    function __construct($id, $username, $password, $email) {
+    function __construct($id, $username, $password, $email, $fechaCreacion) {
         $this->id = $id;
         $this->username = $username;
         $this->password = $password;
         $this->email = $email;
+        $this->fechaCreacion = $fechaCreacion;
     }
 
         /**
@@ -102,7 +103,15 @@ class Usuario extends Model {
     function getEmail(){
         return $this->email;
     }
-    //--------------------------------------------------------------------------
+    function getFechaCreacion() {
+        return $this->fechaCreacion;
+    }
+
+    function setFechaCreacion($fechaCreacion) {
+        $this->fechaCreacion = $fechaCreacion;
+    }
+
+        //--------------------------------------------------------------------------
     function getHas_many() {
         return $this->has_many;
     }
