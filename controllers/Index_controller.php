@@ -41,7 +41,24 @@ class Index_controller extends Controller {
         //-------------- [ INCRUSTANDO VISTAS EN INDEX ]------------------------
         $userController = new User_controller();
         $this->view->userControllerObj = $userController;//->signIn();
-        ResourceBundleV2::writeHELPERSLog('001', 'hora :'. DataTimeManager::getFormatDate('-', 1) . " hora: " . DataTimeManager::getFormatTime(':', 1). ' full time: '. DataTimeManager::getFullDateTime());
+        ResourceBundleV2::writeHELPERSLog('001', 'hora :'. DataTimeManager::getFormatDate('-', 1) .
+                " hora: " . DataTimeManager::getFormatTime(':', 1). ' full time: '. 
+                DataTimeManager::getFullDateTime());
+        $txt = GeneratorManager::getCharsetKey(8);
+        ResourceBundleV2::writeHELPERSLog("006", "GeneratorManager: " .
+                $txt);
+        //echo phpinfo();
+        $arrayAss = array(
+          "id" => "01",
+          "codeGenerator" => "xyz",
+          "codeState" => "1",
+          "dataInit" => "date",
+          "dataExpired" => "date" 
+        );
+        
+        $objEx = KeyGenerator::instanciate($arrayAss);
+        
+        ResourceBundleV2::writeDATABASELOG("006_newEntity", "Probando entidad". $objEx->getId());
         //*****************************************************
         //             [ DEBUG MODE ]
         $this->view->debug = false;
@@ -98,7 +115,11 @@ http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/Index/crearUsuario/?
             print_r($friend->getUsername());
             
             $user->has_many("Amigos", $friend);
-            $user->delete();
+            
+            $friend->has_many("Amigos", $user);
+            //$user->delete();
+            $user->create();
+            $friend->create();
         }
     }
     
@@ -124,6 +145,41 @@ http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/Index/crearUsuario/?
             $userObj = (empty($userObj) ? false: $userObj);
             var_dump($userObj);
         }
+    }
+    
+    public function testMailComponent ($codeActivation)
+    {
+        //echo $codeActivation;
+        
+        $resultado = Usuario::getBy("keyGenerator", $codeActivation);
+        
+        echo $resultado->getKeyGenerator() ." , name ". $resultado->getUsername();
+        echo $resultado->getEstadoRegistro();
+        $resultado->setEstadoRegistro(4);
+        
+        if ($resultado->getEstadoRegistro() == 4){
+            echo "LOL";
+        }
+        echo $resultado->getEstadoRegistro();
+        $resultado->update();
+        //print_r($resultado);
+    }
+    
+    public function crearCodeGenerator ()
+    {
+        $arrayAss = array(
+          "id" => null,
+          "codeGenerator" => "xyz",
+          "codeState" => 1,
+          "dataInit" => "date",
+          "dataExpired" => "date" 
+        );
+        
+        $objEx = KeyGenerator::instanciate($arrayAss);     
+        
+        $res = $objEx->create();
+        
+        print_r($res);
     }
 }
 

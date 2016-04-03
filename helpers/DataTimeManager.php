@@ -14,7 +14,7 @@
  */
 class DataTimeManager 
 {
-    private static $singleTime = null;
+      private  static $singleTime = "abc";
     
     //put your code here
     function __construct() {
@@ -33,7 +33,8 @@ class DataTimeManager
     }
     public static function getFullDateTime ()
     {
-        $fullTime = date("r");
+        $temp = self::$singleTime;
+        $fullTime = date("r"). " experimental:: ". $temp ;
         return $fullTime;
     }
     public static function getFormatDate($delimitador = '-', $orden = 1)

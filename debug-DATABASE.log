@@ -1,249 +1,298 @@
-[Wed, 30 Mar 2016 20:20:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:20:57 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:52 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:36:57 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:36:58 -0500] info 005_DATAPOST: ARRAY_ 
-[Wed, 30 Mar 2016 20:36:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:37:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:37:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:37:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:37:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:37:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:37:41 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:37:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:37:41 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:37:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:37:47 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:37:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:37:47 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:04 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:04 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:15 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:15 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:15 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:15 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:17 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:17 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:38:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:38:25 -0500] info 005_DATAPOST: ARRAY_ 
-[Wed, 30 Mar 2016 20:38:25 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:39:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:39:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:39:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:39:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:40:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:40:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:40:54 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:40:54 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:40:55 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:40:55 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:40:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:40:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:40:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:40:59 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:40:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:40:59 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:41:01 -0500] info 005_DATAPOST: ARRAY_ password
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:41:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:30 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:31 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:31 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:32 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:32 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:34 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:34 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:34 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:34 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:35 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:35 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:35 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:35 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:35 -0500] info 005_DATAPOST: ARRAY_ 
-[Wed, 30 Mar 2016 20:43:35 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:40 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:40 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:43:40 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:43:40 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:12 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:13 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:23 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:26 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:26 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:26 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:26 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:28 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:45:28 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:45:32 -0500] info 005_DATAPOST: ARRAY_ email
-[Wed, 30 Mar 2016 20:51:33 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion
-[Wed, 30 Mar 2016 20:52:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:52:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:52:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:52:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:58:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:55 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:58:55 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:55 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:58:55 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:58:58 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:58:58 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:58:59 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:58:59 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:58:59 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion
-[Wed, 30 Mar 2016 20:59:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:59:04 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:59:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:59:04 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:59:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:59:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:59:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 20:59:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 20:59:31 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion
-[Wed, 30 Mar 2016 21:07:49 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:07:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:07:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:07:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:07:51 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:07:51 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:07:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:07:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:07:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:07:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:07:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:07:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:07:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:07:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:08:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:08:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:08:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:08:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:08:01 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = 
-[Wed, 30 Mar 2016 21:10:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:10:58 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:10:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:10:59 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:13:37 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:13:37 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:13:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:13:41 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:13:43 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:13:43 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:13:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:13:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:13:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:13:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:13:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:13:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:13:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:13:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:14:12 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
-[Wed, 30 Mar 2016 21:14:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:49 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:49 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:52 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:52 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:53 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
-[Wed, 30 Mar 2016 21:17:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:54 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:54 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 21:17:54 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 21:17:54 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:11:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:11:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:11:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:11:57 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:11:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:11:58 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:11:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:11:59 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:11:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:11:59 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:12:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:12:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:12:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:12:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:12:01 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
-[Wed, 30 Mar 2016 22:12:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:12:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:12:12 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 30 Mar 2016 22:12:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 30 Mar 2016 22:12:12 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 31 Mar 2016 09:14:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:18 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 31 Mar 2016 09:14:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 31 Mar 2016 09:14:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 31 Mar 2016 09:14:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 31 Mar 2016 09:14:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 31 Mar 2016 09:14:22 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
-[Thu, 31 Mar 2016 09:14:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:23 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 31 Mar 2016 09:14:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 31 Mar 2016 09:14:23 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 18:52:40 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : id :  objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : username : qwe objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : password : qwe objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : email : qwe objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : fechaCreacion : changeDataVoid_LOL :) objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : estadoRegistro :  objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : keyGenerator : keyGen objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : keyGeneratorObj :  objeto? 1
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : has_many : Array objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars : : known_as : Array objeto? 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : id : 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : username : qwe
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : password : qwe
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : email : qwe
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : fechaCreacion : changeDataVoid_LOL :)
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : estadoRegistro : 
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : keyGenerator : keyGen
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : has_many : Array
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_getMyVars resultante: : known_as : Array
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 18:52:40 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 18:52:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:52:41 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:52:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:52:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:53:46 -0500] info 006_newEntity: Probando entidad01
+[Sat, 02 Apr 2016 18:54:12 -0500] info 006_newEntity: Probando entidad01
+[Sat, 02 Apr 2016 18:54:40 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:54:40 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:54:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:54:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:54:43 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:54:43 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:54:44 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:54:44 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:54:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:54:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:54:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:54:47 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:54:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:54:48 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:55:00 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:55:00 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:55:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:55:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:55:07 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 18:55:40 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : id :  objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : username : qqqqqw objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : password : 123 objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : email : qqqwe objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : fechaCreacion : changeDataVoid_LOL :) objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : estadoRegistro :  objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : keyGenerator : keyGen objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : keyGeneratorObj :  objeto? 1
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : has_many : Array objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars : : known_as : Array objeto? 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : id : 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : username : qqqqqw
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : password : 123
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : email : qqqwe
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : fechaCreacion : changeDataVoid_LOL :)
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : estadoRegistro : 
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : keyGenerator : keyGen
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : has_many : Array
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_getMyVars resultante: : known_as : Array
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 18:55:40 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 18:55:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:55:58 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:56:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:56:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:57:19 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 18:57:25 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : id :  objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : username : qqqqqw objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : password : 123 objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : email : qqqwe objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : fechaCreacion : changeDataVoid_LOL :) objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : estadoRegistro :  objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : keyGenerator : keyGen objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : keyGeneratorObj :  objeto? 1
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : has_many : Array objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars : : known_as : Array objeto? 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : id : 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : username : qqqqqw
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : password : 123
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : email : qqqwe
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : fechaCreacion : changeDataVoid_LOL :)
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : estadoRegistro : 
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : keyGenerator : keyGen
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : has_many : Array
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_getMyVars resultante: : known_as : Array
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 18:57:25 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 18:57:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:57:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:57:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:57:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:58:36 -0500] info 006_newEntity: Probando entidad01
+[Sat, 02 Apr 2016 18:58:44 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:58:44 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:58:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:58:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:58:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:58:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:58:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:58:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:58:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:58:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:58:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:58:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:58:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:58:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 18:59:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : id :  objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : username : asd objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : password : asd objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : email : asd objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : fechaCreacion : changeDataVoid_LOL :) objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : estadoRegistro :  objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : keyGenerator : keyGen objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : keyGeneratorObj :  objeto? 1
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : has_many : Array objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars : : known_as : Array objeto? 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : id : 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : username : asd
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : password : asd
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : email : asd
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : fechaCreacion : changeDataVoid_LOL :)
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : estadoRegistro : 
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : keyGenerator : keyGen
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : has_many : Array
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_getMyVars resultante: : known_as : Array
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 18:59:53 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 19:10:51 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 19:10:51 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:10:51 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 19:10:51 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 19:10:51 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 19:10:53 -0500] info 006_newEntity: Probando entidad01
+[Sat, 02 Apr 2016 19:11:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:02 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:02 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:04 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 19:11:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:04 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 19:11:04 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 19:11:04 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 19:11:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:07 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:07 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:09 -0500] info 006_newEntity: Probando entidad01
+[Sat, 02 Apr 2016 19:11:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:17 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:17 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:18 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:18 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:11:38 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 19:11:38 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:11:38 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 19:11:38 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 19:11:38 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 19:16:52 -0500] info 006_newEntity: Probando entidad01
+[Sat, 02 Apr 2016 19:18:08 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:08 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:18:08 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:08 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:18:09 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:09 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:18:09 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:09 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:18:09 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:09 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:18:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:13 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:18:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:13 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:18:31 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sat, 02 Apr 2016 19:18:31 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:18:31 -0500] info 007_values: insert 817
+[Sat, 02 Apr 2016 19:18:31 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sat, 02 Apr 2016 19:18:31 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sat, 02 Apr 2016 19:19:14 -0500] info 006_newEntity: Probando entidad01
+[Sat, 02 Apr 2016 19:28:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 02 Apr 2016 19:28:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 02 Apr 2016 19:28:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 10:39:15 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 10:39:15 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 10:39:15 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 10:39:15 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 10:39:15 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sun, 03 Apr 2016 10:39:15 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sun, 03 Apr 2016 10:39:15 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 10:39:15 -0500] info 007_fieldNames: : idAmigo`, `idUsuario
+[Sun, 03 Apr 2016 10:39:15 -0500] info 007_fieldValues: : :idAmigo, :idUsuario
+[Sun, 03 Apr 2016 10:46:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 10:46:13 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 10:46:13 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 10:46:13 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 10:46:13 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sun, 03 Apr 2016 10:46:13 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sun, 03 Apr 2016 10:46:13 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 10:46:13 -0500] info 007_fieldNames: : idAmigo`, `idUsuario
+[Sun, 03 Apr 2016 10:46:13 -0500] info 007_fieldValues: : :idAmigo, :idUsuario
+[Sun, 03 Apr 2016 10:46:14 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 10:46:14 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sun, 03 Apr 2016 10:46:14 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sun, 03 Apr 2016 10:46:14 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 10:46:14 -0500] info 007_fieldNames: : idAmigo`, `idUsuario
+[Sun, 03 Apr 2016 10:46:14 -0500] info 007_fieldValues: : :idAmigo, :idUsuario
+[Sun, 03 Apr 2016 10:55:33 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 10:55:33 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 10:55:33 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sun, 03 Apr 2016 10:55:33 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sun, 03 Apr 2016 10:55:33 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:01 -0500] info 006_newEntity: Probando entidad01
+[Sun, 03 Apr 2016 11:31:11 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:11 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:12 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:12 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:20 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sun, 03 Apr 2016 11:31:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:20 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 11:31:20 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sun, 03 Apr 2016 11:31:20 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sun, 03 Apr 2016 11:31:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:24 -0500] info 006_newEntity: Probando entidad01
+[Sun, 03 Apr 2016 11:31:36 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:36 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:37 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:37 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:38 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:38 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:47 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:47 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:47 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = dataVoid
+[Sun, 03 Apr 2016 11:31:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:47 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 11:31:47 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `id`, `keyGenerator`, `password`, `username
+[Sun, 03 Apr 2016 11:31:47 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :id, :keyGenerator, :password, :username
+[Sun, 03 Apr 2016 11:31:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:48 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:48 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:51 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:51 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:51 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:31:51 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sun, 03 Apr 2016 11:31:52 -0500] info 006_newEntity: Probando entidad01
+[Sun, 03 Apr 2016 11:39:26 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 03 Apr 2016 11:39:26 -0500] info 007_values: insert 817
+[Sun, 03 Apr 2016 11:39:26 -0500] info 007_fieldNames: : codeGenerator`, `codeState`, `dataExpired`, `dataInit`, `id
+[Sun, 03 Apr 2016 11:39:26 -0500] info 007_fieldValues: : :codeGenerator, :codeState, :dataExpired, :dataInit, :id

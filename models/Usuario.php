@@ -25,14 +25,21 @@
  */
 class Usuario extends Model {
     //put your code here
-    protected static $table = "Usuario";
+    protected static $table = "usuario";
     
     private $id;
     private $username;
     private $password;
-    //new properties ]----------------------------------------------------------
+    //[ new properties ]----------------------------------------------------------
     private $email;
     private $fechaCreacion;
+    private $estadoRegistro;
+    private $keyGenerator;
+    //--------------------------------------------------------------------------
+    
+    //[ OBJECTS ]---------------------------------------------------------------
+    private $keyGeneratorObj;
+    
     //-------------------[ RELACIONES UNO A MUCHOS ]----------------------------
     private $has_many = array(
         //NOMBRE DE LA RELACION
@@ -58,15 +65,18 @@ class Usuario extends Model {
         
         );
     //--------------------------------------------------------------------------
-    function __construct($id, $username, $password, $email, $fechaCreacion) {
+    function __construct($id, $username, $password, $email='', $fechaCreacion='', $estadoRegistro=0, $keyGenerator='') {
         $this->id = $id;
         $this->username = $username;
         $this->password = $password;
         $this->email = $email;
+        //-----------------------------------
         $this->fechaCreacion = $fechaCreacion;
+        $this->estadoRegistro = $estadoRegistro;
+        $this->keyGenerator = $keyGenerator;
     }
 
-        /**
+    /**
      * metodo que me permite obtener todas las variables de éste objeto
      * 
      */
@@ -110,8 +120,30 @@ class Usuario extends Model {
     function setFechaCreacion($fechaCreacion) {
         $this->fechaCreacion = $fechaCreacion;
     }
+    function getEstadoRegistro() {
+        return $this->estadoRegistro;
+    }
 
-        //--------------------------------------------------------------------------
+    function getKeyGenerator() {
+        return $this->keyGenerator;
+    }
+
+    function setEstadoRegistro($estadoRegistro) {
+        $this->estadoRegistro = $estadoRegistro;
+    }
+
+    function setKeyGenerator($keyGenerator) {
+        $this->keyGenerator = $keyGenerator;
+    }
+    //--------------------------------------------------------------------------
+    function getKeyGeneratorObj() {
+        return $this->keyGeneratorObj;
+    }
+
+    function setKeyGeneratorObj(KeyGenerator $keyGeneratorObj) {
+        $this->keyGeneratorObj = $keyGeneratorObj;
+    }
+    //--------------------------------------------------------------------------
     function getHas_many() {
         return $this->has_many;
     }

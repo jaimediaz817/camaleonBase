@@ -110,8 +110,8 @@ class User_controller extends Controller{
             $usernamePOSTFilter = filter_input(INPUT_POST, "username");
             $passwordPOSTFilter = filter_input(INPUT_POST, "password");
             //creando instancia de USUARIO :: POST
-            $userObjPOST = new Usuario(null, $usernamePOSTFilter, $passwordPOSTFilter, null);
-            //creando instancia de USUARIO :: PDO
+            $userObjPOST = new Usuario(null, $usernamePOSTFilter, $passwordPOSTFilter);
+            //creando instancia por reflexion y buscando USUARIO :: PDO
             $userObjDb = Usuario::getBy("username", filter_input(INPUT_POST, "username"));
             //PROGRAMACION DEFENSIVA ]
             if (!is_null($userObjDb)){
@@ -138,8 +138,15 @@ class User_controller extends Controller{
                 
         //quitar elemento del array::
         unset($keys[0]);
+        
+        
         $_POST["id"] = null;
+        //----------------------------------------------------------------------
+        
+        // ASIGNACION DE VARIABLES QUE LLEGAN DE SESSION-CONTROLLER.JS ]********
         $_POST["fechaCreacion"] = 'changeDataVoid_LOL :)';
+        $_POST["estadoRegistro"] = FALSE;
+        $_POST["keyGenerator"] = "keyGen";
         /**
          *  para evitar que realice una insercion de mas o inyeccion se aplica
          *  un filtro
@@ -156,10 +163,15 @@ class User_controller extends Controller{
         echo json_encode($objCreate);
         //***************[ GESTION DE LA SESSION ] *****************************
         //              [ BUSINESS - LOGIC - LYER ]
+        /*
+         * OJO! NO SE CREA LA SESSION HASTA QUE NO HAYA CAMBIADO EL ESTADO DEL
+         * REGISTRO ENVIADO A TRAVES DEL MAIL DE CONFIRMACION
+         */
         if ( $objCreate["error"] == 0)
         {
-            User_business::crearUserSession($objUser);
+            //User_business::crearUserSession($objUser);
         }
+        //**********************************************************************
     }
     /**
      * 

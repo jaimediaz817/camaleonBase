@@ -43,13 +43,18 @@ class PDOManager extends PDO
 	public function insert($table, $data)
 	{
 		ksort($data);
-		
+		ResourceBundleV2::writeDATABASELOG("007_values", "insert 817");
 		$fieldNames = implode('`, `', array_keys($data));
-		$fieldValues = ':' . implode(', :', array_keys($data));
 		
+                  ResourceBundleV2::writeDATABASELOG("007_fieldNames: ", $fieldNames);
+                  
+                  $fieldValues = ':' . implode(', :', array_keys($data));
+		ResourceBundleV2::writeDATABASELOG("007_fieldValues: ", $fieldValues);
+                  
 		$sth = $this->prepare("INSERT INTO $table (`$fieldNames`) VALUES ($fieldValues)");
-		
+		//ResourceBundleV2::writeDATABASELOG("007_values", "INSER INTO: ". $sth);
 		foreach ($data as $key => $value) {
+                       // ResourceBundleV2::writeDATABASELOG("007_values", "values : ". $value);
 			$sth->bindValue(":$key", $value);
 		}
 		//print_r($sth);

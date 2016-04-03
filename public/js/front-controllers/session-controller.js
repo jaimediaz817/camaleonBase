@@ -205,7 +205,6 @@ $("div.cls-floating-window form").submit(function(event)
            var dataSessionResponse = processDataPOSTRegister( dataJson , 'initSession');
            console.log(dataSessionResponse);
            
-
            //REALIZAR PETICION AJAX AL CONTROLADOR PHP
            objRequests.iniciarSessionAJAXRequest(currentForm, dataSessionResponse
                    , objScopeApp.getPathScopeApplication());
@@ -227,9 +226,12 @@ $("div.cls-floating-window form").submit(function(event)
                 delete dataResponse.names;
                 delete dataResponse.rpassword;
                 //var res = deleteColsInArrayObjectSingle({0: "names", 1: "rpassword"}, dataResponse);
-                //-------[ EXPERIMENTAL TMP ]---------
+                //-------[ INSERT COLS TMP ]---------
+                //TODO: CAMPOS A ADICIONAR EN EL REGISTRO
                 dataResponse["fechaCreacion"] = 'dataVoid';
-                //-------[ END EXPERIMENTAL ]---------                                 
+                dataResponse["estadoRegistro"] = false;
+                dataResponse["keyGenerator"] = 'dataVoid';
+                //-------[ END ADD COLS ]------------                                 
                 console.log(dataResponse);
                 //realizar la peticion AJAX
                 var actionRes = objRequests.registrarUsuarioAJAXRequest(dataResponse, 
@@ -450,21 +452,35 @@ CLS_ajaxRequest.prototype.iniciarSessionAJAXRequest =
            //-------------[ VALIDANDO SESSION EXITOSA ]-------------------------
            if ((res.password == true) && (res.username == true))
            {
-               bandGlobalValidation = true;
-               //preguntar si estan con el estilo incorrecto::
-               if ($(userNameComponent).hasClass("inputWrong")){
-                   $(userNameComponent).removeClass("inputWrong").addClass("inputCorrect");
+               //validando el estado del registro::
+               if (res.estadoRegistro == 1)
+               {
+                    bandGlobalValidation = true;
+                    //preguntar si estan con el estilo incorrecto::
+                    if ($(userNameComponent).hasClass("inputWrong")){
+                        $(userNameComponent).removeClass("inputWrong").addClass("inputCorrect");
+                    }
+                    if ($(passwordComponent).hasClass("inputWrong")){
+                        $(passwordComponent).removeClass("inputWrong").addClass("inputCorrect");
+                    }
+                    alertify.alert("datos correctos! se iniciará la sesion");    
+                    //recargar page**********
+                    setTimeout(function()
+                    {
+                        location.reload();
+                    },2000);                   
                }
-               if ($(passwordComponent).hasClass("inputWrong")){
-                   $(passwordComponent).removeClass("inputWrong").addClass("inputCorrect");
+               else {
+                    //preguntar si estan con el estilo incorrecto::
+                    if ($(userNameComponent).hasClass("inputWrong")){
+                        $(userNameComponent).removeClass("inputWrong").addClass("inputCorrect");
+                    }
+                    if ($(passwordComponent).hasClass("inputWrong")){
+                        $(passwordComponent).removeClass("inputWrong").addClass("inputCorrect");
+                    }   
+                    alertify.alert("datos correctos! PERO no esta activada su cuenta, verifique en su correo o contacte al administrador del sistema comercial.");
                }
-               alertify.alert("datos correctos! se iniciará la sesion");    
-               //recargar page**********
-                setTimeout(function()
-                {
-                    location.reload();
-                },2000);
-               
+                              
            }
         },
         error: function (response)
@@ -504,12 +520,12 @@ CLS_ajaxRequest.prototype.registrarUsuarioAJAXRequest =
                 console.log('Response: ' + response.msg);
                 actionResponse = true;
                 //redireccionamiento
-                alertify.alert("Registro exitoso! Iniciara sesion...");
+                alertify.alert("Registro exitoso! debe revisar su correo para activar la cuenta..");
                 setTimeout(function ()
                 {
                     //recarga de la pagina
                     location.reload();
-                },2000);                
+                },4000);                
             } 
             else 
             {

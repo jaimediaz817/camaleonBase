@@ -78,6 +78,20 @@ class Model {
         self::getConnection();
 
         $values = $this->getMyVars($this);
+        
+        $unsetKeyVal = "";
+        foreach ($values as $key => $value)
+        {
+           $res = StringManager::buscarPalabraEnCadenaString("Obj", $key);
+           if ( $res ){
+               $unsetKeyVal = $key;
+           }
+           //ResourceBundleV2::writeDATABASELOG("007_getMyVars : ",$key . " : ". $value. " objeto? ". $res); 
+        }
+        if ($unsetKeyVal != ""){
+            unset($values[$unsetKeyVal]);
+        }      
+        
         $has_many = self::checkRelationship("has_many",$values);
         self::checkRelationship("has_one",$values);
         self::checkRelationship("known_as",$values);

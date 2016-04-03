@@ -24,12 +24,15 @@ CREATE TABLE IF NOT EXISTS `cpiura_shema`.`usuario` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `username` VARCHAR(45) CHARACTER SET 'utf8' NOT NULL,
   `password` VARCHAR(128) CHARACTER SET 'utf8' NOT NULL,
-  `email` VARCHAR(150) NOT NULL,
+  `email` VARCHAR(150) CHARACTER SET 'utf8' NOT NULL,
+  `fechaCreacion` VARCHAR(45) CHARACTER SET 'utf8' NULL DEFAULT NULL,
+  `estadoRegistro` INT(1) NULL DEFAULT NULL,
+  `keyGenerator` VARCHAR(128) CHARACTER SET 'utf8' NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `username_UNIQUE` (`username` ASC),
   UNIQUE INDEX `email_UNIQUE` (`email` ASC))
 ENGINE = InnoDB
-AUTO_INCREMENT = 8
+AUTO_INCREMENT = 28
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_spanish_ci
 COMMENT = 'Tabla usuarios';
@@ -77,7 +80,6 @@ CREATE TABLE IF NOT EXISTS `cpiura_shema`.`tienda` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
-AUTO_INCREMENT = 5
 DEFAULT CHARACTER SET = ucs2
 COLLATE = ucs2_spanish_ci;
 
@@ -98,7 +100,25 @@ CREATE TABLE IF NOT EXISTS `cpiura_shema`.`users` (
   `nombre_user` VARCHAR(75) CHARACTER SET 'utf8' NOT NULL,
   PRIMARY KEY (`id_user`))
 ENGINE = InnoDB
-AUTO_INCREMENT = 38
+AUTO_INCREMENT = 2
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_spanish_ci;
+
+
+-- -----------------------------------------------------
+-- Table `cpiura_shema`.`key_generator`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `cpiura_shema`.`key_generator` ;
+
+CREATE TABLE IF NOT EXISTS `cpiura_shema`.`key_generator` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `codeGenerator` VARCHAR(128) NOT NULL,
+  `codeState` INT(1) NULL,
+  `dataInit` VARCHAR(45) NULL,
+  `dataExpired` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC))
+ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_spanish_ci;
 

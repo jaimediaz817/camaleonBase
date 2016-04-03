@@ -40,6 +40,8 @@ class User_business {
     public static function iniciarLoginUser (Usuario $userObjDb, Usuario $userObjPOST)
     {
         $responseJson = array();
+        //LOGICA DE ESTADO-REGISTRO
+        $estadoReg = 0;
         
         $responseJson["error"] = 0;
         //VALIDANDO SI ES EL USERNAME
@@ -57,12 +59,21 @@ class User_business {
         } else {
             $responseJson["password"] = false;
         }
-        //cuando el usuario y la contraseña son validos
+        //cuando el usuario y la contraseña son validos ]***********************
         if ($responseJson["username"] == true && $responseJson["password"] == true){
-            //INICIAR SESSION VAR
-            self::iniciarSession();
-            //creando la session con los datos completos cargados de la BD
-            self::crearUserSession($userObjDb);
+            
+            //VALIDAR SI EL USUARIO ESTA ACTIVO PARA INICIAR LA SESION    
+            $estadoReg = $userObjDb->getEstadoRegistro();
+            
+            if ($estadoReg == 1){
+                //INICIAR SESSION VAR
+                self::iniciarSession();
+                //creando la session con los datos completos cargados de la BD
+                self::crearUserSession($userObjDb);
+                $responseJson["estadoRegistro"] = true;
+            } else {
+                $responseJson["estadoRegistro"] = false;
+            }
         }
         //RETORNANDO EL ARRAY CON LA RESPUESTA                
         return $responseJson;
