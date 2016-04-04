@@ -79,8 +79,9 @@ class Model {
 
         $values = $this->getMyVars($this);
         
+        //_------------------ OJO! SOLO PROPIEDADES TIPO OBJ NO SE OPERAN-------
         $unsetKeyVal = "";
-        foreach ($values as $key => $value)
+        foreach ($values as $key => $valueField)
         {
            $res = StringManager::buscarPalabraEnCadenaString("Obj", $key);
            if ( $res ){
@@ -90,7 +91,8 @@ class Model {
         }
         if ($unsetKeyVal != ""){
             unset($values[$unsetKeyVal]);
-        }      
+        }   
+        
         
         $has_many = self::checkRelationship("has_many",$values);
         self::checkRelationship("has_one",$values);
@@ -118,6 +120,27 @@ class Model {
         self::getConnection();
             
         $values = $this->getMyVars($this);
+        
+        
+        
+        
+        $unsetKeyVal = "";
+        foreach ($values as $key => $val)
+        {
+           $res = StringManager::buscarPalabraEnCadenaString("Obj", $key);
+           if ( $res ){
+               $unsetKeyVal = $key;
+           }
+           //ResourceBundleV2::writeDATABASELOG("007_getMyVars : ",$key . " : ". $value. " objeto? ". $res); 
+        }
+        if ($unsetKeyVal != ""){
+            unset($values[$unsetKeyVal]);
+        }          
+        
+        
+        
+        
+        
         $has_many = self::checkRelationship("has_many",$values);
         self::checkRelationship("has_one",$values);
         self::checkRelationship("known_as",$values);
@@ -244,7 +267,8 @@ class Model {
     }
     
     public static function getById($id){
-            $data = array_shift(self::where("id",$id));        
+            $paramsReference = self::where("id",$id);
+            $data = array_shift($paramsReference);        
             $result = self::instanciate($data);
             return $result;
     }

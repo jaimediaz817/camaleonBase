@@ -77,7 +77,7 @@ http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/Index/crearUsuario/?
             
             $args = ["username"=> $username, "password"=> $password];
             
-            $Usuario = new Usuario(null, $username, $password);
+            $Usuario = new Usuario(null, $username, $password, 'email'.GeneratorManager::getCharsetKey(2));
             $Usuario->create();
             //metodo de carga por reflexion:
 //            $usuarioReflx = Usuario::instanciate($args);
@@ -96,6 +96,8 @@ http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/Index/crearUsuario/?
                 echo "<br> No existe el usuario: ". $username;
             } else {
                 print_r("<br>Nombre:  " . $resultado->getUsername());
+                //print_r("<br>Key foraneo :  " . $resultado->getIdKeyGenerator());
+                print_r($resultado);
             }
         }
     }
@@ -134,6 +136,44 @@ http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/Index/crearUsuario/?
 
             $user->known_as("Owner",$shop);
 
+        }
+    }
+    
+    public function asignarKeyGeneratorAUser ()
+    {
+        $bandera1 = false; $bandera2 = false;
+        if(isset($_GET["user"]) && isset($_GET["key"])){
+            $user = $_GET["user"];
+            $key = $_GET["key"];
+            
+            $userObj = Usuario::getById($user);
+            $keyObj = KeyGenerator::getById($key); 
+            
+            if (is_null($userObj)){
+                echo "no existe usuario obj";
+            } else {
+                print_r($userObj);
+                echo "<br>";
+                echo "----------------------------------------";
+                echo "<br>";
+                $bandera1 = true;
+            }
+            if (is_null($keyObj)){
+                echo "no existe KeyGenerator obj";
+            }else {
+                print_r($keyObj);
+                $bandera2 = true;
+            }
+            
+            if ($bandera1 && $bandera2){
+                echo "----------------------------------------";
+                echo "<br> existen ambos objetos ";
+                /*
+                 * asignar un keyGenerator al user
+                 */
+                $keyObj->known_as("perosnalKeyGen", $userObj);
+            }
+            
         }
     }
     

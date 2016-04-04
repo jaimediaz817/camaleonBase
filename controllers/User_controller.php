@@ -138,8 +138,7 @@ class User_controller extends Controller{
                 
         //quitar elemento del array::
         unset($keys[0]);
-        
-        
+        //asignacion por defecto por campo autoincrementable
         $_POST["id"] = null;
         //----------------------------------------------------------------------
         
@@ -147,11 +146,17 @@ class User_controller extends Controller{
         $_POST["fechaCreacion"] = 'changeDataVoid_LOL :)';
         $_POST["estadoRegistro"] = FALSE;
         $_POST["keyGenerator"] = "keyGen";
-        /**
+        $_POST["nivelAcceso"] = 1;
+        $_POST["idKeyGenerator"] = 0;
+        /***********************************************************************
          *  para evitar que realice una insercion de mas o inyeccion se aplica
          *  un filtro
          */
         $this->validateKeys($keys, filter_input_array(INPUT_POST));
+        
+        
+        $_POST["idKeyGenerator"] = null;
+        //$_POST["idKeyGenerator"] = null;
         /**
          * el filtrado a traves de filter_input_array ( INPUT:: POST ) DENTRO
          * del arreglo metodo post creado por apache hace las peticiones

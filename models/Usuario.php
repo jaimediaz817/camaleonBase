@@ -34,7 +34,12 @@ class Usuario extends Model {
     private $email;
     private $fechaCreacion;
     private $estadoRegistro;
+    //temporal field :: integridad referencial
     private $keyGenerator;
+    //-------[ END TEMPORAL FIELD ]----------
+    private $nivelAcceso;
+    //-------[ FK-idKeyGenerator ]-----------
+    private $idKeyGenerator;
     //--------------------------------------------------------------------------
     
     //[ OBJECTS ]---------------------------------------------------------------
@@ -61,11 +66,23 @@ class Usuario extends Model {
                 'class' => 'Tienda',
                 'join_as' => 'id',
                 'join_with' => 'owner'
-            )
-        
+            )        
         );
     //--------------------------------------------------------------------------
-    function __construct($id, $username, $password, $email='', $fechaCreacion='', $estadoRegistro=0, $keyGenerator='') {
+    
+    //----------------[ RELACION BOLATERAL 1-1 KEYGENERATOR - USUARIO]----------
+    private $has_one = array(    
+            //nombre de la relacion:
+            'perosnalKeyGen' => array(
+                'class' => 'KeyGenerator',
+                'join_as' => 'idKeyGenerator',
+                'join_with' => 'id'
+            )                        
+    );
+    //--------------------------------------------------------------------------
+    
+    function __construct($id, $username, $password, $email='', $fechaCreacion='', 
+            $estadoRegistro=0, $keyGenerator='', $nivelAcceso = 0, $idKeyGenerator = null) {
         $this->id = $id;
         $this->username = $username;
         $this->password = $password;
@@ -74,6 +91,9 @@ class Usuario extends Model {
         $this->fechaCreacion = $fechaCreacion;
         $this->estadoRegistro = $estadoRegistro;
         $this->keyGenerator = $keyGenerator;
+        $this->nivelAcceso = $nivelAcceso;
+        //------[ FK - fields ]--------------
+        $this->idKeyGenerator = $idKeyGenerator;
     }
 
     /**
@@ -143,7 +163,22 @@ class Usuario extends Model {
     function setKeyGeneratorObj(KeyGenerator $keyGeneratorObj) {
         $this->keyGeneratorObj = $keyGeneratorObj;
     }
-    //--------------------------------------------------------------------------
+    function getNivelAcceso() {
+        return $this->nivelAcceso;
+    }
+
+    function setNivelAcceso($nivel_acceso) {
+        $this->nivelAcceso = $nivel_acceso;
+    }
+   //------------------[ FK :: FIELDS ]-----------------------------------------
+   function getIdKeyGenerator() {
+       return $this->idKeyGenerator;
+   }
+
+   function setIdKeyGenerator($idKeyGenerator) {
+       $this->idKeyGenerator = $idKeyGenerator;
+   }
+   //---------------------------------------------------------------------------
     function getHas_many() {
         return $this->has_many;
     }
@@ -158,6 +193,14 @@ class Usuario extends Model {
     function setKnown_as($known_as) {
         $this->known_as = $known_as;
     }    
+    function getHas_one() {
+        return $this->has_one;
+    }
+
+    function setHas_one($has_one) {
+        $this->has_one = $has_one;
+    }
+
 
 }
 

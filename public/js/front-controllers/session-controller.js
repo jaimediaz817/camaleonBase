@@ -226,12 +226,15 @@ $("div.cls-floating-window form").submit(function(event)
                 delete dataResponse.names;
                 delete dataResponse.rpassword;
                 //var res = deleteColsInArrayObjectSingle({0: "names", 1: "rpassword"}, dataResponse);
-                //-------[ INSERT COLS TMP ]---------
+                //
+                //-------[ INSERT COLS TMP ]------------------------------------
                 //TODO: CAMPOS A ADICIONAR EN EL REGISTRO
                 dataResponse["fechaCreacion"] = 'dataVoid';
                 dataResponse["estadoRegistro"] = false;
                 dataResponse["keyGenerator"] = 'dataVoid';
-                //-------[ END ADD COLS ]------------                                 
+                dataResponse["nivelAcceso"] = parseInt(1);
+                dataResponse["idKeyGenerator"] = parseInt(1);
+                //-------[ END ADD COLS ]---------------------------------------      
                 console.log(dataResponse);
                 //realizar la peticion AJAX
                 var actionRes = objRequests.registrarUsuarioAJAXRequest(dataResponse, 

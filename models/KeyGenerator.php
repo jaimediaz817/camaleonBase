@@ -22,6 +22,16 @@ class KeyGenerator extends Model implements IModel{
     private $dataInit;
     private $dataExpired;
     
+    
+    //----------------[ RELACION BOLATERAL 1-1 USUARIO- KEYGENERATOR ]----------
+    private $known_as = array(
+
+        'perosnalKeyGen' => array(
+            'class' => 'Usuario',
+            'join_as' => 'id', // id => Usuario
+            'join_with' => 'idKeyGenerator' // 
+        )
+    );    
     /**
      * 
      */
@@ -74,6 +84,15 @@ class KeyGenerator extends Model implements IModel{
     function setDataExpired($dataExpired) {
         $this->dataExpired = $dataExpired;
     }
+//---------------------------[ RELACIONES ]-------------------------------------
+    function getKnown_as() {
+        return $this->known_as;
+    }
+
+    function setKnown_as($known_as) {
+        $this->known_as = $known_as;
+    }
+
 
 
 //put your code here

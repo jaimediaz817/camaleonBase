@@ -39,7 +39,7 @@ class Controller {
     {
         foreach ( $keys as $key)
         {
-            //ResourceBundleV2::writeDATABASELOG("005_nwcols", "campo: ".$key ." content: ". $where[$key]);
+            ResourceBundleV2::writeDATABASELOG("005_nwcols", "campo: ".$key ." content: ". $where[$key]);
             if (empty($where[$key]) or !isset( $where[$key]))
             {
                 exit ("No se encuentra el campo: " . $key . "!");
