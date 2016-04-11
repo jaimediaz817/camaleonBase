@@ -71,6 +71,30 @@
           
     <!--IMAGENES PARALLAX---------------------------------------------------- -->
     <div id="id-container-wrapper">
+        
+        
+        
+        
+        <!---------------------[ COMBO :: EXPERIMENTAL ]------------------------>
+        <form style="margin-left: 50px;" name="frm-comboBox">
+            <select name="ciudades" id="id-ciudades">
+                
+            </select>
+            
+            <select name="municipios" id="id-municipios">
+                <option value="0">Seleccione una opcion</option>
+                <option value="01">Armenia</option>
+                <option value="01">Calarca</option>
+                <option value="01">Circasia</option>
+                <option value="01">Montenegro</option>
+                <option value="01">Tebaida</option>
+            </select>
+            
+        </form>                                         
+        
+                                
+        
+        
         <div class="parallax-window" data-image-src="<?php print(URL_SINGLE_APPLICATION); ?>public/assets/images/img1.jpg" 
              data-parallax="scroll"></div>
         

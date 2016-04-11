@@ -143,7 +143,8 @@ class User_controller extends Controller{
         //----------------------------------------------------------------------
         
         // ASIGNACION DE VARIABLES QUE LLEGAN DE SESSION-CONTROLLER.JS ]********
-        $_POST["fechaCreacion"] = 'changeDataVoid_LOL :)';
+        $_POST["fechaCreacion"] = DataTimeManager::getFormatDate('-', 1);
+        $_POST["horaCreacion"] = DataTimeManager::getFormatTime(':', 1);
         $_POST["estadoRegistro"] = FALSE;
         $_POST["keyGenerator"] = "keyGen";
         $_POST["nivelAcceso"] = 1;
@@ -225,6 +226,26 @@ class User_controller extends Controller{
     {
         User_business::destruirUserSession();
         $this->testValidateSession();
+    }
+    
+    
+    //----------------[ EXPERIMENTAL :: GET USERS ( ) ]-------------------------
+    public function getUsersFromDB ()
+    {
+        $respuestaArr = array();
+        if (isset($_POST["varRequest"]))
+        {
+            //$respuestaArr["success"] = 'respuesta OK ';
+            //$respuestaArr["error"] = false;
+            $respuestaArr = Usuario::getAll();
+        }else
+        {
+            $respuestaArr["success"] = "respuesta FAIL";
+        }
+        
+        
+        
+        echo json_encode($respuestaArr);
     }
 }
 

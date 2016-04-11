@@ -6,7 +6,7 @@
  * @author pabhoz
  *
  */
-class Model {
+class Model_backup {
     
     private static $db;
     protected static $table;

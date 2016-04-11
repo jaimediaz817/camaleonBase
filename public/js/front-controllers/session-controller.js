@@ -33,9 +33,27 @@ $(function ()
     //clase que gestiona las peticiones AJAX
     objRequests = new CLS_ajaxRequest();//LISTENER PARA DETECTAR EVENTOS EN TIEMPO REAL <KEYDOWN, KEYUP> ]--------------
   
+  
+    
+  
 });
 
-$('#id-window-userOptions li').click(function ()
+
+//--------------------[  EXPERIMENTAL ::  COMBO BOX ]---------------------------
+
+$('select#id-municipios').change( function (){
+    var obj = $('select#id-municipios');
+    alert("selecciono: " + obj.val() + $('select#id-municipios option:selected').html());
+    objRequests.getAllUsers(objScopeApp.getPathScopeApplication());
+    //alert("seleccion");
+});
+
+//-------------------[ END :: EXPERIMENTAL ]------------------------------------
+
+
+
+
+$('#id-window-userOptions li').click(function () //********* E V E N T *********
 {
     var option = $(this).data("option");
     //alert("click en los options");
@@ -60,8 +78,11 @@ $('#id-window-userOptions li').click(function ()
                                     
         break;
     }
-});
-// EVENTOS EN LOS DISTINTOS FORMULARIOS DE PRE::CARGA::SESSION
+}); //************** E N D   E V E N T  C L I K ********************************
+
+/* EVENTOS EN LOS DISTINTOS FORMULARIOS DE PRE::CARGA::SESSION ]
+*/
+//***************************** E V E N T **************************************
 $("div.cls-floating-window form input").on("blur keyup keydown", function (event)
 {
     console.log("ENTRANDO AL LISTENER ROOT");
@@ -229,7 +250,8 @@ $("div.cls-floating-window form").submit(function(event)
                 //
                 //-------[ INSERT COLS TMP ]------------------------------------
                 //TODO: CAMPOS A ADICIONAR EN EL REGISTRO
-                dataResponse["fechaCreacion"] = 'dataVoid';
+                dataResponse["fechaCreacion"] = new Date();
+                dataResponse["horaCreacion"] = new Date();
                 dataResponse["estadoRegistro"] = false;
                 dataResponse["keyGenerator"] = 'dataVoid';
                 dataResponse["nivelAcceso"] = parseInt(1);
@@ -591,5 +613,36 @@ CLS_ajaxRequest.prototype.destroyFullSession = function (pathApplication)
             console.log(res);
             location.reload();
         }
+    });
+}
+
+
+//------------------------[  EXPERIMENTAL :: AJAX REQUEST ]---------------------
+CLS_ajaxRequest.prototype.getAllUsers = function (pathApplication)
+{
+    var path = pathApplication;
+    
+    var promiseAJAXRequest = $.ajax(
+    {
+        url: path + "User/getUsersFromDB/",
+        type: 'POST',
+        dataType: 'json',
+        data: {varRequest: "jaime"},
+        
+        success: function(respuesta)
+        {
+            var res = respuesta;
+            
+            //preparando el combo::
+            $('select#id-ciudades').html('');
+            
+            for (var i = 0; i < res.length; i++)
+            {
+                console.log("recorrido: " + i);
+                //ingresarlos en el combo:
+                $('select#id-ciudades').append('<option value ="' + res[i].id + '">' + res[i].username + '</option>');
+            }
+        }
+        
     });
 }

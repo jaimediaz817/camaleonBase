@@ -13,7 +13,9 @@ $pathConfigFileParams = 'config-file-parameters/';
 $mailParametersLOCAL = 'email-config/configEmailLocal.txt';
 $mailParametersPROD = 'email-config/configEmailProd.txt';
 $connectionParametersLOCAL = 'paramSys-config/configPropertiesLocal.txt';
-$connectionParametersPROD = 'paramSys-config/configPropertiesProduction.txt'; 
+$connectionParametersPROD = 'paramSys-config/configPropertiesProduction.txt';
+// ARCHIVO DE PROPIEDADES PARA LLAVES PUBLICAS :: ACCESO
+$publicKeysPath = 'security/publicKeys.properties';
 //*** Define
 define ('PATH_CONFIG_PARAMS', $pathConfigFileParams);
 // ********
@@ -21,6 +23,8 @@ define('FILE_EMAIL_PARAMETERS_PROD', PATH_CONFIG_PARAMS . $mailParametersPROD);
 define('FILE_EMAIL_PARAMETERS_LOCAL', PATH_CONFIG_PARAMS . $mailParametersLOCAL);
 define('FILE_CONNECTION_PARAMETERS_LOCAL', PATH_CONFIG_PARAMS . $connectionParametersLOCAL);
 define('FILE_CONNECTION_PARAMETERS_PROD', PATH_CONFIG_PARAMS . $connectionParametersPROD);
+//seguridad::
+define('FILE_PUBLIC_KEYS_PARAMETERS', PATH_CONFIG_PARAMS . $publicKeysPath);
 //------------------------------------------------------------------------------
 
 
@@ -132,7 +136,14 @@ function autoloadNameSpaces($className)
 spl_autoload_register('autoloadNameSpaces');
 
 //------------------[ LOGICA DE CONFIGURACION ]---------------------------------
+//***** Lógica para cargar la llave publica de encriptacion - desencriptacion
+$propertyName = 'passwords.publicKey';
+$publicKeyFromPropertyFile = ResourceBundleV2::leerArchivoProperties(
+        FILE_PUBLIC_KEYS_PARAMETERS);
 
+//ResourceBundleV2::writeHELPERSLog("FROM PARAMETERS, PUBLIC KEY: ", "[".$publicKeyFromPropertyFile[$propertyName]."]");
+define('PUBLIC_KEY_SECURYTY_ENCY_DESCY_STRING', $publicKeyFromPropertyFile[$propertyName]);
+//******************************************************************************
 
 
 //----------------[ CONFIGURACION DE URL - OBJECT ]-----------------------------

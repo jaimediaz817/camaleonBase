@@ -41,15 +41,47 @@ class ResourceBundleV2 {
 //         private static function getArrayResultanteAconvertir(){
 //             return self::$arrayConvertidoAStr;
 //         }
-         public static function convertirDeArrayACadena($arrayConvertidoAStr){
+         public static function convertirDeArrayACadena($arrayConvertidoAStr)
+         {
              
             $resultante = implode(",", $arrayConvertidoAStr);
             $arrayResultante = explode(',', $resultante);
             
             return $arrayResultante;
          }
+         
+         public static function leerArchivoProperties ( $pathFile='' )
+         {
+             $arrayResponse = array();
+             //'./config-file-parameters/security/publicKeys.properties'
+             $arrayProperties = file( $pathFile );             
+             foreach ( $arrayProperties as $lineProp)
+             {
+                 $lineString = explode("#", $lineProp);                 
+                 $contador = count($lineString);                                  
+                 //for break
+                 if ( $contador > 1)
+                 {
+                     continue;
+                 }else
+                 {
+                    $lineStringTmp = explode("=", $lineProp);                    
+                    $propertiName = ltrim($lineStringTmp[0]);
+                    $propertiName2 = rtrim($propertiName);                    
+                    $arrayResponse[$propertiName2] = ltrim($lineStringTmp[1]);
+                    //self::writeHELPERSLog("_linea parseada, valor: ", "prop:".$lineStringTmp[0].", value:".ltrim($lineStringTmp[1])."]");
+                 }
+                 $lineString=null;
+                 $lineStringTmp=null;
+             }
+            //retorno de la matriz
+            return $arrayResponse;
+         }
+         
+         
          /**
-          * function interna que lee el archivo de propiedades
+          * ====================================================================
+          * <br>function interna que lee el archivo de propiedades
           * 
           * @param type $rutaFile
           * @return type

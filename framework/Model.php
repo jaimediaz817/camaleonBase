@@ -83,7 +83,7 @@ class Model {
         $unsetKeyVal = "";
         foreach ($values as $key => $valueField)
         {
-           $res = StringManager::buscarPalabraEnCadenaString("Obj", $key);
+           $res = StringSecurityManager::buscarPalabraEnCadenaString("Obj", $key);
            if ( $res ){
                $unsetKeyVal = $key;
            }
@@ -127,7 +127,7 @@ class Model {
         $unsetKeyVal = "";
         foreach ($values as $key => $val)
         {
-           $res = StringManager::buscarPalabraEnCadenaString("Obj", $key);
+           $res = StringSecurityManager::buscarPalabraEnCadenaString("Obj", $key);
            if ( $res ){
                $unsetKeyVal = $key;
            }

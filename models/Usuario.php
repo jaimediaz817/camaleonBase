@@ -34,6 +34,7 @@ class Usuario extends Model {
     private $email;
     private $fechaCreacion;
     private $estadoRegistro;
+    private $horaCreacion;
     //temporal field :: integridad referencial
     private $keyGenerator;
     //-------[ END TEMPORAL FIELD ]----------
@@ -82,7 +83,8 @@ class Usuario extends Model {
     //--------------------------------------------------------------------------
     
     function __construct($id, $username, $password, $email='', $fechaCreacion='', 
-            $estadoRegistro=0, $keyGenerator='', $nivelAcceso = 0, $idKeyGenerator = null) {
+            $estadoRegistro=0, $keyGenerator='', $nivelAcceso = 0, $idKeyGenerator = null,
+            $horaCreacion='') {
         $this->id = $id;
         $this->username = $username;
         $this->password = $password;
@@ -92,6 +94,7 @@ class Usuario extends Model {
         $this->estadoRegistro = $estadoRegistro;
         $this->keyGenerator = $keyGenerator;
         $this->nivelAcceso = $nivelAcceso;
+        $this->horaCreacion = $horaCreacion;
         //------[ FK - fields ]--------------
         $this->idKeyGenerator = $idKeyGenerator;
     }
@@ -169,6 +172,13 @@ class Usuario extends Model {
 
     function setNivelAcceso($nivel_acceso) {
         $this->nivelAcceso = $nivel_acceso;
+    }
+    function getHoraCreacion() {
+        return $this->horaCreacion;
+    }
+
+    function setHoraCreacion($horaCreacion) {
+        $this->horaCreacion = $horaCreacion;
     }
    //------------------[ FK :: FIELDS ]-----------------------------------------
    function getIdKeyGenerator() {

@@ -48,6 +48,12 @@ class Index_controller extends Controller {
         ResourceBundleV2::writeHELPERSLog("006", "GeneratorManager: " .
                 $txt);
         //echo phpinfo();
+        $encriptado = StringSecurityManager::encriptarCadenaTexto('12345');
+        $original = StringSecurityManager::desencriptarCadenaTexto($encriptado);
+        ResourceBundleV2::writeHELPERSLog("encriptado: ", $encriptado);
+        ResourceBundleV2::writeHELPERSLog("Desencriptado: ", $original);
+        
+        
         $arrayAss = array(
           "id" => "01",
           "codeGenerator" => "xyz",
@@ -220,6 +226,18 @@ http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/Index/crearUsuario/?
         $res = $objEx->create();
         
         print_r($res);
+    }
+    public function obtenerUsuarios ()
+    {
+        $users = Array();
+        
+        $users = Usuario::getAll();
+        print_r($users);
+        foreach ($users as $key)
+        {
+           // ResourceBundleV2::writeDATABASELOG("008_getAll ", "element: ". $key . " , value : ". $val);
+            echo "element ".$key["id"];
+        }
     }
 }
 
