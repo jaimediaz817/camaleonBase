@@ -23,7 +23,10 @@ class User_business {
     {
         SessionApp::setValueSession("username", $userObj->getUsername());
         SessionApp::setValueSession("idUser", $userObj->getId());
-        ResourceBundleV2::writeDebugLOG("007", "se creo la session: " . SessionApp::getValueSession("idUser"));
+        //req 02-37
+        SessionApp::setValueSession("nivelAccesoUsr", $userObj->getNivelAcceso());
+        //end req 02-37
+        ResourceBundleV2::writeDebugLOG("007", "se creo la session: " . SessionApp::getValueSession("idUser"). "nivel acceso: ". SessionApp::getValueSession("nivelAccesoUsr"));
     }
     public static function destruirUserSession ($fullDestroy = true)
     {
@@ -33,16 +36,32 @@ class User_business {
         } else {
             SessionApp::unsetVarSession("username");
             SessionApp::unsetVarSession("idUser");
-        }
-        
+        }        
     }
-    
+    public static function encriptarPasswordUser ($passwordIn)
+    {
+        $passwordOut = "";        
+        $passwordOut = StringSecurityManager::encriptarCadenaTexto($passwordIn);
+        return $passwordOut;
+    }
+    public static function desencriptarPasswordUser ($passwordEnc)
+    {
+        $passwordOut = "";
+        $passwordOut = StringSecurityManager::desencriptarCadenaTexto($passwordEnc);
+        return $passwordOut;
+    }
+    /**
+     * 
+     * @param Usuario $userObjDb
+     * @param Usuario $userObjPOST
+     * @return boolean
+     */
     public static function iniciarLoginUser (Usuario $userObjDb, Usuario $userObjPOST)
     {
+        $passwordEncy = "";        
         $responseJson = array();
         //LOGICA DE ESTADO-REGISTRO
-        $estadoReg = 0;
-        
+        $estadoReg = 0;        
         $responseJson["error"] = 0;
         //VALIDANDO SI ES EL USERNAME
         if ($userObjDb->getUsername() == $userObjPOST->getUsername())
@@ -53,7 +72,9 @@ class User_business {
             $responseJson["username"] = false;
         }
         //VALIDANDO SI ES EL PASSWORD
-        if ($userObjDb->getPassword() == $userObjPOST->getPassword())
+        //desencriptando el PWS de la BD
+        $passwordEncy = self::desencriptarPasswordUser($userObjDb->getPassword());
+        if ($passwordEncy == $userObjPOST->getPassword())
         {
             $responseJson["password"] = true;
         } else {

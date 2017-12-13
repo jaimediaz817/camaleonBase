@@ -38,6 +38,11 @@ $pathViews = 'views/';
 $pathControllers = 'controllers/';
 //vistas
 $pathModules = 'views/modules/';
+//DAOS :: Manager 
+$pathDaosManager = 'manager-dao/implementationDAO/';
+$pathInterfacesDaosManager = 'manager-dao/interfacesDAO/';
+//DTOS :: VAR
+$pathDTOSTransferObjects = 'transfer-DTO/';
 //*** Define
 define('PATH_HELPERS', $pathHelpers);
 define('PATH_BUSINESS', $pathBusiness);
@@ -47,6 +52,11 @@ define('PATH_MODELS', $pathModels);
 define('PATH_VIEWS', $pathViews);
 define('PATH_CONTROLLERS', $pathControllers);
 define('PATH_VIEWS_MODULES', $pathModules);
+//DAOS
+define('PATH_DAOS_MANAGER', $pathDaosManager);
+define('PATH_INFERFACES_DAOS_MANAGER', $pathInterfacesDaosManager);
+//DTOS
+define('PATH_DTOS_TRANSFER_OBJECTS', $pathDTOSTransferObjects);
 //------------------------------------------------------------------------------
 
 
@@ -97,7 +107,19 @@ spl_autoload_register(function ($classLoad){
         
         require_once PATH_BUSINESS . $classLoad .'.php';
         
-    } elseif (file_exists( PATH_CONTROLLERS . $classLoad . '.php')) {
+    } 
+    // DAOS-INTERFACE, DAOS-IMPLEMENTATION, DTOS-IMPLEMENTATION
+    elseif(file_exists( PATH_DAOS_MANAGER. $classLoad .'.php')){
+        
+        require_once PATH_DAOS_MANAGER . $classLoad .'.php';
+    } elseif(file_exists( PATH_INFERFACES_DAOS_MANAGER. $classLoad .'.php')){
+        
+        require_once PATH_INFERFACES_DAOS_MANAGER . $classLoad .'.php';
+    } elseif(file_exists( PATH_DTOS_TRANSFER_OBJECTS. $classLoad .'.php')){
+        
+        require_once PATH_DTOS_TRANSFER_OBJECTS . $classLoad .'.php';
+    }
+    elseif (file_exists( PATH_CONTROLLERS . $classLoad . '.php')) {
         
         if (class_exists(PATH_CONTROLLERS . $classLoad . '.php')){
             require_once PATH_CONTROLLERS . $classLoad .'.php';

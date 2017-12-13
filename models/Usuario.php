@@ -27,6 +27,10 @@ class Usuario extends Model {
     //put your code here
     protected static $table = "usuario";
     
+    
+    //protected static $table2 = "table2Join";
+    
+    
     private $id;
     private $username;
     private $password;
@@ -55,7 +59,7 @@ class Usuario extends Model {
             'other_key' => 'id',
             'join_other_as' => 'idAmigo',
             'join_self_as' => 'idUsuario',
-            'join_table' => 'Amigos_usuario'
+            'join_table' => 'amigos_usuario'
         )                
     );
     //--------------------------------------------------------------------------
@@ -64,7 +68,7 @@ class Usuario extends Model {
         private $known_as = array(
         
             'Owner' => array(
-                'class' => 'Tienda',
+                'class' => 'tienda',
                 'join_as' => 'id',
                 'join_with' => 'owner'
             )        

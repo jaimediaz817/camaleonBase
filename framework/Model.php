@@ -27,8 +27,28 @@ class Model {
     
     private static $db;
     protected static $table;
+    
+    //------------------[ EXPERIMENTAL - DTO ]----------------------------------
+    protected static $tablesQuery = array();    
+    protected static $columnAlias = array();
+    protected static $onJoinsColumn = array();
+    protected static $whereColumnAlias;    
+    //--------------------------------------------------------------------------
+    
+    protected static $table2;
+    private static $resultText;
 
-    private static function getConnection(){
+    protected static function getConnection(){
+     
+        /*
+         * PERFECCIONAR SINGLETON::
+         * if (!(self::$db instaceof PDOManager))
+         * {
+         *   self::$db = new PDOManager();
+         * }
+         * return self::$db;
+         */
+                
      if(!isset(self::$db)){
         self::$db = new PDOManager(_DB_TYPE,_DB_HOST,_DB_NAME,_DB_USER,_DB_PASS);
         ResourceBundleV2::writeDATABASELOG("001_PDO", "from: MODEL: se instancio PDOManager en var static db");
@@ -49,11 +69,193 @@ class Model {
         $sql = "SELECT * FROM ".static::$table.";";
         return $results = self::$db->select($sql);
     }
+    
+    public static function call_sp_Generic( $column = array(), $criterios = '',
+            $whereConcat = array(), $page, $regXpage, $colNameOrder, $orderType)
+    {
+        $_table = static::$table;
+        $_criterios = $criterios;
+        $_cols = '';
+        $_wheresConcat = '';
+        $come = ',';
+        $counter = 0;
+        $limit = count($column);
+        
+        //REQUERIMIENTO DE ORDENAMIENTO::
+        $columnNameOrder = $colNameOrder;
+        $orderType = $orderType;
+        //------------------------------
+        
+        //COLUMNAS ::
+        if (count($column)>0)
+        {            
+            foreach ($column as $columnDb)
+            {
+                $col = $columnDb;                
+                if ($counter == ($limit-1))
+                {
+                    $_cols .= $col;
+                }else
+                {
+                    $_cols .= $col. $come;
+                }               
+                $col = '';
+                $counter ++;
+            }
+        } else {
+            $_cols = '*';                        
+        }
+        //----------------------------------------------------------------------
+        //NOMBRE DE LOS WHERE CONCATENADOS O COLUMNA CRITERIAL
+        $limit = count($whereConcat);
+        //reiniciando contador
+        $counter = 0;
+        //$limit = count();
+        
+        if ($limit > 0)
+        {
+            foreach ($whereConcat as $valueCol)
+            {
+                $whereUnit = $valueCol;
+                if ($counter == ($limit-1))
+                {
+                    $_wheresConcat .= $whereUnit;
+                }else
+                {
+                    $_wheresConcat .= $whereUnit . $come;
+                }
+                $whereUnit = '';
+                $counter++;
+            }
+        }
+        self::getConnection();             
+        //FLUJO NORMAL DE EVENTOS
+        // nuevo requerimiento        $columnNameOrder = $colNameOrder;
+        //$orderType = $orderType;
+        $results = self::$db->call_sp_select(
+          $_table, $_cols, $_criterios, $_wheresConcat, $page, $regXpage, $columnNameOrder, $orderType);
+        //$results = self::$db->call_sp_select($_table, $_cols, $_criterios, $_wheresConcat, $page, $regXpage);
+        //$test = self::c
+        return $results;
+    }
+    
+    public static function selectJoinRelational ($arrWheres = array())
+    {   
+        //global vars method::
+        $whereStatements = $arrWheres;
+        //SELECT
+        $select = "SELECT * FROM ";
+        //from::
+        $from = "";
+        $acum = "";
+        $cont = count(static::$tablesQuery);
+        $contFor = 0;
+        foreach (static::$tablesQuery as $alias => $tableName)
+        {
+            $line = "";  
+            //echo "<br> ". $contFor ." < ". $cont-1 . " ?";
+            if ($contFor < ($cont - 1))
+            {
+                if ($contFor == 0){
+                    $line = $tableName." as ".$alias . " right join (";                    
+                }else{
+                   $line = $tableName." as ".$alias . ") ". " right join ("; 
+                }                
+                $acum = $acum . $line;                
+            }else{
+                $line = $tableName." as ".$alias. ")";
+                $acum = $acum . $line ;
+            }                      
+           $contFor++;
+        }
+        $from = $acum;
+        $select.= $from;
+        
+        //ON::
+        $on = " ON ";
+        $lineOn = "";
+        foreach (static::$onJoinsColumn as $key => $value)        
+        {
+            $tmpOpenPar = "(";
+            $tmpClosePar = ")";            
+            $lineOn = $tmpOpenPar . $value . $tmpClosePar;            
+        }        
+        //WHERES:: [ OJO! METER EL ARRAY CON LOS WHERES ]-----------------------
+        //$whereStatements
+        $cantidadWheres = count($whereStatements[0]);
+        $cont = 0;
+        $strWHERE = ' WHERE ';
+        $strOR = ' OR ';
+        $tmpStr = "";
+                        
+        for($i = 0; $i < $cantidadWheres; $i++ )
+        {
+            if ($i == ($cantidadWheres - 1))
+            {
+                $tmpStr.= $whereStatements[0][$i] . " = :" . 
+                        $whereStatements[1][$i];
+            }else
+            {
+                $tmpStr.= $whereStatements[0][$i] . " = :" . 
+                        $whereStatements[1][$i] . $strOR;
+            }
+        }        
+        
+        $strWheresNw = $strWHERE . $tmpStr;
+        
+        self::getConnection();
+        $sql = $select . $on . $lineOn . $strWheresNw . ";";
+                //"WHERE us.id = '416' OR us.id = '32';";
+        $results = self::$db->selectWithJoins($sql, $whereStatements);
+        
+        return $results;
+        //echo "<br> SQL: ". $sql;
+    }
+        
+    public static function getObjectDTOFromJoinsMethod ($arrayWhere = array())
+    {
+        $usersDTOarr = array();
+        $paramsReference = self::selectJoinRelational($arrayWhere);
+        
+        if ($paramsReference != null){
+            //flujo normal de eventos esperados
+            $countRowsDTO = count($paramsReference);
+            if ($countRowsDTO > 1)
+            {
+                $cont = 0;
+                for($i = 0; $i < $countRowsDTO; $i++)
+                {
+                    $dtoTmp = $paramsReference[$i];                
+                    //$dataArr = array_shift($dtoTmp);        
+                    $resultDTOchild = self::instanciate($dtoTmp);                   
 
+                    $usersDTOarr[$i] = $resultDTOchild;
+                    $cont++;
+                } //final del ciclo            
+                return $usersDTOarr;
+
+            }else{
+                $dataArr = array_shift($paramsReference);        
+                $resultDTO = self::instanciate($dataArr);        
+                return $resultDTO;            
+            }            
+        } 
+        else {
+            return null;
+        }                               
+    }
+/*
+ *     public static function getById($id){
+            $paramsReference = self::where("id",$id);
+            $data = array_shift($paramsReference);        
+            $result = self::instanciate($data);
+            return $result;
+    }
+ */
     public static function where($field, $value){
         self::getConnection();
         $sql = "SELECT * FROM ".static::$table." WHERE ".$field." = :".$field;
-        $arrayToSend = array($field=>$value);
+        $arrayToSend = array(":".$field=>$value); //($field=>$value);
         $results = self::$db->select($sql, $arrayToSend); // array(":".$field=>$value)
         return $results;
     }
@@ -227,7 +429,7 @@ class Model {
             $rule = $relacion[$rName];
             if(get_class($obj) == $rule["class"]){
                
-                print_r( "set".ucfirst($rule["join_with"]) );
+               print_r( "set".ucfirst($rule["join_with"]) );
                $obj->{"set".ucfirst($rule["join_with"])}($this->{"get".ucfirst($rule["join_as"])}());
                $obj->update();
                
@@ -334,5 +536,34 @@ class Model {
               $keys[$key] = $param->getName();
             }
         return $keys;
+    }
+    
+    
+    
+    //-----------[ EXPERIMENTAL ]-----------------------------------------------
+    public static function setTable2 ()
+    {
+        //ResourceBundleV2::writeHELPERSLog("001 FROM MODEL:: table2: ", static::$table2);
+        $objTmp = RelationalModel::getString(static::$table2);
+        return $objTmp;
+    }
+    public static function getTable2 ()
+    {
+        return self::$table;
+    }
+    public static function getCountArraysExperimental()
+    {
+        $cantidadTablas = count(static::$tablesQuery);
+        $tabla1 = static::$tablesQuery["us"];
+        echo "tablas count: ". $cantidadTablas;
+        
+        $camposCont = count (static::$columnAlias);
+        echo "cantidad columnas: ". $camposCont;
+        echo "usuario id: ". static::$columnAlias["us1"];
+        
+        echo "<br> RECORRIENDO TABLAS, ARMANDO EL FROM:: ";
+        
+        self::selectJoinRelational();
+        return $camposCont;
     }
 }

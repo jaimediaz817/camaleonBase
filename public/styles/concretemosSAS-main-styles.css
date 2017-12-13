@@ -35,6 +35,13 @@
 
 @import url('form-session-float-styles.css');
 
+
+@font-face { 
+    font-family: 'Open Sans'; 
+    src: url('../assets/text-fonts/openSans/OpenSans-Regular.ttf'); 
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -72,7 +79,8 @@ h1{
 	-moz-box-sizing: border-box;
 }
 body{
-	font-size: 18px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif !important;
 }
  
  /*ESTILOS PARALLAX EXAMPLE ----------------------------------------------------*/
@@ -85,6 +93,147 @@ body{
      overflow-x: hidden;
  }
 
+ 
+ /*ESTILOS DE MAQUETACION ------------------------------------------------------*/
+ section{
+     
+ }
+ section article {
+     /*background: #DEE0E0;*/
+ }
+ aside{
+     background: #DD5A5A;
+     color: white;
+ }
+ colorGrey{
+     /*background: grey;*/
+ }
+ /*FIN MAQUETACION -------------------------------------------------------------*/
+ 
+ 
+ 
+ 
+ /*SIDEBAR MAIN-----------------------------------------------------------------*/
+ div#id-glyp-leftDirection{
+    position: absolute;
+    left: 87%;
+    top: 50%;
+    font-size: 3em;  
+    cursor: pointer;
+    color: #5BC0DE;
+    -moz-transition: color 600ms linear 0s;
+    -webkit-transition: color 600ms linear 0s;
+    -o-transition: color 600ms linear 0s;
+    transition: color 600ms linear 0s;    
+ }
+ div#id-glyp-leftDirection:hover{
+    color: #ffffff;
+    -moz-transition: color 600ms linear 0s;
+    -webkit-transition: color 600ms linear 0s;
+    -o-transition: color 600ms linear 0s;
+    transition: color 600ms linear 0s;   
+ }
+ span#id-closeSidebar{
+     cursor: pointer;
+     color: #5BC0DE;
+    /* Firefox */
+    -moz-transition: color 600ms linear 0s;
+    /* Chrome / Safari */
+    -webkit-transition: color 600ms linear 0s;
+    /* Opera */
+    -o-transition: color 600ms linear 0s;
+    /* Default */
+    transition: color 600ms linear 0s;      
+ }
+ span#id-closeSidebar:hover{
+     color: #ffffff;
+    /* Firefox */
+    -moz-transition: color 600ms linear 0s;
+    /* Chrome / Safari */
+    -webkit-transition: color 600ms linear 0s;
+    /* Opera */
+    -o-transition: color 600ms linear 0s;
+    /* Default */
+    transition: color 600ms linear 0s;      
+ }
+ div.cls-sidebar {
+     position: fixed;
+     width: 250px;
+     height: 100vh;
+     background: #333;
+     color: #fff;
+     outline: 1px solid #2a2a2a;
+     /*display: none;*/
+     left: -251px;
+     z-index: 104;
+ }
+ div.cls-sidebar h2{
+     text-align: left;
+     margin: 0;
+     padding: 10px;
+     background: #2a2a2a;
+     font-size: 1.3em;
+     padding-right: 3px
+ }
+ div.cls-sidebar ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ div.cls-sidebar li{
+     outline: 1px solid #2a2a2a;
+     transition: all 0.3s;
+ }
+ div.cls-sidebar li:hover{
+     background: #444;
+     border-left: 5px solid #5BC0DE;
+ }
+ div.cls-sidebar a{
+     display: block;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+ }
+
+/*BOTON FLOTANTE A LA IZQUIERDA*/ 
+div#id-floatButtonLeft{
+   margin-top: 37px;
+   position: fixed;
+   left: -40px;
+   z-index: 103;
+    /* Firefox */
+    -moz-transition: left 600ms linear 0s;
+    /* Chrome / Safari */
+    -webkit-transition: left 600ms linear 0s;
+    /* Opera */
+    -o-transition: left 600ms linear 0s;
+    /* Default */
+    transition: left 600ms linear 0s; 
+    opacity: 0.64;
+}
+div#id-floatButtonLeft:hover{
+    /* Firefox */
+    -moz-transition: left 600ms linear 0s;
+    /* Chrome / Safari */
+    -webkit-transition: left 600ms linear 0s;
+    /* Opera */
+    -o-transition: left 600ms linear 0s;
+    /* Default */
+    transition: left 600ms linear 0s;    
+    left: -2px; 
+    opacity: 1;
+}
+
+
+.borderExample{
+    border: 1px solid red;
+}
+ 
+ 
+ 
+ 
+ 
+ 
   /*BANDAS DE ACCIONES GENERALES -----------------------------------------------*/
 /*BARRA DE INFORMACION ---------------------------------------------------------*/
 #id-band-container {
@@ -135,10 +284,92 @@ div.band-status-action p{
     margin: 0;
     padding: 0;
     display: inline-block;
-}   
+}
+
+/*ESTILOS PARA PAGINACION*/
+div#id-datagridContainer  div.container_pagin{
+    border: 1px solid #CCC !important; 
+    position: relative !important;
+    margin-bottom: 7px;
+    margin-top: 7px !important;
+}
+div.container_pagin ul{
+    margin: 0px;
+}
+div.container_pagin .pagin_inline{
+    width: 50%;
+    height: 45px;
+    padding: 5px;
+}
+div.container_pagin .pagin_info{
+    padding: 12px;
+    text-align: -webkit-center;
+}
+.pagin_info{
+
+}
+
+span#id-span-pagTotal{
+    /*display: block;*/
+    margin: 0 auto;
+    vertical-align: top;
+    vertical-align: baseline;
+    font-size: 1em;
+    font-weight: normal;
+    margin-right: 7px;
+}
+table#id-table-users{
+    width: 100% !important;
+}
+
+div#id-datagridContainer
+{
+    /*border: 1px solid grey;*/
+    /*margin-right: 10px;*/    
+    position: relative;
+    width: 90%;    
+}
+/*loaders -----------------------------------------*/
+div#id-loader-container{
+    position: relative;
+}
+
+div#id-loader{
+    position: absolute;
+    /* text-align: center; */
+    left: 50%;
+    margin-top: 7%;
+    transform: translate(-50%, -50%)!important;
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 100;    
+}
+/*FORMULARIO DE EJEMPLO -------------------------------------*/
+div#id-container-wrapper{
+    /*margin-left: 50px;*/
+    background: #EEEFEF;
+    margin-top: 55px;
+    position: relative;
+    /*width: 93%;*/
+}
+/*PRECARGA DE LA PAGINA PRINCIPAL -----------------------------------------*/
+div.container_pagin .pagin_info select {
+    margin-left: 5px;
+}
+.loaderMainPage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(1,1,1,0.8) no-repeat center; 
+    z-index: 102;
+    text-align: center;
+}
+.loaderMainPage img{
+    margin-top: 11%;
+}
+
 @media  (min-width: 1138px){
 	body{
-		background-color: #CED0D0;
+		background-color: #F7F7F7;
 	}
 }
 @media (min-width: 1024px) and (max-width: 1137px){
@@ -165,10 +396,21 @@ div.band-status-action p{
 	body{
 		background-color: blue;
 	}
+        div#id-container-wrapper{
+            margin-left: 3px;
+        }        
 }
 @media (min-width: 200px) and (max-width: 480px){
 	body{
-		background-color: yellow;
+		background-color: #DFF0D8;
 	}
+        .pagin_info{
+            display: none;
+        }        
+        div.container_pagin .pagin_inline{
+            width: 100%;
+            height: 45px;
+            padding: 5px;
+        }        
 }
 

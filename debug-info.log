@@ -1,95 +1,2228 @@
-[Mon, 11 Apr 2016 12:04:45 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:04:45 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:04:45 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:04:45 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:04:45 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:04:45 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:04:45 -0500] info 005: ClassName: User_controller
-[Mon, 11 Apr 2016 12:04:45 -0500] info 005: fileName:despues del if User\controller.php
-[Mon, 11 Apr 2016 12:04:45 -0500] info 002: Se instancio User_controller()
-[Mon, 11 Apr 2016 12:04:45 -0500] info 004: vista a cargar: ./views/Index/index
-[Mon, 11 Apr 2016 12:04:45 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:04:45 -0500] info 004: vista a cargar: ./views/User/signIn
-[Mon, 11 Apr 2016 12:04:45 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:04:46 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:04:46 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:04:46 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:04:46 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:04:46 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:04:46 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:05:35 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:05:35 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:05:35 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:05:35 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:05:35 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:05:35 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:05:35 -0500] info 005: ClassName: User_controller
-[Mon, 11 Apr 2016 12:05:35 -0500] info 005: fileName:despues del if User\controller.php
-[Mon, 11 Apr 2016 12:05:35 -0500] info 002: Se instancio User_controller()
-[Mon, 11 Apr 2016 12:05:35 -0500] info 004: vista a cargar: ./views/Index/index
-[Mon, 11 Apr 2016 12:05:35 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:05:35 -0500] info 004: vista a cargar: ./views/User/signIn
-[Mon, 11 Apr 2016 12:05:35 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:05:36 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:05:36 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:05:36 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:05:36 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:05:36 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:05:36 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:06:23 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:06:23 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:06:23 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: ClassName: User_controller
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: fileName:despues del if User\controller.php
-[Mon, 11 Apr 2016 12:06:23 -0500] info 002: Se instancio User_controller()
-[Mon, 11 Apr 2016 12:06:23 -0500] info 004: vista a cargar: ./views/Index/index
-[Mon, 11 Apr 2016 12:06:23 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:06:23 -0500] info 004: vista a cargar: ./views/User/signIn
-[Mon, 11 Apr 2016 12:06:23 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:06:23 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:06:23 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:06:23 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:06:24 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:09:16 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:09:16 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:09:16 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: ClassName: User_controller
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: fileName:despues del if User\controller.php
-[Mon, 11 Apr 2016 12:09:16 -0500] info 002: Se instancio User_controller()
-[Mon, 11 Apr 2016 12:09:16 -0500] info 004: vista a cargar: ./views/Index/index
-[Mon, 11 Apr 2016 12:09:16 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:09:16 -0500] info 004: vista a cargar: ./views/User/signIn
-[Mon, 11 Apr 2016 12:09:16 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:09:16 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:09:16 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:09:16 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:09:16 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:15:21 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:15:21 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:15:21 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:15:21 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:15:21 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:15:21 -0500] info 001: FROM:: CONFIG-APP 
-[Mon, 11 Apr 2016 12:15:21 -0500] info 005: ClassName: User_controller
-[Mon, 11 Apr 2016 12:15:21 -0500] info 005: fileName:despues del if User\controller.php
-[Mon, 11 Apr 2016 12:15:21 -0500] info 002: Se instancio User_controller()
-[Mon, 11 Apr 2016 12:15:21 -0500] info 004: vista a cargar: ./views/Index/index
-[Mon, 11 Apr 2016 12:15:21 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:15:21 -0500] info 004: vista a cargar: ./views/User/signIn
-[Mon, 11 Apr 2016 12:15:21 -0500] info 004: existe el path view 
-[Mon, 11 Apr 2016 12:15:22 -0500] info 005: ClassName: utilities\UrlGenerator
-[Mon, 11 Apr 2016 12:15:22 -0500] info 005: fileName: utilities\
-[Mon, 11 Apr 2016 12:15:22 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
-[Mon, 11 Apr 2016 12:15:22 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
-[Mon, 11 Apr 2016 12:15:22 -0500] info 003: URL: localhost
-[Mon, 11 Apr 2016 12:15:22 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:31:03 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:31:03 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:31:03 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:31:03 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:31:03 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:31:03 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:31:03 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:31:03 -0500] info 003: se conecto!
+[Wed, 04 May 2016 18:31:03 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Wed, 04 May 2016 18:31:05 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:31:05 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:31:05 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:31:05 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:31:05 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:31:05 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:31:05 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 18:31:05 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 18:31:05 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:31:06 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 18:31:06 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:31:06 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 18:31:06 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:44:04 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:44:04 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:44:04 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:44:04 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:44:04 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:44:04 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:44:05 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 18:44:05 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 18:44:05 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:44:05 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 18:44:05 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:44:05 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 18:44:05 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:44:25 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:44:25 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:44:25 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:44:25 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:44:25 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:44:25 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:44:25 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:44:26 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:44:26 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:44:26 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:44:26 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:44:26 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:44:26 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:44:26 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 18:44:26 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 18:44:26 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:44:26 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 18:44:26 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:44:26 -0500] info 004: vista a cargar: ./views/User/signIn
+[Wed, 04 May 2016 18:44:26 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:44:43 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:44:43 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:44:43 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:44:43 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:44:43 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:44:43 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:44:43 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:44:43 -0500] info 003: se conecto!
+[Wed, 04 May 2016 18:44:43 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Wed, 04 May 2016 18:44:45 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:44:45 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:44:45 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:44:45 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:44:46 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:44:46 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:44:46 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 18:44:46 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 18:44:46 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:44:46 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 18:44:46 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:44:46 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 18:44:46 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:47:17 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:47:17 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:47:17 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:47:17 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:47:17 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:47:17 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:47:17 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 18:47:17 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 18:47:17 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:47:17 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 18:47:17 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:47:17 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 18:47:17 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:47:55 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 18:47:55 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 18:47:55 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 18:47:55 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 18:47:55 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 18:47:55 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 18:47:55 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 18:47:55 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 18:47:55 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 18:47:55 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 18:47:55 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 18:47:55 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 18:47:55 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:20:12 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:20:12 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:20:12 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:20:12 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:20:12 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:20:12 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:20:12 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:20:12 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:20:12 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:20:12 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:20:12 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:20:13 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:20:13 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:24:55 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:24:55 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:24:55 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:24:55 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:24:55 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:24:55 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:24:55 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:24:55 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:24:55 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:24:56 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:24:56 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:24:56 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:24:56 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:27:29 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:27:29 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:27:29 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:27:29 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:27:29 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:27:29 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:27:30 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:27:30 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:27:30 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:27:30 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:27:30 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:27:30 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:27:30 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:29:44 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:29:44 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:29:44 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:29:44 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:29:44 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:29:44 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:29:44 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:29:44 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:29:44 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:29:44 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:29:44 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:29:44 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:29:44 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:29:56 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:29:56 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:29:56 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:29:56 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:29:56 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:29:56 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:29:56 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:29:56 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:29:56 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:29:56 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:29:56 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:29:56 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:29:56 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:31:09 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:31:09 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:31:09 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:31:09 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:31:09 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:31:09 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:31:09 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:31:09 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:31:09 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:31:09 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:31:09 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:31:09 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:31:09 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:31:30 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:31:30 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:31:30 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:31:30 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:31:30 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:31:30 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:31:30 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:31:30 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:31:30 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:31:30 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:31:30 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:31:30 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:31:30 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:31:31 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:31:31 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:31:31 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:31:31 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:31:31 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:31:31 -0500] info 004: vista a cargar: ./views/User/signIn
+[Wed, 04 May 2016 19:31:31 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:31:46 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:31:46 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:31:46 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:31:46 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:31:46 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:31:46 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:31:46 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:31:46 -0500] info 003: se conecto!
+[Wed, 04 May 2016 19:31:46 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Wed, 04 May 2016 19:31:48 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:31:48 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:31:48 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:31:49 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:31:49 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:31:49 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:31:49 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:31:49 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:31:49 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:31:49 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:31:49 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:31:49 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:31:49 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:32:23 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 04 May 2016 19:32:23 -0500] info 005: fileName: utilities\
+[Wed, 04 May 2016 19:32:23 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 04 May 2016 19:32:23 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 04 May 2016 19:32:23 -0500] info 003: URL: localhost
+[Wed, 04 May 2016 19:32:23 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 04 May 2016 19:32:23 -0500] info 005: ClassName: User_controller
+[Wed, 04 May 2016 19:32:23 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 04 May 2016 19:32:23 -0500] info 002: Se instancio User_controller()
+[Wed, 04 May 2016 19:32:23 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 04 May 2016 19:32:23 -0500] info 004: existe el path view 
+[Wed, 04 May 2016 19:32:23 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 04 May 2016 19:32:23 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 13:17:17 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 13:17:17 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 13:17:17 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 13:17:17 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 13:17:17 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 13:17:17 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 13:17:17 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 13:17:17 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 13:17:17 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 13:17:17 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 13:17:17 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 13:17:17 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 13:17:17 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:51:19 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 17:51:19 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 17:51:19 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 17:51:19 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 17:51:19 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 17:51:19 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 17:51:20 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 17:51:20 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 17:51:20 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 17:51:20 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 17:51:20 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:51:20 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 17:51:20 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:53:27 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 17:53:27 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 17:53:27 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 17:53:27 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 17:53:27 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 17:53:28 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 17:53:28 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 17:53:28 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 17:53:28 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 17:53:28 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 17:53:28 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:53:28 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 17:53:28 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:55:52 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 17:55:52 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 17:55:52 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 17:55:52 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 17:55:52 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 17:55:52 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 17:55:52 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 17:55:52 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 17:55:52 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 17:55:52 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 17:55:52 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:55:52 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 17:55:52 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:56:08 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 17:56:08 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 17:56:08 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 17:56:08 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 17:56:08 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 17:56:08 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 17:56:08 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 17:56:08 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 17:56:08 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 17:56:08 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 17:56:08 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:56:08 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 17:56:08 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:57:54 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 17:57:54 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 17:57:54 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 17:57:54 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 17:57:54 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 17:57:54 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 17:57:54 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 17:57:54 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 17:57:54 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 17:57:54 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 17:57:54 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 17:57:54 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 17:57:54 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:00:31 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 18:00:31 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 18:00:31 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 18:00:31 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 18:00:31 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 18:00:31 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 18:00:31 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 18:00:31 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 18:00:31 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 18:00:31 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 18:00:31 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:00:31 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 18:00:31 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:04:43 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 18:04:43 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 18:04:43 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 18:04:43 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 18:04:43 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 18:04:43 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 18:04:43 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 18:04:44 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 18:04:44 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 18:04:44 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 18:04:44 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:04:44 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 18:04:44 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:06:21 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 18:06:21 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 18:06:21 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 18:06:21 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 18:06:21 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 18:06:21 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 18:06:21 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 18:06:21 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 18:06:21 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 18:06:21 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 18:06:21 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:06:21 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 18:06:21 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:07:56 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 18:07:56 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 18:07:56 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 18:07:56 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 18:07:56 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 18:07:56 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 18:07:56 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 18:07:56 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 18:07:56 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 18:07:56 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 18:07:56 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:07:56 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 18:07:56 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:08:34 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 18:08:34 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 18:08:34 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 18:08:34 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 18:08:34 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 18:08:34 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 18:08:34 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 18:08:34 -0500] info 003: se conecto!
+[Fri, 06 May 2016 18:08:34 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Fri, 06 May 2016 18:08:36 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 18:08:36 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 18:08:36 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 18:08:36 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 18:08:36 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 18:08:36 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 18:08:36 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 18:08:36 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 18:08:36 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 18:08:36 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 18:08:36 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 18:08:36 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 18:08:36 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 21:16:16 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 21:16:16 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 21:16:16 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 21:16:16 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 21:16:16 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 21:16:16 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 21:16:16 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 06 May 2016 21:16:16 -0500] info 003: se conecto!
+[Fri, 06 May 2016 21:30:04 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 21:30:04 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 21:30:04 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 21:30:04 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 21:30:04 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 21:30:04 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 21:30:04 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 06 May 2016 21:30:04 -0500] info 003: se conecto!
+[Fri, 06 May 2016 21:45:25 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 21:45:25 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 21:45:25 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 21:45:25 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 21:45:25 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 21:45:25 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 21:45:25 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 21:45:25 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 21:45:25 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 21:45:25 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 21:45:25 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 21:45:25 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 21:45:25 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 21:45:25 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 21:45:25 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 21:45:25 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 21:45:25 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 21:45:25 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 21:45:25 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 06 May 2016 21:45:25 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 21:47:29 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 21:47:29 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 21:47:29 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 21:47:29 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 21:47:29 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 21:47:29 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 21:47:29 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 21:47:29 -0500] info 003: se conecto!
+[Fri, 06 May 2016 21:47:29 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Fri, 06 May 2016 21:47:31 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 21:47:31 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 21:47:31 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 21:47:31 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 21:47:31 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 21:47:31 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 21:47:31 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 21:47:31 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 21:47:31 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 21:47:31 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 21:47:31 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 21:47:31 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 21:47:31 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:09:00 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:09:00 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:09:00 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:09:00 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:09:00 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:09:00 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:09:00 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:09:00 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:09:00 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:09:00 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:09:00 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:09:00 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:09:00 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:13:20 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:13:20 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:13:20 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:13:20 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:13:20 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:13:20 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:13:20 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:13:20 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:13:20 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:13:20 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:13:20 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:13:20 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:13:20 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:15:54 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:15:54 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:15:54 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:15:54 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:15:54 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:15:54 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:15:54 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:15:54 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:15:54 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:15:54 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:15:54 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:15:54 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:15:54 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:16:13 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:16:13 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:16:13 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:16:13 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:16:13 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:16:13 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:16:13 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:16:13 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:16:13 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:16:13 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:16:13 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:16:13 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:16:13 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:17:53 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:17:53 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:17:53 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:17:53 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:17:53 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:17:53 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:17:53 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:17:53 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:17:53 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:17:53 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:17:53 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:17:53 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:17:53 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:20:21 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:20:21 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:20:21 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:20:21 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:20:21 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:20:21 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:20:21 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:20:21 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:20:21 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:20:21 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:20:21 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:20:21 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:20:21 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:23:05 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:23:05 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:23:05 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:23:05 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:23:05 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:23:05 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:23:05 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:23:05 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:23:05 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:23:05 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:23:05 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:23:05 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:23:05 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:24:41 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:24:41 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:24:41 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:24:41 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:24:41 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:24:41 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:24:41 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:24:41 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:24:41 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:24:41 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:24:41 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:24:41 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:24:41 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:25:52 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:25:52 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:25:52 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:25:52 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:25:52 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:25:52 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:25:52 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:25:52 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:25:52 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:25:52 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:25:52 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:25:52 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:25:52 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:26:35 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 06 May 2016 22:26:35 -0500] info 005: fileName: utilities\
+[Fri, 06 May 2016 22:26:35 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 06 May 2016 22:26:35 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 06 May 2016 22:26:35 -0500] info 003: URL: localhost
+[Fri, 06 May 2016 22:26:35 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 06 May 2016 22:26:35 -0500] info 005: ClassName: User_controller
+[Fri, 06 May 2016 22:26:35 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 06 May 2016 22:26:35 -0500] info 002: Se instancio User_controller()
+[Fri, 06 May 2016 22:26:35 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 06 May 2016 22:26:35 -0500] info 004: existe el path view 
+[Fri, 06 May 2016 22:26:35 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 06 May 2016 22:26:35 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:45:25 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:45:25 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:45:25 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:45:25 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:45:25 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:45:25 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:45:25 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:45:25 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:45:25 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:45:25 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:45:25 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:45:25 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Sat, 07 May 2016 17:45:25 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:45:50 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:45:50 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:45:50 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:45:50 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:45:50 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:45:50 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:45:50 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:45:50 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:45:50 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:45:50 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:45:50 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:45:50 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Sat, 07 May 2016 17:45:50 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:46:15 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:46:15 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:46:15 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:46:15 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:46:15 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:46:15 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:46:15 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:46:15 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:46:15 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:46:15 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:46:15 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:46:15 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Sat, 07 May 2016 17:46:15 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:46:32 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:46:32 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:46:32 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:46:32 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:46:32 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:46:32 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:46:32 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:46:32 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:46:32 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:46:32 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:46:32 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:46:32 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Sat, 07 May 2016 17:46:32 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:47:32 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:47:32 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:47:32 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:47:32 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:47:32 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:47:32 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:47:32 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:47:32 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:47:32 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:47:32 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:47:32 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:47:32 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:47:32 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:47:32 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:47:32 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:47:32 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:47:32 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:47:32 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:47:32 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 07 May 2016 17:47:32 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:49:13 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:49:13 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:49:13 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:49:13 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:49:13 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:49:13 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:49:13 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:49:13 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:49:13 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:49:13 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:49:13 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:49:13 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 07 May 2016 17:49:13 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:49:23 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:49:23 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:49:23 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:49:23 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:49:23 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:49:23 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:49:23 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:49:23 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:49:23 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:49:23 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:49:23 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:49:23 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 07 May 2016 17:49:23 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:49:28 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 07 May 2016 17:49:28 -0500] info 005: fileName: utilities\
+[Sat, 07 May 2016 17:49:28 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 07 May 2016 17:49:28 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 07 May 2016 17:49:28 -0500] info 003: URL: localhost
+[Sat, 07 May 2016 17:49:28 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 07 May 2016 17:49:28 -0500] info 005: ClassName: User_controller
+[Sat, 07 May 2016 17:49:28 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 07 May 2016 17:49:28 -0500] info 002: Se instancio User_controller()
+[Sat, 07 May 2016 17:49:28 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 07 May 2016 17:49:28 -0500] info 004: existe el path view 
+[Sat, 07 May 2016 17:49:29 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 07 May 2016 17:49:29 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 08:33:11 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 09 May 2016 08:33:11 -0500] info 005: fileName: utilities\
+[Mon, 09 May 2016 08:33:11 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 09 May 2016 08:33:11 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 09 May 2016 08:33:11 -0500] info 003: URL: localhost
+[Mon, 09 May 2016 08:33:11 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 09 May 2016 08:33:11 -0500] info 005: ClassName: User_controller
+[Mon, 09 May 2016 08:33:11 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 09 May 2016 08:33:11 -0500] info 002: Se instancio User_controller()
+[Mon, 09 May 2016 08:33:12 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 09 May 2016 08:33:12 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 08:33:12 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 09 May 2016 08:33:12 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:34:46 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 09 May 2016 09:34:46 -0500] info 005: fileName: utilities\
+[Mon, 09 May 2016 09:34:46 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 09 May 2016 09:34:46 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 09 May 2016 09:34:46 -0500] info 003: URL: localhost
+[Mon, 09 May 2016 09:34:46 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 09 May 2016 09:34:46 -0500] info 005: ClassName: User_controller
+[Mon, 09 May 2016 09:34:46 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 09 May 2016 09:34:46 -0500] info 002: Se instancio User_controller()
+[Mon, 09 May 2016 09:34:46 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 09 May 2016 09:34:46 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:34:46 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 09 May 2016 09:34:46 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:41:24 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 09 May 2016 09:41:24 -0500] info 005: fileName: utilities\
+[Mon, 09 May 2016 09:41:24 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 09 May 2016 09:41:24 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 09 May 2016 09:41:24 -0500] info 003: URL: localhost
+[Mon, 09 May 2016 09:41:24 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 09 May 2016 09:41:24 -0500] info 005: ClassName: User_controller
+[Mon, 09 May 2016 09:41:24 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 09 May 2016 09:41:24 -0500] info 002: Se instancio User_controller()
+[Mon, 09 May 2016 09:41:24 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 09 May 2016 09:41:24 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:41:24 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 09 May 2016 09:41:24 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:45:40 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 09 May 2016 09:45:40 -0500] info 005: fileName: utilities\
+[Mon, 09 May 2016 09:45:40 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 09 May 2016 09:45:40 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 09 May 2016 09:45:40 -0500] info 003: URL: localhost
+[Mon, 09 May 2016 09:45:40 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 09 May 2016 09:45:40 -0500] info 005: ClassName: User_controller
+[Mon, 09 May 2016 09:45:40 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 09 May 2016 09:45:40 -0500] info 002: Se instancio User_controller()
+[Mon, 09 May 2016 09:45:40 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 09 May 2016 09:45:40 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:45:40 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 09 May 2016 09:45:40 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:47:39 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 09 May 2016 09:47:39 -0500] info 005: fileName: utilities\
+[Mon, 09 May 2016 09:47:39 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 09 May 2016 09:47:39 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 09 May 2016 09:47:39 -0500] info 003: URL: localhost
+[Mon, 09 May 2016 09:47:39 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 09 May 2016 09:47:39 -0500] info 005: ClassName: User_controller
+[Mon, 09 May 2016 09:47:39 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 09 May 2016 09:47:39 -0500] info 002: Se instancio User_controller()
+[Mon, 09 May 2016 09:47:39 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 09 May 2016 09:47:39 -0500] info 004: existe el path view 
+[Mon, 09 May 2016 09:47:39 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 09 May 2016 09:47:39 -0500] info 004: existe el path view 
+[Sat, 04 Jun 2016 19:15:34 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:15:34 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:15:34 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:15:34 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:15:34 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:15:34 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:15:34 -0500] info 005: ClassName: User_controller
+[Sat, 04 Jun 2016 19:15:34 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 04 Jun 2016 19:15:34 -0500] info 002: Se instancio User_controller()
+[Sat, 04 Jun 2016 19:15:35 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 04 Jun 2016 19:15:35 -0500] info 004: existe el path view 
+[Sat, 04 Jun 2016 19:15:35 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 04 Jun 2016 19:15:35 -0500] info 004: existe el path view 
+[Sat, 04 Jun 2016 19:15:45 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:15:45 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:15:45 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:15:45 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:15:45 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:15:45 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:15:45 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 04 Jun 2016 19:15:46 -0500] info 003: se conecto!
+[Sat, 04 Jun 2016 19:16:04 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:04 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:04 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:04 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:04 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:04 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:04 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 04 Jun 2016 19:16:04 -0500] info 003: se conecto!
+[Sat, 04 Jun 2016 19:16:06 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:06 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:06 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:06 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:06 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:06 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:06 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 04 Jun 2016 19:16:06 -0500] info 003: se conecto!
+[Sat, 04 Jun 2016 19:16:10 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:10 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:10 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:10 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:10 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:10 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:10 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 04 Jun 2016 19:16:10 -0500] info 003: se conecto!
+[Sat, 04 Jun 2016 19:16:13 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:13 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:13 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:13 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:13 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:13 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:13 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 04 Jun 2016 19:16:13 -0500] info 003: se conecto!
+[Sat, 04 Jun 2016 19:16:16 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:16 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:16 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:16 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:16 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:16 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:16 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 04 Jun 2016 19:16:16 -0500] info 003: se conecto!
+[Sat, 04 Jun 2016 19:16:19 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:19 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:19 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:19 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:19 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:19 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:19 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 04 Jun 2016 19:16:19 -0500] info 003: se conecto!
+[Sat, 04 Jun 2016 19:16:28 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:28 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:28 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:28 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:28 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:28 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:28 -0500] info 002: Se instancio User_controller()
+[Sat, 04 Jun 2016 19:16:29 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 04 Jun 2016 19:16:29 -0500] info 005: fileName: utilities\
+[Sat, 04 Jun 2016 19:16:29 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 04 Jun 2016 19:16:29 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 04 Jun 2016 19:16:29 -0500] info 003: URL: localhost
+[Sat, 04 Jun 2016 19:16:29 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 04 Jun 2016 19:16:29 -0500] info 002: Se instancio User_controller()
+[Mon, 06 Jun 2016 01:07:34 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:34 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:34 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:34 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:34 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:34 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:34 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 06 Jun 2016 01:07:35 -0500] info 003: se conecto!
+[Mon, 06 Jun 2016 01:07:37 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:37 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:37 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:37 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:37 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:37 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:37 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 06 Jun 2016 01:07:37 -0500] info 003: se conecto!
+[Mon, 06 Jun 2016 01:07:40 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:40 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:40 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:40 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:40 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:40 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:40 -0500] info 005: ClassName: User_controller
+[Mon, 06 Jun 2016 01:07:40 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 06 Jun 2016 01:07:40 -0500] info 002: Se instancio User_controller()
+[Mon, 06 Jun 2016 01:07:40 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 06 Jun 2016 01:07:40 -0500] info 004: existe el path view 
+[Mon, 06 Jun 2016 01:07:40 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 06 Jun 2016 01:07:40 -0500] info 004: existe el path view 
+[Mon, 06 Jun 2016 01:07:47 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:47 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:47 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:47 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:47 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:47 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:47 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 06 Jun 2016 01:07:47 -0500] info 003: se conecto!
+[Mon, 06 Jun 2016 01:07:50 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:50 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:50 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:50 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:50 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:50 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:50 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 06 Jun 2016 01:07:50 -0500] info 003: se conecto!
+[Mon, 06 Jun 2016 01:07:52 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:52 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:52 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:52 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:52 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:52 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:52 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 06 Jun 2016 01:07:52 -0500] info 003: se conecto!
+[Mon, 06 Jun 2016 01:07:54 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:54 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:54 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:54 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:54 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:54 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:54 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 06 Jun 2016 01:07:54 -0500] info 003: se conecto!
+[Mon, 06 Jun 2016 01:07:56 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 06 Jun 2016 01:07:56 -0500] info 005: fileName: utilities\
+[Mon, 06 Jun 2016 01:07:56 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 06 Jun 2016 01:07:56 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 06 Jun 2016 01:07:56 -0500] info 003: URL: localhost
+[Mon, 06 Jun 2016 01:07:57 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 06 Jun 2016 01:07:57 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 06 Jun 2016 01:07:57 -0500] info 003: se conecto!
+[Sat, 16 Jul 2016 10:39:21 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 16 Jul 2016 10:39:21 -0500] info 005: fileName: utilities\
+[Sat, 16 Jul 2016 10:39:21 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 16 Jul 2016 10:39:21 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 16 Jul 2016 10:39:21 -0500] info 003: URL: localhost
+[Sat, 16 Jul 2016 10:39:22 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 16 Jul 2016 10:39:22 -0500] info 005: ClassName: User_controller
+[Sat, 16 Jul 2016 10:39:22 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 16 Jul 2016 10:39:22 -0500] info 002: Se instancio User_controller()
+[Sat, 16 Jul 2016 10:39:22 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 16 Jul 2016 10:39:22 -0500] info 004: existe el path view 
+[Sat, 16 Jul 2016 10:39:22 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 16 Jul 2016 10:39:22 -0500] info 004: existe el path view 
+[Sat, 16 Jul 2016 10:39:29 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 16 Jul 2016 10:39:29 -0500] info 005: fileName: utilities\
+[Sat, 16 Jul 2016 10:39:29 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 16 Jul 2016 10:39:29 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 16 Jul 2016 10:39:29 -0500] info 003: URL: localhost
+[Sat, 16 Jul 2016 10:39:29 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 16 Jul 2016 10:39:29 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 16 Jul 2016 10:39:29 -0500] info 003: se conecto!
+[Sat, 16 Jul 2016 10:40:30 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 16 Jul 2016 10:40:30 -0500] info 005: fileName: utilities\
+[Sat, 16 Jul 2016 10:40:30 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 16 Jul 2016 10:40:30 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 16 Jul 2016 10:40:30 -0500] info 003: URL: localhost
+[Sat, 16 Jul 2016 10:40:30 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 16 Jul 2016 10:40:30 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 16 Jul 2016 10:40:30 -0500] info 003: se conecto!
+[Sat, 16 Jul 2016 10:40:35 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 16 Jul 2016 10:40:35 -0500] info 005: fileName: utilities\
+[Sat, 16 Jul 2016 10:40:35 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 16 Jul 2016 10:40:35 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 16 Jul 2016 10:40:35 -0500] info 003: URL: localhost
+[Sat, 16 Jul 2016 10:40:35 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 16 Jul 2016 10:40:35 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 16 Jul 2016 10:40:35 -0500] info 003: se conecto!
+[Sat, 16 Jul 2016 10:41:03 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 16 Jul 2016 10:41:03 -0500] info 005: fileName: utilities\
+[Sat, 16 Jul 2016 10:41:03 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 16 Jul 2016 10:41:03 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 16 Jul 2016 10:41:03 -0500] info 003: URL: localhost
+[Sat, 16 Jul 2016 10:41:04 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 16 Jul 2016 10:41:04 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 16 Jul 2016 10:41:04 -0500] info 003: se conecto!
+[Sat, 16 Jul 2016 10:41:07 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 16 Jul 2016 10:41:07 -0500] info 005: fileName: utilities\
+[Sat, 16 Jul 2016 10:41:07 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 16 Jul 2016 10:41:07 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 16 Jul 2016 10:41:07 -0500] info 003: URL: localhost
+[Sat, 16 Jul 2016 10:41:07 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 16 Jul 2016 10:41:07 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 16 Jul 2016 10:41:07 -0500] info 003: se conecto!
+[Sat, 16 Jul 2016 10:41:10 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 16 Jul 2016 10:41:10 -0500] info 005: fileName: utilities\
+[Sat, 16 Jul 2016 10:41:10 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 16 Jul 2016 10:41:10 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 16 Jul 2016 10:41:10 -0500] info 003: URL: localhost
+[Sat, 16 Jul 2016 10:41:10 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 16 Jul 2016 10:41:10 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 16 Jul 2016 10:41:10 -0500] info 003: se conecto!
+[Thu, 21 Jul 2016 16:20:46 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 21 Jul 2016 16:20:46 -0500] info 005: fileName: utilities\
+[Thu, 21 Jul 2016 16:20:46 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 21 Jul 2016 16:20:46 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 21 Jul 2016 16:20:46 -0500] info 003: URL: localhost
+[Thu, 21 Jul 2016 16:20:46 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 21 Jul 2016 16:20:46 -0500] info 005: ClassName: User_controller
+[Thu, 21 Jul 2016 16:20:46 -0500] info 005: fileName:despues del if User\controller.php
+[Thu, 21 Jul 2016 16:20:46 -0500] info 002: Se instancio User_controller()
+[Thu, 21 Jul 2016 16:20:47 -0500] info 004: vista a cargar: ./views/Index/index
+[Thu, 21 Jul 2016 16:20:47 -0500] info 004: existe el path view 
+[Thu, 21 Jul 2016 16:20:47 -0500] info 004: vista a cargar: ./views/User/signIn
+[Thu, 21 Jul 2016 16:20:47 -0500] info 004: existe el path view 
+[Sat, 23 Jul 2016 12:24:43 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:24:43 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:24:43 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:24:43 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:24:43 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:24:43 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:24:43 -0500] info 005: ClassName: User_controller
+[Sat, 23 Jul 2016 12:24:43 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 23 Jul 2016 12:24:43 -0500] info 002: Se instancio User_controller()
+[Sat, 23 Jul 2016 12:24:43 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 23 Jul 2016 12:24:43 -0500] info 004: existe el path view 
+[Sat, 23 Jul 2016 12:24:43 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 23 Jul 2016 12:24:43 -0500] info 004: existe el path view 
+[Sat, 23 Jul 2016 12:24:55 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:24:55 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:24:55 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:24:55 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:24:55 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:24:55 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:24:55 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 23 Jul 2016 12:24:55 -0500] info 003: se conecto!
+[Sat, 23 Jul 2016 12:24:59 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:24:59 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:24:59 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:24:59 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:24:59 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:24:59 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:24:59 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 23 Jul 2016 12:24:59 -0500] info 003: se conecto!
+[Sat, 23 Jul 2016 12:25:24 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:25:24 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:25:24 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:25:24 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:25:24 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:25:24 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:25:24 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 23 Jul 2016 12:25:24 -0500] info 003: se conecto!
+[Sat, 23 Jul 2016 12:25:27 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:25:27 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:25:27 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:25:27 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:25:27 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:25:27 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:25:27 -0500] info 002: Se instancio DataComponets_controller()
+[Sat, 23 Jul 2016 12:25:27 -0500] info 003: se conecto!
+[Sat, 23 Jul 2016 12:26:00 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:26:00 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:26:00 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:26:00 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:26:00 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:26:00 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:26:00 -0500] info 002: Se instancio User_controller()
+[Sat, 23 Jul 2016 12:26:00 -0500] info 003: se conecto!
+[Sat, 23 Jul 2016 12:26:03 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:26:03 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:26:03 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:26:03 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:26:03 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:26:03 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:26:03 -0500] info 002: Se instancio User_controller()
+[Sat, 23 Jul 2016 12:26:03 -0500] info 003: se conecto!
+[Sat, 23 Jul 2016 12:26:07 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 23 Jul 2016 12:26:07 -0500] info 005: fileName: utilities\
+[Sat, 23 Jul 2016 12:26:07 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 23 Jul 2016 12:26:07 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 23 Jul 2016 12:26:07 -0500] info 003: URL: localhost
+[Sat, 23 Jul 2016 12:26:07 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 23 Jul 2016 12:26:07 -0500] info 002: Se instancio User_controller()
+[Sat, 23 Jul 2016 12:26:07 -0500] info 003: se conecto!
+[Sat, 13 Aug 2016 13:05:10 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 13 Aug 2016 13:05:10 -0500] info 005: fileName: utilities\
+[Sat, 13 Aug 2016 13:05:10 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 13 Aug 2016 13:05:10 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 13 Aug 2016 13:05:10 -0500] info 003: URL: localhost
+[Sat, 13 Aug 2016 13:05:10 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 13 Aug 2016 13:05:10 -0500] info 005: ClassName: User_controller
+[Sat, 13 Aug 2016 13:05:10 -0500] info 005: fileName:despues del if User\controller.php
+[Sat, 13 Aug 2016 13:05:10 -0500] info 002: Se instancio User_controller()
+[Sat, 13 Aug 2016 13:05:10 -0500] info 004: vista a cargar: ./views/Index/index
+[Sat, 13 Aug 2016 13:05:10 -0500] info 004: existe el path view 
+[Sat, 13 Aug 2016 13:05:10 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sat, 13 Aug 2016 13:05:10 -0500] info 004: existe el path view 
+[Sat, 13 Aug 2016 13:05:20 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sat, 13 Aug 2016 13:05:20 -0500] info 005: fileName: utilities\
+[Sat, 13 Aug 2016 13:05:20 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sat, 13 Aug 2016 13:05:20 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sat, 13 Aug 2016 13:05:20 -0500] info 003: URL: localhost
+[Sat, 13 Aug 2016 13:05:20 -0500] info 001: FROM:: CONFIG-APP 
+[Sat, 13 Aug 2016 13:05:20 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:29:04 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:29:04 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:29:04 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:29:04 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:29:04 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:29:04 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:29:05 -0500] info 005: ClassName: User_controller
+[Fri, 23 Sep 2016 15:29:05 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 23 Sep 2016 15:29:05 -0500] info 002: Se instancio User_controller()
+[Fri, 23 Sep 2016 15:29:05 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 23 Sep 2016 15:29:05 -0500] info 004: existe el path view 
+[Fri, 23 Sep 2016 15:29:05 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 23 Sep 2016 15:29:05 -0500] info 004: existe el path view 
+[Fri, 23 Sep 2016 15:29:40 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:29:40 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:29:40 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:29:40 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:29:40 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:29:40 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:29:40 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:29:41 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:11 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:11 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:11 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:11 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:11 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:11 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:11 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:11 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:14 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:14 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:14 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:14 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:14 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:14 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:14 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:14 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:15 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:15 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:15 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:15 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:15 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:15 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:15 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:15 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:17 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:17 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:17 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:17 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:17 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:17 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:17 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:17 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:18 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:18 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:18 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:18 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:18 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:18 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:18 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:18 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:25 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:25 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:25 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:25 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:25 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:25 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:25 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:25 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:44 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:44 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:44 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:44 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:44 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:44 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:44 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:44 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:30:47 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:30:47 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:30:47 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:30:47 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:30:47 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:30:47 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:30:47 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:30:47 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:39:17 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:39:17 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:39:17 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:39:17 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:39:17 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:39:17 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:39:17 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:39:17 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:39:20 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:39:20 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:39:20 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:39:20 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:39:20 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:39:20 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:39:20 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:39:20 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:39:27 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:39:27 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:39:27 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:39:27 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:39:27 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:39:27 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:39:27 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 23 Sep 2016 15:39:27 -0500] info 003: se conecto!
+[Fri, 23 Sep 2016 15:39:53 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 23 Sep 2016 15:39:53 -0500] info 005: fileName: utilities\
+[Fri, 23 Sep 2016 15:39:53 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 23 Sep 2016 15:39:53 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 23 Sep 2016 15:39:53 -0500] info 003: URL: localhost
+[Fri, 23 Sep 2016 15:39:53 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 23 Sep 2016 15:39:54 -0500] info 005: ClassName: User_controller
+[Fri, 23 Sep 2016 15:39:54 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 23 Sep 2016 15:39:54 -0500] info 002: Se instancio User_controller()
+[Fri, 23 Sep 2016 15:39:54 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 23 Sep 2016 15:39:54 -0500] info 004: existe el path view 
+[Fri, 23 Sep 2016 15:39:54 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 23 Sep 2016 15:39:54 -0500] info 004: existe el path view 
+[Thu, 24 Nov 2016 17:19:51 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 24 Nov 2016 17:19:51 -0500] info 005: fileName: utilities\
+[Thu, 24 Nov 2016 17:19:51 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 24 Nov 2016 17:19:51 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 24 Nov 2016 17:19:51 -0500] info 003: URL: localhost
+[Thu, 24 Nov 2016 17:19:51 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 24 Nov 2016 17:19:51 -0500] info 005: ClassName: User_controller
+[Thu, 24 Nov 2016 17:19:51 -0500] info 005: fileName:despues del if User\controller.php
+[Thu, 24 Nov 2016 17:19:51 -0500] info 002: Se instancio User_controller()
+[Thu, 24 Nov 2016 17:19:51 -0500] info 004: vista a cargar: ./views/Index/index
+[Thu, 24 Nov 2016 17:19:51 -0500] info 004: existe el path view 
+[Thu, 24 Nov 2016 17:19:51 -0500] info 004: vista a cargar: ./views/User/signIn
+[Thu, 24 Nov 2016 17:19:51 -0500] info 004: existe el path view 
+[Thu, 24 Nov 2016 17:21:53 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 24 Nov 2016 17:21:53 -0500] info 005: fileName: utilities\
+[Thu, 24 Nov 2016 17:21:53 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 24 Nov 2016 17:21:53 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 24 Nov 2016 17:21:53 -0500] info 003: URL: localhost
+[Thu, 24 Nov 2016 17:21:53 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 24 Nov 2016 17:21:53 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 24 Nov 2016 17:21:53 -0500] info 003: se conecto!
+[Thu, 24 Nov 2016 17:21:56 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 24 Nov 2016 17:21:56 -0500] info 005: fileName: utilities\
+[Thu, 24 Nov 2016 17:21:56 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 24 Nov 2016 17:21:56 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 24 Nov 2016 17:21:56 -0500] info 003: URL: localhost
+[Thu, 24 Nov 2016 17:21:56 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 24 Nov 2016 17:21:56 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 24 Nov 2016 17:21:56 -0500] info 003: se conecto!
+[Thu, 24 Nov 2016 17:21:58 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 24 Nov 2016 17:21:58 -0500] info 005: fileName: utilities\
+[Thu, 24 Nov 2016 17:21:58 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 24 Nov 2016 17:21:58 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 24 Nov 2016 17:21:58 -0500] info 003: URL: localhost
+[Thu, 24 Nov 2016 17:21:58 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 24 Nov 2016 17:21:58 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 24 Nov 2016 17:21:58 -0500] info 003: se conecto!
+[Thu, 24 Nov 2016 17:22:00 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 24 Nov 2016 17:22:00 -0500] info 005: fileName: utilities\
+[Thu, 24 Nov 2016 17:22:00 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 24 Nov 2016 17:22:00 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 24 Nov 2016 17:22:00 -0500] info 003: URL: localhost
+[Thu, 24 Nov 2016 17:22:00 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 24 Nov 2016 17:22:00 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 24 Nov 2016 17:22:00 -0500] info 003: se conecto!
+[Thu, 24 Nov 2016 17:22:02 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 24 Nov 2016 17:22:02 -0500] info 005: fileName: utilities\
+[Thu, 24 Nov 2016 17:22:02 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 24 Nov 2016 17:22:02 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 24 Nov 2016 17:22:02 -0500] info 003: URL: localhost
+[Thu, 24 Nov 2016 17:22:02 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 24 Nov 2016 17:22:02 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 24 Nov 2016 17:22:02 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 16:21:57 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:21:57 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:21:57 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:21:57 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:21:57 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:21:58 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:21:58 -0500] info 005: ClassName: User_controller
+[Wed, 25 Jan 2017 16:21:58 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 25 Jan 2017 16:21:58 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:21:58 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 25 Jan 2017 16:21:58 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 16:21:58 -0500] info 004: vista a cargar: ./views/User/signIn
+[Wed, 25 Jan 2017 16:21:58 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 16:22:43 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:22:43 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:22:43 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:22:43 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:22:43 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:22:43 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:22:43 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:22:57 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:22:57 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:22:57 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:22:57 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:22:57 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:22:57 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:22:57 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:22:57 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 16:23:02 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:23:02 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:23:02 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:23:02 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:23:02 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:23:02 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:23:02 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:23:02 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 16:23:22 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:23:22 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:23:22 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:23:22 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:23:22 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:23:22 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:23:22 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:23:22 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 16:23:29 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:23:29 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:23:29 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:23:29 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:23:29 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:23:29 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:23:29 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:23:29 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 16:23:33 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:23:33 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:23:33 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:23:33 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:23:33 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:23:33 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:23:33 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:23:33 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 16:24:11 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:24:11 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:24:11 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:24:11 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:24:11 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:24:11 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:24:11 -0500] info 002: Se instancio DataComponets_controller()
+[Wed, 25 Jan 2017 16:24:11 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 16:25:14 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:25:14 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:25:14 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:25:14 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:25:14 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:25:14 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:25:14 -0500] info 005: ClassName: User_controller
+[Wed, 25 Jan 2017 16:25:14 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 25 Jan 2017 16:25:14 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:25:14 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 25 Jan 2017 16:25:14 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 16:25:14 -0500] info 004: vista a cargar: ./views/User/signIn
+[Wed, 25 Jan 2017 16:25:14 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 16:25:59 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:25:59 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:25:59 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:25:59 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:25:59 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:25:59 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:25:59 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:26:35 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 16:26:35 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 16:26:35 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 16:26:35 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 16:26:35 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 16:26:35 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 16:26:35 -0500] info 005: ClassName: User_controller
+[Wed, 25 Jan 2017 16:26:35 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 25 Jan 2017 16:26:35 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 16:26:35 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 25 Jan 2017 16:26:35 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 16:26:35 -0500] info 004: vista a cargar: ./views/User/signIn
+[Wed, 25 Jan 2017 16:26:35 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 17:42:24 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:42:24 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:42:24 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:42:24 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:42:24 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:42:24 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:42:24 -0500] info 005: ClassName: User_controller
+[Wed, 25 Jan 2017 17:42:24 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 25 Jan 2017 17:42:24 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:42:24 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 25 Jan 2017 17:42:24 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 17:42:24 -0500] info 004: vista a cargar: ./views/User/signIn
+[Wed, 25 Jan 2017 17:42:24 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 17:42:42 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:42:42 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:42:42 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:42:42 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:42:42 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:42:42 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:42:42 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:42:42 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:42:46 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:42:46 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:42:46 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:42:46 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:42:46 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:42:46 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:42:46 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:42:46 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:42:51 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:42:51 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:42:51 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:42:51 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:42:51 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:42:51 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:42:51 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:42:51 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:43:06 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:43:06 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:43:06 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:43:06 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:43:06 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:43:06 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:43:06 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:43:06 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:43:28 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:43:28 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:43:28 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:43:28 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:43:28 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:43:28 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:43:28 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:43:28 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:46:01 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:46:01 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:46:01 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:46:01 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:46:01 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:46:01 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:46:01 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:46:01 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:46:07 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:46:07 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:46:07 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:46:07 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:46:07 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:46:07 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:46:07 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:46:07 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:46:16 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:46:16 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:46:16 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:46:16 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:46:16 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:46:16 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:46:16 -0500] info 005: ClassName: User_controller
+[Wed, 25 Jan 2017 17:46:16 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 25 Jan 2017 17:46:16 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:46:16 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 25 Jan 2017 17:46:16 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 17:46:16 -0500] info 004: vista a cargar: ./views/User/signIn
+[Wed, 25 Jan 2017 17:46:16 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 17:46:31 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:46:31 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:46:31 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:46:31 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:46:31 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:46:31 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:46:31 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:46:31 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:46:34 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:46:34 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:46:34 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:46:34 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:46:34 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:46:34 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:46:34 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:46:34 -0500] info 003: se conecto!
+[Wed, 25 Jan 2017 17:46:34 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Wed, 25 Jan 2017 17:46:36 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:46:36 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:46:36 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:46:36 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:46:36 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:46:36 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:46:36 -0500] info 005: ClassName: User_controller
+[Wed, 25 Jan 2017 17:46:36 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 25 Jan 2017 17:46:36 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:46:36 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 25 Jan 2017 17:46:36 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 17:53:22 -0500] info 005: ClassName: utilities\UrlGenerator
+[Wed, 25 Jan 2017 17:53:22 -0500] info 005: fileName: utilities\
+[Wed, 25 Jan 2017 17:53:22 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Wed, 25 Jan 2017 17:53:22 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Wed, 25 Jan 2017 17:53:22 -0500] info 003: URL: localhost
+[Wed, 25 Jan 2017 17:53:22 -0500] info 001: FROM:: CONFIG-APP 
+[Wed, 25 Jan 2017 17:53:22 -0500] info 005: ClassName: User_controller
+[Wed, 25 Jan 2017 17:53:22 -0500] info 005: fileName:despues del if User\controller.php
+[Wed, 25 Jan 2017 17:53:22 -0500] info 002: Se instancio User_controller()
+[Wed, 25 Jan 2017 17:53:22 -0500] info 004: vista a cargar: ./views/Index/index
+[Wed, 25 Jan 2017 17:53:22 -0500] info 004: existe el path view 
+[Wed, 25 Jan 2017 17:53:22 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Wed, 25 Jan 2017 17:53:22 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:42:50 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:42:50 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:42:50 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:42:50 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:42:50 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:42:50 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:42:50 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 19:42:50 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 19:42:50 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:42:50 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 19:42:50 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:42:50 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 28 Jul 2017 19:42:50 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:43:42 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:43:42 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:43:42 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:43:42 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:43:42 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:43:42 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:43:42 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:43:42 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:43:44 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:43:44 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:43:44 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:43:44 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:43:44 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:43:44 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:43:44 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:43:44 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:43:48 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:43:48 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:43:48 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:43:48 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:43:48 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:43:48 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:43:48 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:43:48 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:43:53 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:43:53 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:43:53 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:43:53 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:43:53 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:43:53 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:43:53 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:43:53 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:43:53 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:43:53 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:43:53 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:43:53 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:43:53 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:43:53 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:43:53 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:44:03 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:44:03 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:44:03 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:44:03 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:44:03 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:44:03 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:44:03 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:44:03 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:44:03 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:44:03 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:44:03 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:44:03 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:44:03 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:44:03 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:44:03 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:44:03 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:44:05 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:44:05 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:44:05 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:44:05 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:44:05 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:44:05 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:44:05 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:44:09 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:44:09 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:44:09 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:44:09 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:44:09 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:44:09 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:44:09 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 19:44:09 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 19:44:09 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:44:09 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 19:44:09 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:44:09 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 28 Jul 2017 19:44:09 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:46:25 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:25 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:25 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:25 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:25 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:25 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:25 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:25 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:28 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:28 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:28 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:28 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:28 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:28 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:28 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:28 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:30 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:30 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:30 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:30 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:30 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:30 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:30 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:30 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:32 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:32 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:32 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:32 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:32 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:32 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:32 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:32 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:36 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:36 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:36 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:36 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:36 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:36 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:36 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:36 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:39 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:39 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:39 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:39 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:39 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:39 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:39 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:39 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:39 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:39 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:39 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:39 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:39 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:39 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:39 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:39 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:42 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:42 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:42 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:42 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:42 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:42 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:42 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:42 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:46:44 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:46:44 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:46:44 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:46:44 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:46:44 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:46:44 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:46:44 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:46:44 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:48:04 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:48:04 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:48:04 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:48:04 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:48:04 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:48:04 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:48:04 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:48:04 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:48:04 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:48:04 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:48:04 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:48:04 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:48:04 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:48:04 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:48:05 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:48:05 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:48:10 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:48:10 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:48:10 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:48:10 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:48:10 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:48:10 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:48:10 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:48:10 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:48:24 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:48:24 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:48:24 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:48:24 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:48:24 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:48:24 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:48:24 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:48:24 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:48:28 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:48:28 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:48:28 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:48:28 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:48:28 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:48:28 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:48:28 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:48:28 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:48:50 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:48:50 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:48:50 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:48:50 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:48:50 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:48:50 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:48:50 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:48:50 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:49:20 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:49:20 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:49:20 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:49:20 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:49:20 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:49:20 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:49:20 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:49:20 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:49:25 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:49:25 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:49:25 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:49:25 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:49:25 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:49:25 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:49:25 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 19:49:25 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 19:49:25 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:49:25 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 19:49:25 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:49:25 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 28 Jul 2017 19:49:25 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:49:43 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:49:43 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:49:43 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:49:43 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:49:43 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:49:43 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:49:43 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:49:43 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:50:05 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:50:05 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:50:05 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:50:05 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:50:05 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:50:05 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:50:05 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:50:05 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:50:05 -0500] info 007: se creo la session: 30nivel acceso: 2
+[Fri, 28 Jul 2017 19:50:07 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:50:07 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:50:07 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:50:07 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:50:07 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:50:07 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:50:07 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 19:50:07 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 19:50:07 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:50:07 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 19:50:07 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:50:07 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 28 Jul 2017 19:50:07 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:50:48 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:50:48 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:50:48 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:50:48 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:50:48 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:50:48 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:50:48 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:50:48 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:11 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:11 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:11 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:11 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:11 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:11 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:11 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:11 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:12 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:12 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:12 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:12 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:12 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:12 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:12 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:12 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:13 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:13 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:13 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:13 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:13 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:13 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:13 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:13 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:14 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:14 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:14 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:14 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:14 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:14 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:14 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:14 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:15 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:15 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:15 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:15 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:15 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:15 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:15 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:15 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:26 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:26 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:26 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:26 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:26 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:26 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:26 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:26 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:27 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:27 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:27 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:27 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:27 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:27 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:27 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:27 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:33 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:33 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:33 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:33 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:33 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:33 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:33 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:51:33 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:51:59 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:51:59 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:51:59 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:51:59 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:51:59 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:51:59 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:51:59 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 19:51:59 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 19:51:59 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:51:59 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 19:51:59 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:51:59 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Fri, 28 Jul 2017 19:51:59 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:52:53 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:52:53 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:52:53 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:52:53 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:52:53 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:52:53 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:52:53 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:52:53 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:53:05 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:53:05 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:53:05 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:53:05 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:53:05 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:53:05 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:53:05 -0500] info 002: Se instancio DataComponets_controller()
+[Fri, 28 Jul 2017 19:53:05 -0500] info 003: se conecto!
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:53:17 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:53:17 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:53:17 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:53:17 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 19:53:17 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 19:53:17 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 19:53:17 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 19:53:17 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 19:53:17 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 19:53:17 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 19:53:17 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 19:53:17 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 28 Jul 2017 19:53:17 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 20:03:37 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 20:03:37 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 20:03:37 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 20:03:37 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 20:03:37 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 20:03:37 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 20:03:37 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 20:03:37 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 20:03:37 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 20:03:37 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 20:03:37 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 20:03:37 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 28 Jul 2017 20:03:37 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 20:03:46 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 20:03:46 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 20:03:46 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 20:03:46 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 20:03:46 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 20:03:46 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 20:04:24 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 20:04:24 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 20:04:24 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 20:04:24 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 20:04:24 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 20:04:24 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 20:04:35 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 20:04:35 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 20:04:35 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 20:04:35 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 20:04:35 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 20:04:35 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 20:04:35 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 20:04:35 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 20:04:35 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 20:04:35 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 20:04:35 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 20:04:35 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 28 Jul 2017 20:04:35 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 20:05:17 -0500] info 005: ClassName: utilities\UrlGenerator
+[Fri, 28 Jul 2017 20:05:17 -0500] info 005: fileName: utilities\
+[Fri, 28 Jul 2017 20:05:17 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Fri, 28 Jul 2017 20:05:17 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Fri, 28 Jul 2017 20:05:17 -0500] info 003: URL: localhost
+[Fri, 28 Jul 2017 20:05:17 -0500] info 001: FROM:: CONFIG-APP 
+[Fri, 28 Jul 2017 20:05:17 -0500] info 005: ClassName: User_controller
+[Fri, 28 Jul 2017 20:05:17 -0500] info 005: fileName:despues del if User\controller.php
+[Fri, 28 Jul 2017 20:05:17 -0500] info 002: Se instancio User_controller()
+[Fri, 28 Jul 2017 20:05:17 -0500] info 004: vista a cargar: ./views/Index/index
+[Fri, 28 Jul 2017 20:05:17 -0500] info 004: existe el path view 
+[Fri, 28 Jul 2017 20:05:17 -0500] info 004: vista a cargar: ./views/User/signIn
+[Fri, 28 Jul 2017 20:05:17 -0500] info 004: existe el path view 
+[Sun, 30 Jul 2017 15:11:16 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sun, 30 Jul 2017 15:11:16 -0500] info 005: fileName: utilities\
+[Sun, 30 Jul 2017 15:11:16 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sun, 30 Jul 2017 15:11:16 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sun, 30 Jul 2017 15:11:16 -0500] info 003: URL: localhost
+[Sun, 30 Jul 2017 15:11:16 -0500] info 001: FROM:: CONFIG-APP 
+[Sun, 30 Jul 2017 15:11:16 -0500] info 005: ClassName: User_controller
+[Sun, 30 Jul 2017 15:11:16 -0500] info 005: fileName:despues del if User\controller.php
+[Sun, 30 Jul 2017 15:11:16 -0500] info 002: Se instancio User_controller()
+[Sun, 30 Jul 2017 15:11:17 -0500] info 004: vista a cargar: ./views/Index/index
+[Sun, 30 Jul 2017 15:11:17 -0500] info 004: existe el path view 
+[Sun, 30 Jul 2017 15:11:17 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sun, 30 Jul 2017 15:11:17 -0500] info 004: existe el path view 
+[Sun, 30 Jul 2017 15:11:51 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sun, 30 Jul 2017 15:11:51 -0500] info 005: fileName: utilities\
+[Sun, 30 Jul 2017 15:11:51 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sun, 30 Jul 2017 15:11:51 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sun, 30 Jul 2017 15:11:51 -0500] info 003: URL: localhost
+[Sun, 30 Jul 2017 15:11:51 -0500] info 001: FROM:: CONFIG-APP 
+[Sun, 30 Jul 2017 15:11:51 -0500] info 002: Se instancio DataComponets_controller()
+[Sun, 30 Jul 2017 15:11:51 -0500] info 003: se conecto!
+[Sun, 30 Jul 2017 15:12:09 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sun, 30 Jul 2017 15:12:09 -0500] info 005: fileName: utilities\
+[Sun, 30 Jul 2017 15:12:09 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sun, 30 Jul 2017 15:12:09 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sun, 30 Jul 2017 15:12:09 -0500] info 003: URL: localhost
+[Sun, 30 Jul 2017 15:12:09 -0500] info 001: FROM:: CONFIG-APP 
+[Sun, 30 Jul 2017 15:12:09 -0500] info 002: Se instancio DataComponets_controller()
+[Sun, 30 Jul 2017 15:12:09 -0500] info 003: se conecto!
+[Sun, 30 Jul 2017 15:12:13 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sun, 30 Jul 2017 15:12:13 -0500] info 005: fileName: utilities\
+[Sun, 30 Jul 2017 15:12:13 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sun, 30 Jul 2017 15:12:14 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sun, 30 Jul 2017 15:12:14 -0500] info 003: URL: localhost
+[Sun, 30 Jul 2017 15:12:14 -0500] info 001: FROM:: CONFIG-APP 
+[Sun, 30 Jul 2017 15:12:14 -0500] info 002: Se instancio DataComponets_controller()
+[Sun, 30 Jul 2017 15:12:14 -0500] info 003: se conecto!
+[Sun, 30 Jul 2017 15:14:42 -0500] info 005: ClassName: utilities\UrlGenerator
+[Sun, 30 Jul 2017 15:14:42 -0500] info 005: fileName: utilities\
+[Sun, 30 Jul 2017 15:14:42 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Sun, 30 Jul 2017 15:14:42 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Sun, 30 Jul 2017 15:14:42 -0500] info 003: URL: localhost
+[Sun, 30 Jul 2017 15:14:42 -0500] info 001: FROM:: CONFIG-APP 
+[Sun, 30 Jul 2017 15:14:42 -0500] info 005: ClassName: User_controller
+[Sun, 30 Jul 2017 15:14:42 -0500] info 005: fileName:despues del if User\controller.php
+[Sun, 30 Jul 2017 15:14:42 -0500] info 002: Se instancio User_controller()
+[Sun, 30 Jul 2017 15:14:42 -0500] info 004: vista a cargar: ./views/Index/index
+[Sun, 30 Jul 2017 15:14:42 -0500] info 004: existe el path view 
+[Sun, 30 Jul 2017 15:14:42 -0500] info 004: vista a cargar: ./views/User/signIn
+[Sun, 30 Jul 2017 15:14:42 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:06:51 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:06:51 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:06:51 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:06:51 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:06:51 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:06:51 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:06:51 -0500] info 005: ClassName: User_controller
+[Thu, 16 Nov 2017 10:06:51 -0500] info 005: fileName:despues del if User\controller.php
+[Thu, 16 Nov 2017 10:06:51 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:06:51 -0500] info 004: vista a cargar: ./views/Index/index
+[Thu, 16 Nov 2017 10:06:51 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:06:51 -0500] info 004: vista a cargar: ./views/User/signIn
+[Thu, 16 Nov 2017 10:06:51 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:07:00 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:07:00 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:07:00 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:07:00 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:07:00 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:07:00 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:07:00 -0500] info 005: ClassName: User_controller
+[Thu, 16 Nov 2017 10:07:00 -0500] info 005: fileName:despues del if User\controller.php
+[Thu, 16 Nov 2017 10:07:00 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:07:00 -0500] info 004: vista a cargar: ./views/Index/index
+[Thu, 16 Nov 2017 10:07:00 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:07:00 -0500] info 004: vista a cargar: ./views/User/signIn
+[Thu, 16 Nov 2017 10:07:00 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:09:09 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:09:09 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:09:09 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:09:09 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:09:09 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:09:09 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:09:09 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:09:13 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:09:13 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:09:13 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:09:13 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:09:13 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:09:13 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:09:13 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:09:26 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:09:26 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:09:26 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:09:26 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:09:26 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:09:26 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:09:27 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:09:27 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:09:46 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:09:46 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:09:46 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:09:46 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:09:46 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:09:46 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:09:46 -0500] info 005: ClassName: User_controller
+[Thu, 16 Nov 2017 10:09:46 -0500] info 005: fileName:despues del if User\controller.php
+[Thu, 16 Nov 2017 10:09:46 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:09:46 -0500] info 004: vista a cargar: ./views/Index/index
+[Thu, 16 Nov 2017 10:09:46 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:09:46 -0500] info 004: vista a cargar: ./views/User/signIn
+[Thu, 16 Nov 2017 10:09:46 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:09:55 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:09:56 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:09:56 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:09:56 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:09:56 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:09:56 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:09:56 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:09:56 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:10:00 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:10:00 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:10:00 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:10:00 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:10:00 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:10:00 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:10:00 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:10:00 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:10:02 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:10:02 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:10:02 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:10:02 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:10:02 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:10:02 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:10:02 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:10:02 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:10:03 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:10:03 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:10:03 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:10:03 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:10:03 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:10:03 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:10:03 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:10:03 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:10:12 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:10:13 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:10:13 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:10:13 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:10:13 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:10:13 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:10:13 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:10:13 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:10:16 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:10:16 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:10:16 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:10:16 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:10:16 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:10:16 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:10:16 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:10:16 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:18:37 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:18:37 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:18:37 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:18:37 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:18:37 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:18:37 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:18:37 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:18:37 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:18:55 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:18:55 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:18:55 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:18:55 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:18:55 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:18:55 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:18:55 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:18:56 -0500] info 003: se conecto!
+[Thu, 16 Nov 2017 10:18:56 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Thu, 16 Nov 2017 10:18:58 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:18:58 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:18:58 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:18:58 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:18:58 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:18:58 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:18:58 -0500] info 005: ClassName: User_controller
+[Thu, 16 Nov 2017 10:18:58 -0500] info 005: fileName:despues del if User\controller.php
+[Thu, 16 Nov 2017 10:18:58 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:18:58 -0500] info 004: vista a cargar: ./views/Index/index
+[Thu, 16 Nov 2017 10:18:58 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:18:58 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Thu, 16 Nov 2017 10:18:58 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:20:33 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:20:33 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:20:33 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:20:33 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:20:33 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:20:33 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:20:33 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: ClassName: User_controller
+[Thu, 16 Nov 2017 10:20:33 -0500] info 005: fileName:despues del if User\controller.php
+[Thu, 16 Nov 2017 10:20:33 -0500] info 002: Se instancio User_controller()
+[Thu, 16 Nov 2017 10:20:33 -0500] info 004: vista a cargar: ./views/Index/index
+[Thu, 16 Nov 2017 10:20:33 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:20:33 -0500] info 004: vista a cargar: ./views/User/signIn
+[Thu, 16 Nov 2017 10:20:33 -0500] info 004: existe el path view 
+[Thu, 16 Nov 2017 10:21:04 -0500] info 005: ClassName: utilities\UrlGenerator
+[Thu, 16 Nov 2017 10:21:04 -0500] info 005: fileName: utilities\
+[Thu, 16 Nov 2017 10:21:04 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Thu, 16 Nov 2017 10:21:04 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Thu, 16 Nov 2017 10:21:04 -0500] info 003: URL: localhost
+[Thu, 16 Nov 2017 10:21:04 -0500] info 001: FROM:: CONFIG-APP 
+[Thu, 16 Nov 2017 10:21:04 -0500] info 002: Se instancio DataComponets_controller()
+[Thu, 16 Nov 2017 10:21:04 -0500] info 003: se conecto!
+[Mon, 20 Nov 2017 17:10:15 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:10:15 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:10:15 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:10:15 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:10:15 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:10:16 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:10:16 -0500] info 005: ClassName: User_controller
+[Mon, 20 Nov 2017 17:10:16 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 20 Nov 2017 17:10:16 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:10:16 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 20 Nov 2017 17:10:16 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:10:16 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 20 Nov 2017 17:10:16 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:12:41 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:12:41 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:12:41 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:12:41 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:12:41 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:12:41 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:12:41 -0500] info 005: ClassName: User_controller
+[Mon, 20 Nov 2017 17:12:41 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 20 Nov 2017 17:12:41 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:12:41 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 20 Nov 2017 17:12:41 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:12:41 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 20 Nov 2017 17:12:41 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:13:22 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:13:22 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:13:22 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:13:22 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:13:22 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:13:22 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:13:22 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:13:22 -0500] info 003: se conecto!
+[Mon, 20 Nov 2017 17:13:35 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:13:35 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:13:35 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:13:35 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:13:35 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:13:35 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:13:35 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:13:35 -0500] info 003: se conecto!
+[Mon, 20 Nov 2017 17:13:35 -0500] info 007: se creo la session: 3nivel acceso: 2
+[Mon, 20 Nov 2017 17:13:37 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:13:37 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:13:37 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:13:37 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:13:37 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:13:37 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:13:37 -0500] info 005: ClassName: User_controller
+[Mon, 20 Nov 2017 17:13:37 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 20 Nov 2017 17:13:37 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:13:37 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 20 Nov 2017 17:13:37 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:13:37 -0500] info 004: vista a cargar: ./views/User/userOptions
+[Mon, 20 Nov 2017 17:13:37 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:14:09 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:14:09 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:14:09 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:14:09 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:14:09 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:14:09 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:14:09 -0500] info 002: Se instancio DataComponets_controller()
+[Mon, 20 Nov 2017 17:14:09 -0500] info 003: se conecto!
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:15:06 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:15:06 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:15:06 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:15:06 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:15:06 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:15:06 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:15:06 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: ClassName: User_controller
+[Mon, 20 Nov 2017 17:15:06 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 20 Nov 2017 17:15:06 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:15:06 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 20 Nov 2017 17:15:06 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:15:06 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 20 Nov 2017 17:15:06 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:22:09 -0500] info 005: ClassName: utilities\UrlGenerator
+[Mon, 20 Nov 2017 17:22:09 -0500] info 005: fileName: utilities\
+[Mon, 20 Nov 2017 17:22:09 -0500] info 005: fileName:despues del if utilities\UrlGenerator.php
+[Mon, 20 Nov 2017 17:22:09 -0500] info 002: FROM:: CONFIG-APP, se instancio URLGENERATOR 
+[Mon, 20 Nov 2017 17:22:09 -0500] info 003: URL: localhost
+[Mon, 20 Nov 2017 17:22:09 -0500] info 001: FROM:: CONFIG-APP 
+[Mon, 20 Nov 2017 17:22:09 -0500] info 005: ClassName: User_controller
+[Mon, 20 Nov 2017 17:22:09 -0500] info 005: fileName:despues del if User\controller.php
+[Mon, 20 Nov 2017 17:22:09 -0500] info 002: Se instancio User_controller()
+[Mon, 20 Nov 2017 17:22:09 -0500] info 004: vista a cargar: ./views/Index/index
+[Mon, 20 Nov 2017 17:22:09 -0500] info 004: existe el path view 
+[Mon, 20 Nov 2017 17:22:09 -0500] info 004: vista a cargar: ./views/User/signIn
+[Mon, 20 Nov 2017 17:22:09 -0500] info 004: existe el path view 

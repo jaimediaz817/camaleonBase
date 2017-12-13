@@ -1,195 +1,843 @@
-[Tue, 05 Apr 2016 17:34:27 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:34:27 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 0 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 1 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 2 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 3 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 4 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 5 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 6 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 7 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 8 , value : Array
-[Tue, 05 Apr 2016 17:34:27 -0500] info 008_getAll : element: 9 , value : Array
-[Tue, 05 Apr 2016 17:34:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:34:41 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:35:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:35:28 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:36:02 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:36:02 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:36:16 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:36:16 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:36:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:36:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:37:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:37:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:37:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:37:30 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:37:54 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:37:54 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:39:16 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:39:16 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 17:39:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 17:39:41 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 19:23:23 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 19:24:22 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 19:29:53 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 21:37:59 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 21:44:54 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 21:47:37 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 21:48:36 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 21:57:25 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 21:59:09 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:00:22 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:03:13 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:03:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:03:30 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:11:14 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:11:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:11:18 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:15:13 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:15:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:15:18 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:30:32 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:30:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:30:47 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:31:38 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:31:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:31:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:32:07 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:32:11 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:32:11 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:32:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:32:18 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:32:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:32:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Tue, 05 Apr 2016 22:44:32 -0500] info 006_newEntity: Probando entidad01
-[Tue, 05 Apr 2016 22:44:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Tue, 05 Apr 2016 22:44:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Wed, 06 Apr 2016 08:56:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Wed, 06 Apr 2016 08:56:48 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:01 -0500] info 006_newEntity: Probando entidad01
-[Thu, 07 Apr 2016 19:50:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:21 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:21 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:29 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:29 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:29 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:29 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:30 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:30 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Thu Apr 07 2016 19:50:30 GMT-0500 (Hora est. PacÃ­fico, SudamÃ©rica)
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: username content: jdiaz09
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: password content: 123
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: email content: jdiaz09@jdiaz.com
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: fechaCreacion content: Thu Apr 07 2016 19:50:30 GMT-0500 (Hora est. PacÃ­fico, SudamÃ©rica)
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: estadoRegistro content: false
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: nivelAcceso content: 1
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
-[Thu, 07 Apr 2016 19:50:30 -0500] info 005_nwcols: campo: horaCreacion content: Thu Apr 07 2016 19:50:30 GMT-0500 (Hora est. PacÃ­fico, SudamÃ©rica)
-[Thu, 07 Apr 2016 19:50:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:30 -0500] info 007_values: insert 817
-[Thu, 07 Apr 2016 19:50:30 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
-[Thu, 07 Apr 2016 19:50:30 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
-[Thu, 07 Apr 2016 19:50:31 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:31 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:31 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:31 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Thu, 07 Apr 2016 19:50:35 -0500] info 006_newEntity: Probando entidad01
-[Thu, 07 Apr 2016 19:50:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Thu, 07 Apr 2016 19:50:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:11:14 -0500] info 006_newEntity: Probando entidad01
-[Sun, 10 Apr 2016 18:15:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:15:58 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:20:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:20:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:04 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:04 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:05 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:07 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:07 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:08 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:08 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:08 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:08 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Sun Apr 10 2016 18:21:08 GMT-0500 (Hora est. PacÃ­fico, SudamÃ©rica)
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: username content: werweer
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: password content: wer
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: email content: werwerwer
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: fechaCreacion content: Sun Apr 10 2016 18:21:08 GMT-0500 (Hora est. PacÃ­fico, SudamÃ©rica)
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: estadoRegistro content: false
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: nivelAcceso content: 1
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
-[Sun, 10 Apr 2016 18:21:08 -0500] info 005_nwcols: campo: horaCreacion content: Sun Apr 10 2016 18:21:08 GMT-0500 (Hora est. PacÃ­fico, SudamÃ©rica)
-[Sun, 10 Apr 2016 18:21:08 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:08 -0500] info 007_values: insert 817
-[Sun, 10 Apr 2016 18:21:08 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
-[Sun, 10 Apr 2016 18:21:08 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
-[Sun, 10 Apr 2016 18:21:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:10 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
-[Sun, 10 Apr 2016 18:21:10 -0500] info 001_PDO: PDO_MANAGER : select, array: 
-[Sun, 10 Apr 2016 18:21:13 -0500] info 006_newEntity: Probando entidad01
-[Sun, 10 Apr 2016 19:42:04 -0500] info 006_newEntity: Probando entidad01
-[Sun, 10 Apr 2016 19:45:36 -0500] info 006_newEntity: Probando entidad01
-[Sun, 10 Apr 2016 19:46:14 -0500] info 006_newEntity: Probando entidad01
-[Sun, 10 Apr 2016 19:49:58 -0500] info 006_newEntity: Probando entidad01
-[Sun, 10 Apr 2016 19:50:25 -0500] info 006_newEntity: Probando entidad01
-[Sun, 10 Apr 2016 19:51:08 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:18:37 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:19:24 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:24:14 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:25:37 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:29:19 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:30:39 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:31:22 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:39:39 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:40:21 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:41:51 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:42:48 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:43:19 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 09:45:15 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:06:56 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:08:44 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:09:54 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:10:27 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:26:33 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:28:11 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:29:20 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:30:56 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:33:14 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:37:50 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:40:27 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:41:00 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:41:54 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:43:39 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:45:03 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:46:02 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:48:08 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:48:49 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:49:06 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:51:27 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:52:00 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:52:21 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:52:48 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:53:59 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:54:59 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:56:26 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:58:07 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 11:59:29 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 12:04:45 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 12:05:35 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 12:06:23 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 12:09:16 -0500] info 006_newEntity: Probando entidad01
-[Mon, 11 Apr 2016 12:15:21 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:32:39 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:35:36 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:36:11 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:38:12 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:39:42 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:40:04 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:40:26 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:40:37 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:40:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:40:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:40:51 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:40:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:40:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:24 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:26 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:31 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:39 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:42:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:43:00 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:43:55 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:43:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:44:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:44:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:45:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:47:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:48:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:48:33 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:48:37 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:48:43 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:49:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:50:51 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 11:51:24 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:51:34 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:52:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:53:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:55:27 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:55:31 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:55:40 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 11:55:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 12:24:06 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:23:27 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:24:40 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:25:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 18:27:05 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:33:16 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:39:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 18:41:57 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:42:09 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:46:30 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 18:47:28 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:11:30 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:14:43 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:15:27 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:21:09 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:22:13 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:26:49 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 26 Apr 2016 19:31:28 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:33:05 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:35:22 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:38:27 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:42:33 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:43:27 -0500] info 006_newEntity: Probando entidad01
+[Tue, 26 Apr 2016 19:53:41 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 15:42:32 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 15:44:09 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 15:46:29 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 15:55:20 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:00:28 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:02:52 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:09:11 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:12:30 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:13:59 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:14:23 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:20:15 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:27:04 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:33:22 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:37:19 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:43:56 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:45:08 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:46:11 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:46:52 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:47:59 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:50:40 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 16:53:55 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:02:19 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:06:20 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:07:52 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:08:58 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:09:39 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:11:16 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:17:55 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:19:48 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:23:14 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:23:58 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:26:02 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:27:28 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:30:03 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:35:17 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:39:20 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:45:03 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:46:44 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:48:06 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:49:28 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 17:54:15 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:04:15 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:05:08 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:05:37 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:25:19 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:31:10 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:32:03 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:32:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:32:23 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:32:36 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:32:36 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:32:39 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:32:39 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:24 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:24 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:25 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:25 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:28 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:32 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:32 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:36 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:36 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:38 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:38 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:41 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:44 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:44 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:48 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:52 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:52 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Wed Apr 27 2016 18:33:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: username content: jdiaz14
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: password content: 12345
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: email content: jdiaz14@jdiaz
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: fechaCreacion content: Wed Apr 27 2016 18:33:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: estadoRegistro content: false
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: nivelAcceso content: 1
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
+[Wed, 27 Apr 2016 18:33:54 -0500] info 005_nwcols: campo: horaCreacion content: Wed Apr 27 2016 18:33:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Wed, 27 Apr 2016 18:33:54 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:54 -0500] info 007_values: insert 817
+[Wed, 27 Apr 2016 18:33:54 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
+[Wed, 27 Apr 2016 18:33:54 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Wed Apr 27 2016 18:33:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: username content: jdiaz14
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: password content: 12345
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: email content: jdiaz14@jdiaz
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: fechaCreacion content: Wed Apr 27 2016 18:33:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: estadoRegistro content: false
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: nivelAcceso content: 1
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
+[Wed, 27 Apr 2016 18:33:55 -0500] info 005_nwcols: campo: horaCreacion content: Wed Apr 27 2016 18:33:55 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Wed, 27 Apr 2016 18:33:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:56 -0500] info 007_values: insert 817
+[Wed, 27 Apr 2016 18:33:56 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
+[Wed, 27 Apr 2016 18:33:56 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
+[Wed, 27 Apr 2016 18:33:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:33:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:33:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:34:00 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:34:55 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 18:34:55 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 27 Apr 2016 18:46:58 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:52:22 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:54:46 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 18:58:23 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:00:48 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:02:04 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:02:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 19:03:20 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:03:27 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 19:05:15 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:05:23 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 19:06:41 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:06:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 19:07:15 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 27 Apr 2016 19:11:50 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:39:34 -0500] info 006_newEntity: Probando entidad01
+[Wed, 27 Apr 2016 19:41:11 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 11:46:36 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 11:47:30 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 11:48:55 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 11:49:18 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 11:49:42 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 14:21:22 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 14:22:34 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 14:28:22 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:05:19 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:06:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:06:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:06:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:06:19 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Thu Apr 28 2016 19:06:23 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: username content: jdiaz015
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: password content: 123
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: email content: jdiaz015@
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: fechaCreacion content: Thu Apr 28 2016 19:06:23 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: estadoRegistro content: false
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: nivelAcceso content: 1
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
+[Thu, 28 Apr 2016 19:06:23 -0500] info 005_nwcols: campo: horaCreacion content: Thu Apr 28 2016 19:06:23 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:06:24 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:06:24 -0500] info 007_values: insert 817
+[Thu, 28 Apr 2016 19:06:24 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
+[Thu, 28 Apr 2016 19:06:24 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
+[Thu, 28 Apr 2016 19:06:37 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:09:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:09:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:09:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:09:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Thu Apr 28 2016 19:10:30 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: username content: jdiaz016
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: password content: 123
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: email content: jdiaz016@
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: fechaCreacion content: Thu Apr 28 2016 19:10:30 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: estadoRegistro content: false
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: nivelAcceso content: 1
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
+[Thu, 28 Apr 2016 19:10:30 -0500] info 005_nwcols: campo: horaCreacion content: Thu Apr 28 2016 19:10:30 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:10:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:10:30 -0500] info 007_values: insert 817
+[Thu, 28 Apr 2016 19:10:30 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
+[Thu, 28 Apr 2016 19:10:30 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
+[Thu, 28 Apr 2016 19:10:39 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:12:11 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:14:46 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:15:21 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:19:37 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:19:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:19:52 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:19:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:19:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:06 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:06 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:07 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:10 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:14 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:14 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:17 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:17 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:25 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:25 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:25 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:25 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:28 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:28 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:20:45 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:20:45 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Thu Apr 28 2016 19:22:58 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: username content: jdiaz017
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: password content: 123
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: email content: jdiaz017@
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: fechaCreacion content: Thu Apr 28 2016 19:22:58 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: estadoRegistro content: false
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: nivelAcceso content: 1
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
+[Thu, 28 Apr 2016 19:22:59 -0500] info 005_nwcols: campo: horaCreacion content: Thu Apr 28 2016 19:22:58 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Thu, 28 Apr 2016 19:22:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 28 Apr 2016 19:22:59 -0500] info 007_values: insert 817
+[Thu, 28 Apr 2016 19:22:59 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
+[Thu, 28 Apr 2016 19:22:59 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
+[Thu, 28 Apr 2016 19:23:04 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:24:37 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:32:31 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:35:25 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:38:29 -0500] info 006_newEntity: Probando entidad01
+[Thu, 28 Apr 2016 19:40:14 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 10:16:45 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 11:12:23 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 11:46:39 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 12:09:13 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 12:12:24 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 12:13:46 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 12:14:22 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 12:15:14 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 12:16:08 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 13:28:50 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 13:41:50 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 13:42:10 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 13:45:57 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 13:56:41 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 13:57:21 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 13:58:03 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:00:47 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:07:23 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:09:52 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:12:52 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:14:00 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:47:41 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:48:25 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 14:59:31 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:01:17 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:02:31 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:04:09 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:32:30 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:36:44 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:37:43 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 15:37:43 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 29 Apr 2016 15:38:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 15:38:18 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 29 Apr 2016 15:38:36 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 15:38:36 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 29 Apr 2016 15:41:39 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:44:27 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:45:16 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 15:48:33 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:11:43 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:19:30 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:19:50 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:20:04 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:29:24 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:33:30 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:36:31 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:36:50 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:38:25 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:39:10 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:46:22 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:46:46 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:54:05 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 17:59:07 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:00:39 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:02:04 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:08:07 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:09:23 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:12:30 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:18:19 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:19:40 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:20:33 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 18:22:27 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 19:26:30 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:02:37 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:04:12 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:05:57 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:07:27 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:07:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 20:08:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 20:12:19 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:13:11 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:18:30 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:21:52 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:22:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 20:22:12 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 29 Apr 2016 20:22:16 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 20:22:16 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 29 Apr 2016 20:22:29 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 20:22:33 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 29 Apr 2016 20:23:24 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:27:02 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:27:40 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:28:43 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:30:01 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:32:41 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:34:36 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:40:34 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:43:31 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:44:22 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:44:42 -0500] info 006_newEntity: Probando entidad01
+[Fri, 29 Apr 2016 20:45:17 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:14:16 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:15:27 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:25:28 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:26:13 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:39:13 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:41:24 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:42:02 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:44:54 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:52:41 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 10:53:54 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 11:10:04 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 11:23:39 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 11:46:29 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 11:46:45 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 11:47:13 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 11:47:45 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 11:55:41 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:01:31 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:06:43 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:07:21 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:08:21 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:08:44 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:09:04 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:09:16 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:17:26 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:17:44 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:18:01 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:18:15 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:19:01 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 12:21:39 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:08:32 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:11:25 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:15:16 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:16:21 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:17:23 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:17:43 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:22:19 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:47:00 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:47:09 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:47:19 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 13:50:21 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:04:36 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:11:37 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:13:06 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:16:43 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:17:29 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:18:34 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:21:27 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:23:21 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:26:27 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:48:01 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:49:12 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:50:02 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 14:59:59 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:00:01 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:01:17 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:06:13 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:11:15 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:11:37 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:11:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:11:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:11:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:12:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:13:55 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:23:56 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:45:58 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:47:05 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:49:49 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:49:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:50:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:52:02 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:52:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 30 Apr 2016 15:56:10 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:56:37 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 15:59:46 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:01:31 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:04:43 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:30:59 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:36:30 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:38:29 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:39:08 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:44:01 -0500] info 006_newEntity: Probando entidad01
+[Sat, 30 Apr 2016 16:47:56 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:34:50 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:35:21 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:39:35 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:47:35 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:48:19 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:48:51 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:49:24 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 10:59:19 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 11:18:58 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 11:52:15 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 11:55:42 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 11:58:44 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 12:01:06 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 12:11:01 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 12:17:02 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 21:31:05 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 21:32:04 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 21:50:01 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 21:50:36 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:07:22 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:09:43 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:10:16 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:14:33 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:16:28 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:21:25 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:31:01 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:33:13 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:38:04 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 22:58:10 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 23:01:44 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 23:02:17 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 23:04:05 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 23:04:51 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 23:43:14 -0500] info 006_newEntity: Probando entidad01
+[Mon, 02 May 2016 23:47:28 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 00:14:06 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 09:37:29 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 09:47:06 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:10:16 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:11:47 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:12:33 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:14:31 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:19:23 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:21:10 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:33:26 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:42:03 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 10:55:01 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 11:59:15 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 12:02:53 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 12:03:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:03:30 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:02 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:02 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:04 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:06 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:06 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:11 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:11 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:11 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:11 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:14 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:14 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Tue, 03 May 2016 12:04:17 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Tue May 03 2016 12:04:17 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: username content: jdiaz16
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: password content: 12345
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: email content: jdiaz16@
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: fechaCreacion content: Tue May 03 2016 12:04:17 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: estadoRegistro content: false
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: nivelAcceso content: 1
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
+[Tue, 03 May 2016 12:04:17 -0500] info 005_nwcols: campo: horaCreacion content: Tue May 03 2016 12:04:17 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Tue, 03 May 2016 12:04:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Tue, 03 May 2016 12:04:17 -0500] info 007_values: insert 817
+[Tue, 03 May 2016 12:04:17 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
+[Tue, 03 May 2016 12:04:17 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
+[Tue, 03 May 2016 12:04:22 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 12:13:29 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 12:24:45 -0500] info 006_newEntity: Probando entidad01
+[Tue, 03 May 2016 12:33:12 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 12:17:36 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 17:15:22 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 17:27:14 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 17:44:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 04 May 2016 17:44:10 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 04 May 2016 17:44:13 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 17:53:01 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:06:49 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:07:08 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 04 May 2016 18:07:08 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 04 May 2016 18:07:10 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:11:35 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:15:10 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:16:22 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:19:58 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:20:41 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:30:17 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:31:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 04 May 2016 18:31:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 04 May 2016 18:31:06 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:44:05 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:44:26 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:44:43 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 04 May 2016 18:44:43 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 04 May 2016 18:44:46 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:47:17 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 18:47:55 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:20:12 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:24:56 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:27:30 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:29:44 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:29:56 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:31:09 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:31:31 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:31:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 04 May 2016 19:31:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 04 May 2016 19:31:49 -0500] info 006_newEntity: Probando entidad01
+[Wed, 04 May 2016 19:32:23 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 13:17:17 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 17:51:20 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 17:53:28 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 17:55:52 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 17:56:08 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 17:57:54 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 18:00:31 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 18:04:44 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 18:06:21 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 18:07:56 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 18:08:34 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 06 May 2016 18:08:34 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 06 May 2016 18:08:36 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 21:16:16 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 06 May 2016 21:30:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 06 May 2016 21:45:25 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 21:47:29 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 06 May 2016 21:47:29 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 06 May 2016 21:47:31 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:09:00 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:13:20 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:15:54 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:16:13 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:17:53 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:20:21 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:23:05 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:24:41 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:25:52 -0500] info 006_newEntity: Probando entidad01
+[Fri, 06 May 2016 22:26:35 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:45:25 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:45:50 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:46:15 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:46:32 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:47:32 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:49:13 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:49:23 -0500] info 006_newEntity: Probando entidad01
+[Sat, 07 May 2016 17:49:28 -0500] info 006_newEntity: Probando entidad01
+[Mon, 09 May 2016 08:33:12 -0500] info 006_newEntity: Probando entidad01
+[Mon, 09 May 2016 09:34:46 -0500] info 006_newEntity: Probando entidad01
+[Mon, 09 May 2016 09:41:24 -0500] info 006_newEntity: Probando entidad01
+[Mon, 09 May 2016 09:45:40 -0500] info 006_newEntity: Probando entidad01
+[Mon, 09 May 2016 09:47:39 -0500] info 006_newEntity: Probando entidad01
+[Sat, 04 Jun 2016 19:15:35 -0500] info 006_newEntity: Probando entidad01
+[Sat, 04 Jun 2016 19:15:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 04 Jun 2016 19:16:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 04 Jun 2016 19:16:06 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 04 Jun 2016 19:16:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 04 Jun 2016 19:16:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 04 Jun 2016 19:16:16 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 04 Jun 2016 19:16:19 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 06 Jun 2016 01:07:35 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 06 Jun 2016 01:07:37 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 06 Jun 2016 01:07:40 -0500] info 006_newEntity: Probando entidad01
+[Mon, 06 Jun 2016 01:07:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 06 Jun 2016 01:07:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 06 Jun 2016 01:07:52 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 06 Jun 2016 01:07:54 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 06 Jun 2016 01:07:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 16 Jul 2016 10:39:22 -0500] info 006_newEntity: Probando entidad01
+[Sat, 16 Jul 2016 10:39:29 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 16 Jul 2016 10:40:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 16 Jul 2016 10:40:35 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 16 Jul 2016 10:41:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 16 Jul 2016 10:41:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 16 Jul 2016 10:41:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 21 Jul 2016 16:20:47 -0500] info 006_newEntity: Probando entidad01
+[Sat, 23 Jul 2016 12:24:43 -0500] info 006_newEntity: Probando entidad01
+[Sat, 23 Jul 2016 12:24:55 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 23 Jul 2016 12:24:59 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 23 Jul 2016 12:25:24 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 23 Jul 2016 12:25:27 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 23 Jul 2016 12:26:00 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 23 Jul 2016 12:26:00 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 23 Jul 2016 12:26:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 23 Jul 2016 12:26:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 23 Jul 2016 12:26:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sat, 23 Jul 2016 12:26:07 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Sat, 13 Aug 2016 13:05:10 -0500] info 006_newEntity: Probando entidad01
+[Fri, 23 Sep 2016 15:29:05 -0500] info 006_newEntity: Probando entidad01
+[Fri, 23 Sep 2016 15:29:41 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:11 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:15 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:18 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:25 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:44 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:30:47 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:39:17 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:39:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:39:27 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 23 Sep 2016 15:39:54 -0500] info 006_newEntity: Probando entidad01
+[Thu, 24 Nov 2016 17:19:51 -0500] info 006_newEntity: Probando entidad01
+[Thu, 24 Nov 2016 17:21:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 24 Nov 2016 17:21:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 24 Nov 2016 17:21:58 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 24 Nov 2016 17:22:00 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 24 Nov 2016 17:22:02 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 16:21:58 -0500] info 006_newEntity: Probando entidad01
+[Wed, 25 Jan 2017 16:22:57 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 16:22:57 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 16:23:02 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 16:23:02 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 16:23:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 16:23:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 16:23:29 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 16:23:29 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 16:23:33 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 16:23:33 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 16:24:11 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 16:25:14 -0500] info 006_newEntity: Probando entidad01
+[Wed, 25 Jan 2017 16:26:35 -0500] info 006_newEntity: Probando entidad01
+[Wed, 25 Jan 2017 17:42:24 -0500] info 006_newEntity: Probando entidad01
+[Wed, 25 Jan 2017 17:42:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:42:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:42:46 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:42:46 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:42:51 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:42:51 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:43:06 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:43:06 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:43:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:43:28 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:46:01 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:46:01 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:46:07 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:46:07 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:46:16 -0500] info 006_newEntity: Probando entidad01
+[Wed, 25 Jan 2017 17:46:31 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:46:31 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:46:34 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Wed, 25 Jan 2017 17:46:34 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Wed, 25 Jan 2017 17:46:36 -0500] info 006_newEntity: Probando entidad01
+[Wed, 25 Jan 2017 17:53:22 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 19:42:50 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 19:43:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:43:42 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:43:44 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:43:44 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:43:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:43:48 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:43:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:43:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:43:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:43:53 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:44:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:44:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:44:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:44:03 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_DATAPOST: ARRAY_ fechaCreacion = Fri Jul 28 2017 19:44:05 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: username content: jdiaz888
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: password content: 12345
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: email content: jdiaz@888.com
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: fechaCreacion content: Fri Jul 28 2017 19:44:05 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: estadoRegistro content: false
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: keyGenerator content: dataVoid
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: nivelAcceso content: 1
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: idKeyGenerator content: 1
+[Fri, 28 Jul 2017 19:44:05 -0500] info 005_nwcols: campo: horaCreacion content: Fri Jul 28 2017 19:44:05 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[Fri, 28 Jul 2017 19:44:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:44:05 -0500] info 007_values: insert 817
+[Fri, 28 Jul 2017 19:44:05 -0500] info 007_fieldNames: : email`, `estadoRegistro`, `fechaCreacion`, `horaCreacion`, `id`, `idKeyGenerator`, `keyGenerator`, `nivelAcceso`, `password`, `username
+[Fri, 28 Jul 2017 19:44:05 -0500] info 007_fieldValues: : :email, :estadoRegistro, :fechaCreacion, :horaCreacion, :id, :idKeyGenerator, :keyGenerator, :nivelAcceso, :password, :username
+[Fri, 28 Jul 2017 19:44:09 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 19:46:25 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:30 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:32 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:36 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:39 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:39 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:42 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:46:44 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:48:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:48:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:48:10 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:48:24 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:48:28 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:48:50 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:48:50 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:49:20 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:49:20 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:49:25 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 19:49:43 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:49:43 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:50:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:50:05 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Fri, 28 Jul 2017 19:50:07 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 19:50:48 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:11 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:12 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:15 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:26 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:27 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:33 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:51:59 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 19:52:53 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:53:05 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Fri, 28 Jul 2017 19:53:17 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 20:03:37 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 20:04:35 -0500] info 006_newEntity: Probando entidad01
+[Fri, 28 Jul 2017 20:05:17 -0500] info 006_newEntity: Probando entidad01
+[Sun, 30 Jul 2017 15:11:17 -0500] info 006_newEntity: Probando entidad01
+[Sun, 30 Jul 2017 15:11:51 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 30 Jul 2017 15:12:09 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 30 Jul 2017 15:12:14 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Sun, 30 Jul 2017 15:14:42 -0500] info 006_newEntity: Probando entidad01
+[Thu, 16 Nov 2017 10:06:51 -0500] info 006_newEntity: Probando entidad01
+[Thu, 16 Nov 2017 10:07:00 -0500] info 006_newEntity: Probando entidad01
+[Thu, 16 Nov 2017 10:09:27 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:09:46 -0500] info 006_newEntity: Probando entidad01
+[Thu, 16 Nov 2017 10:09:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:10:00 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:10:02 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:10:03 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:10:13 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:10:16 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:18:37 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:18:37 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 16 Nov 2017 10:18:56 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Thu, 16 Nov 2017 10:18:56 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Thu, 16 Nov 2017 10:18:58 -0500] info 006_newEntity: Probando entidad01
+[Thu, 16 Nov 2017 10:20:33 -0500] info 006_newEntity: Probando entidad01
+[Thu, 16 Nov 2017 10:21:04 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 20 Nov 2017 17:10:16 -0500] info 006_newEntity: Probando entidad01
+[Mon, 20 Nov 2017 17:12:41 -0500] info 006_newEntity: Probando entidad01
+[Mon, 20 Nov 2017 17:13:22 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 20 Nov 2017 17:13:22 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Mon, 20 Nov 2017 17:13:35 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 20 Nov 2017 17:13:35 -0500] info 001_PDO: PDO_MANAGER : select, array: 
+[Mon, 20 Nov 2017 17:13:37 -0500] info 006_newEntity: Probando entidad01
+[Mon, 20 Nov 2017 17:14:09 -0500] info 001_PDO: from: MODEL: se instancio PDOManager en var static db
+[Mon, 20 Nov 2017 17:15:06 -0500] info 006_newEntity: Probando entidad01
+[Mon, 20 Nov 2017 17:22:09 -0500] info 006_newEntity: Probando entidad01

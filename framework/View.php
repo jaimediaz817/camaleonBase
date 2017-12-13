@@ -28,6 +28,7 @@ class View {
     public function render($controller, $view, $title = ''){
         
         $controller = get_class($controller);
+        //quitando la palabra CONTROLLER como apellido de la clase PHP
         $controller = substr($controller, 0, -11);
         
         $path = './views/'. $controller . '/' . $view;

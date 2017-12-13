@@ -3,8 +3,16 @@
  * 
  */
 class PDOManager extends PDO
-{
-	
+{	
+        /**
+         * Método constructor
+         * 
+         * @param type $DB_TYPE
+         * @param type $DB_HOST
+         * @param type $DB_NAME
+         * @param type $DB_USER
+         * @param type $DB_PASS
+         */
 	public function __construct($DB_TYPE, $DB_HOST, $DB_NAME, $DB_USER, $DB_PASS)
 	{
 	       parent::__construct($DB_TYPE.':host='.$DB_HOST.';dbname='.$DB_NAME, $DB_USER, $DB_PASS);
@@ -25,7 +33,8 @@ class PDOManager extends PDO
 		$sth = $this->prepare($sql);
 		foreach ($array as $key => $value) {
                            $val = $value;
-			$sth->bindValue(":$key", $val);
+			//$sth->bindValue(":$key", $val);
+                           $sth->bindValue($key, $val);
 		}
 		try{
                     $sth->execute();
@@ -35,6 +44,117 @@ class PDOManager extends PDO
                   }
 	}
 	
+         public function selectWithJoins ($sql, $arrayWHERES = array(), $fetchModel = PDO::FETCH_ASSOC)
+         {
+             $statement = $this->prepare($sql);
+             $cantidadWheres = count($arrayWHERES[0]);
+             //programacion defensiva
+             if ($cantidadWheres >= 1)
+             {
+                 for($i = 0; $i < $cantidadWheres; $i++ )
+                 {
+                     $property = $arrayWHERES[1][$i];
+                     $value = $arrayWHERES[2][$i];
+                     $dataType = gettype($value);
+                     /*
+                      * integer
+                        double
+                        NULL
+                        object
+                        string
+                      */
+                     switch ($dataType)
+                     {
+                         case "integer":
+                             $statement->bindValue(':'.$property, $value, PDO::PARAM_INT);
+                         break;
+                         
+                         case "double":
+                             $statement->bindValue(":". "$property", $value, PDO::PARAM_INT);
+                         break;
+                         
+                         case "string":
+                             $statement->bindValue(":". "$property", $value, PDO::PARAM_STR);
+                         break;                         
+                     }
+                     //evaluar tipo de dato                                          
+                 }
+//                 foreach ($arrayWHERES as $whereColumn => $value)
+//                 {
+//                     $valColumn = $value;
+//                     $statement->bindValue(":{$whereColumn}", $valColumn);
+//                 }
+             }
+                          
+             
+             //*****************************************************************
+             
+             //WHERE ARRAY  :: FOREACH
+              //BINDVALUE
+             //-----------------------
+             try
+             {
+                 //array(':us.id' => 32)
+                $statement->execute();
+                return $statement->fetchAll($fetchModel);                 
+             } catch (PDOException $ex) {
+                ResourceBundleV2::writeErrorLOG("001", $ex->getMessage()); 
+             }
+         }
+         
+         
+         public function call_testing($tableName, $columns ,$criterios = '', $wheresConcat = '', $page = 1, $regXpage = 5)
+         {
+             $sql = "CALL sp_dataGrid('" . $tableName . "', '". $columns ."', '". $criterios ."', '" . $wheresConcat . "', '" . 1 . "', '". 5 ."');";
+             return "";
+         }
+         
+         
+         //*********************************************************************
+         
+         /**
+          * llama a sp 
+          * 
+          * @param type $tableName  tabla
+          * @param type $columns  columnas
+          * @param type $criterios  criterio
+          * @param type $wheresConcat  wheres concat
+          * @param type $page  pagina inicio
+          * @param type $regXpage registros por pagina
+          * @param type $fetchModel
+          * @return type
+          */
+         public function call_sp_select($tableName, $columns ,$criterios = '', 
+            $wheresConcat = '', $page, $regXpage, $colNameOrder, $orderType, $fetchModel = PDO::FETCH_ASSOC)
+         {                  
+             try
+             {                 
+                 //CALL sp_dataGrid('usuario', 'id, username, email', '@', 'username,email');
+                //$statement = $this->prepare($sql);
+                $sql = "CALL sp_dataGrid('" . $tableName . "', '". $columns ."', '". $criterios ."', '" . $wheresConcat . "', '" . $page . "', '". $regXpage ."', '" . $colNameOrder ."', '" . $orderType . "');";
+                $data = $this->query($sql);
+                $resultData = $data->fetchAll($fetchModel);
+                
+                $data = null;
+                 //array(':us.id' => 32)
+                return $resultData;               
+             } catch (PDOException $ex) {
+                ResourceBundleV2::writeErrorLOG("001", $ex->getMessage()); 
+             }
+               //return array("success"=> "false");
+         }
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
 	/**
 	 * insert
 	 * @param string $table A name of table to insert into

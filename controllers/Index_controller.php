@@ -41,6 +41,9 @@ class Index_controller extends Controller {
         //-------------- [ INCRUSTANDO VISTAS EN INDEX ]------------------------
         $userController = new User_controller();
         $this->view->userControllerObj = $userController;//->signIn();
+        
+        $this->view->varTestAccess = 0;
+        
         ResourceBundleV2::writeHELPERSLog('001', 'hora :'. DataTimeManager::getFormatDate('-', 1) .
                 " hora: " . DataTimeManager::getFormatTime(':', 1). ' full time: '. 
                 DataTimeManager::getFullDateTime());
@@ -67,7 +70,7 @@ class Index_controller extends Controller {
         ResourceBundleV2::writeDATABASELOG("006_newEntity", "Probando entidad". $objEx->getId());
         //*****************************************************
         //             [ DEBUG MODE ]
-        $this->view->debug = false;
+        $this->view->debug = true;
         $this->view->render($this, "index", 'Conkretemos SAS.');
     }
     
@@ -103,6 +106,32 @@ http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/Index/crearUsuario/?
             } else {
                 print_r("<br>Nombre:  " . $resultado->getUsername());
                 //print_r("<br>Key foraneo :  " . $resultado->getIdKeyGenerator());
+                print_r($resultado);
+            }
+        }
+    }
+    
+    public function buscarUsuarioPorId ($id)
+    {
+        if (!empty($id))
+        {
+            $resultado = Usuario::getById($id);
+            
+            if (!is_null($resultado))
+            {
+                print_r($resultado);
+            }
+        }
+    }
+    
+    public function buscarTiendaPorId ($id)
+    {
+        if (!empty($id))
+        {
+            $resultado = Tienda::getById($id);
+            
+            if (!is_null($resultado))
+            {
                 print_r($resultado);
             }
         }

@@ -19,12 +19,41 @@
  * 
  * @returns {undefined}
  */
+$('div#pre-load-web').addClass("loaderMainPage");
+//VARIABLES GLOBALES *************
+var bandGlobalValidation = false; //<== unicamente valida PASS Y RE-PASS
+var bandColsAjax = false;
+var errorMessage = "";
+var con = 0;
+var heightBody;
+
+
+
+function ajustarFloatingWindow(altoVentana)
+{
+    var alto = altoVentana;    
+    var ventanaFloat ;
+    
+    if ($('div.cls-floating-window').length > 0){
+        console.log("es visible FLOAT");
+        ventanaFloat = $('div.cls-scrollingWindow');
+    }else{
+        console.log("no esta visible el FLOAT");
+    }
+    
+    if (alto < 390){
+        ventanaFloat.css({"height": "70vh"});
+        console.log("menor a 390");
+    }else{
+        ventanaFloat.css({"height": "auto"});
+        console.log("> a 390");
+    }
+}
+
+
+
 $(function ()
 {    
-    //VARIABLES GLOBALES *************
-    var bandGlobalValidation = false; //<== unicamente valida PASS Y RE-PASS
-    var bandColsAjax = false;
-    var errorMessage = "";
     
     // INSTANCIACION *****************
     objScopeApp = new ScopeApplication(retornarURL());
@@ -33,10 +62,134 @@ $(function ()
     //clase que gestiona las peticiones AJAX
     objRequests = new CLS_ajaxRequest();//LISTENER PARA DETECTAR EVENTOS EN TIEMPO REAL <KEYDOWN, KEYUP> ]--------------
   
-  
+    objDataGridComponent = new CLASS_DatagridComponent();
+    //-----------------------[ TABLE :: PAGINATION ]----------------------------      
+    //eliminamos el scroll de la pagina
+    $("body").css({"overflow-y":"hidden"});
+    //guardamos en una variable el alto del que tiene tu browser que no es lo mismo que del DOM
+    //var alto=$(window).height();
+    //agregamos en el body un div que sera que ocupe toda la pantalla y se muestra encima de todo
+    //$("body").append('<div id="pre-load-web"></div>'); 
+    //le damos el alto 
     
-  
+    /*
+     *     width: 100%;
+    /* height: 100% !important; */
+    /* margin-top: 0; */
+    /* background: grey; 
+    background: rgba(1,1,1,0.5) url("http://localhost:8081/conkretemos-SAS-sistemaComercial-BETA/public/assets/images/loaders/default.svg") no-repeat center;
+    position: absolute;
+     */
+    //$('div#id-band-container').append('<div class = "band-status-action" id="success"><span class="icon-info"></span><p></p><span class="icon-cross"></span></div><div class = "band-status-action" id="error"><span class="icon-info"></span><p></p><span class="icon-cross"></span></div></div>');
+    
+    
+
+   $("div#pre-load-web").append('<img src="'+ objScopeApp.getPathScopeApplication() +'public/assets/images/loaders/default.svg">');
+   //esta sera la capa que esta dento de la capa que muestra un gif 
+   //$("#imagen-load").css({"margin-top":(alto/2)-30+"px"}); 
+   heightBody = $('body').height();
+   ajustarFloatingWindow(heightBody);
+   console.log("desde la carga de jquery:: alto : " + heightBody);
+   
+   
+   
+   
+   //BOTON FLOTANTE ]-----------------------------------------------------------
+    $("ul.dropdown-menu").mouseover(function(){
+//            console.log("SOBRE EL FOCO");
+    });
+
+    $("ul.dropdown-menu").mouseout(function(){
+            //alert("El ratón ya no está sobre el texto");
+//            console.log("YA NO ESTA EL FOCO");
+//            if ($('div.open').length > 0){
+//                console.log("estan desplegadas las opciones");
+//                //$('div#id-floatButtonLeft').removeClass("open");
+//            }
+//        var leftFloat = $('div#id-floatButtonLeft').css("left");
+//        console.log("izquierda: " + leftFloat);
+//        if (leftFloat < 0){
+//            console.log("el left es MENOR 0");
+//        }else{
+//            console.log("el left es MAYOR 0");
+//        }
+            
+    });   
+    
+    $('ul.dropdown-menu').mouseleave(function(){
+        console.log("MOUSE FUERA DEL FOCO");
+        var leftFloat = $('div#id-floatButtonLeft').css("left");
+        console.log("izquierda: " + leftFloat);
+        
+        $('ul.dropdown-menu').css({"-moz-transition":"left 600ms linear 0s"});
+        $('ul.dropdown-menu').css({"-webkit-transition":"left 600ms linear 0s"});
+        $('ul.dropdown-menu').css({"-o-transition":"left 600ms linear 0s"});
+        $('ul.dropdown-menu').css({"transition":"left 600ms linear 0s"});
+        //REMOVER LA CLASE OPEN
+        $('div#id-floatButtonLeft').removeClass("open");
+//        $('div#id-floatButtonLeft').fadeOut("slow", function(){
+//            $(this).removeClass("open");
+//        });
+    });
+
+   
 });
+
+$(window).load(function() 
+{
+    //alert("carga total");
+    $('div#pre-load-web').fadeOut(4500);
+    
+    //permitimos scroll 
+    $("body").css({"overflow-y":"auto"});    
+   
+});
+
+
+
+
+
+//CUANDO CAMBIE EL ALTO DE LA VENANA::
+$(window).resize(function(){
+   
+   heightBody = $('body').height();
+   console.log(heightBody);
+   ajustarFloatingWindow(heightBody);
+    
+});
+
+
+
+
+
+$('button#btn-cargarUsuarios').on('click', function(event)
+{
+    //alert("click load usersr");
+    event.preventDefault();
+    //objRequests.getAllUsersPaginator(objScopeApp.getPathScopeApplication());
+    //printTestMethod
+    objDataGridComponent.getRenderDataGridComponent(
+            objScopeApp.getPathScopeApplication(), '@', '1', '5', 'id', 'asc');
+    //alert(");");
+    
+    
+
+});
+
+
+
+
+
+//------------------[ ORDENAMIENTOS ]-------------------------------------------
+    //objBandActions.showBandMessage("mensaje cargadp", MENSAJE_INFORMACION);
+
+
+
+
+
+
+
+
 
 
 //--------------------[  EXPERIMENTAL ::  COMBO BOX ]---------------------------
@@ -87,7 +240,7 @@ $("div.cls-floating-window form input").on("blur keyup keydown", function (event
 {
     console.log("ENTRANDO AL LISTENER ROOT");
     //obteniendo el padre del formulario [ EL PRIMERO ]
-    var currentForm = $(this).parent()[0];
+    var currentForm = $(this).parent().parent()[0];
     var formName = currentForm.name;
     //Nombre del evento actual *****************************
     var eventName = event.type;
@@ -212,6 +365,9 @@ $("div.cls-floating-window form").submit(function(event)
         {
             bandGlobalValidation = false ; bandColsAjax = false;
         }
+        if ($(this).val == ""){
+            errorMessage = "no puede omitir los campos obligatorios, ingrese la informacion";
+        }
     });
     
     switch (formName)
@@ -266,7 +422,12 @@ $("div.cls-floating-window form").submit(function(event)
             } 
             else 
             {
-                alert (errorMessage);
+                var usernameTxt = $('input#id-txt-userName-nw').text();
+                if (usernameTxt == ""){
+                    errorMessage = "username vacio";
+                }
+                alertify.alert(errorMessage); 
+                //alert (errorMessage);
             }
             //********************************
             
@@ -394,6 +555,15 @@ function processDataForm ( form )
 //}
 ////******************************************************************************
 
+
+
+
+
+
+
+
+
+
 //CLASE REQUEST:: ]-------------
 function CLS_ajaxRequest (){
     
@@ -459,6 +629,7 @@ CLS_ajaxRequest.prototype.iniciarSessionAJAXRequest =
         {
             var res = response;            
             console.log(res);
+            var objErrResponse = "";
             
            // si el username es erroneo
            if (res.username == false)
@@ -466,6 +637,7 @@ CLS_ajaxRequest.prototype.iniciarSessionAJAXRequest =
                $(userNameComponent).removeClass("inputCorrect").addClass("inputWrong");
                errorMessage = "El username es incorrecto!";
                bandGlobalValidation = false;
+               objErrResponse = "username";
            }
            //si el password es erroneo
            if (res.password == false)
@@ -473,7 +645,15 @@ CLS_ajaxRequest.prototype.iniciarSessionAJAXRequest =
                $(passwordComponent).removeClass("inputCorrect").addClass("inputWrong");
                errorMessage = "el password es incorrecto!";
                bandGlobalValidation = false;
+               if (res.username == false){
+                   objErrResponse = "username, password";
+               }else{
+                   objErrResponse = "password";
+               }
            }
+           
+           //configurando las alertas
+           
            //-------------[ VALIDANDO SESSION EXITOSA ]-------------------------
            if ((res.password == true) && (res.username == true))
            {
@@ -642,7 +822,167 @@ CLS_ajaxRequest.prototype.getAllUsers = function (pathApplication)
                 //ingresarlos en el combo:
                 $('select#id-ciudades').append('<option value ="' + res[i].id + '">' + res[i].username + '</option>');
             }
+        }        
+    });
+}
+
+CLS_ajaxRequest.prototype.getAllUsersPaginator = function (pathApplication)
+{
+    var path = pathApplication;
+    
+    var promiseAJAXRequest = $.ajax(
+    {
+        url: path + "User/getUsersFromDB/",
+        type: 'POST',
+        dataType: 'json',
+        data: {varRequest: "jaime"},
+        
+        success: function(respuesta)
+        {
+            var res = respuesta;            
+            var tablaUsuarios = $('table#id-tablaUsuarios');
+            tablaUsuarios.html('');
+            //preparando el combo::            
+            listadoUsuarios(res, tablaUsuarios);
+        }        
+    });
+}
+// FUNCTION ]-------------------------------------------------------------------
+listadoUsuarios = function (dataArr, tableComponent)
+{
+    var table = tableComponent;
+    $.each( dataArr, function (key, value)
+    {
+        var rowTable = "<tr> <td>"+ value.id +"</td> <td>"+ value.username +"</td>"                  
+                      +"</tr>";        
+        
+        tableComponent.append(rowTable);
+    })    
+}
+
+
+//******************************************************************************
+function CLASS_DatagridComponent ()
+{
+    var global = "componente Data Grid";
+}
+CLASS_DatagridComponent.prototype.getRenderDataGridComponent = 
+        function(pathApp, criterio, pagina, regXpagina, columnNameOrder, orderType)
+{
+    var path = pathApp;
+    //ARMANDO LA DATA::
+    var divLoader = $('div#id-loader');
+    
+    var dataSend = '&_criterio='+criterio+'&_pagina='+pagina+'&_regxpagina='+
+        regXpagina+'&_columnNameOrder='+columnNameOrder+'&_orderType='+orderType;
+    
+    var promiseRequestRenderCtrll = $.ajax(
+    {
+        url: path + "DataComponents/renderDataGridComponent/",
+        type: 'POST',
+        dataType: 'html',
+        data: dataSend,//{varRequest: "jaime"},
+        
+        beforeSend: function()
+        {
+            divLoader.html('<img src="'+ path +'public/assets/images/loaders/loaderBlue.gif">');
+        },
+        success: function(respuesta)
+        {
+            divLoader.html('');
+            var res = respuesta;            
+            //alert(res);
+            var divTable = $('div#id-datagridContainer');
+            divTable.html('');
+            divTable.html(res);
+
+            //captura el evento click de la tabla renderizada
+            eventTable();
+
+        }         
+    });
+}
+
+CLASS_DatagridComponent.prototype.printTestMethod = function (path)
+{
+    var pathApp = path;
+    alert("path : " + pathApp);    
+}
+
+//--------------------[ ACCIONES ]----------------------------------------------
+//editObject                               // function(path, param1, param2)
+CLASS_DatagridComponent.prototype.editObject = function(path, arrJson)
+{
+    event.preventDefault();
+    var pathApp = path;
+    //var username = param1;
+    //var email = param2;
+    
+    var obj = arrJson;
+    
+    alert ("path: " + pathApp + ", username: "+ obj.username);
+}
+
+CLASS_DatagridComponent.prototype.checkObjectElement = function(param1, param2)
+{
+    alert(" data: "+param1 + ", data2: "+param2);
+}
+//------------------[ CAPTURA EL EVENTO POST CARGA ]----------------------------
+function eventTable(){
+
+    $('th').on("click", function(){
+        
+        //---------------------- LOGICA FUNCIONANDO -----------------
+        var dataVal = "";
+        var currentPage = "";
+        var regXpage = 0;
+        
+        
+        dataVal = $(this).data('column');
+        
+        if (dataVal != null)
+        {
+            //FLUJO NORMAL DE EVENTOS
+            console.log("valor null");
+            //$(this).data("data-column");
+            console.log(dataVal);
+
+            currentPage = $("ul.pagination.pull-left").find("li.active a").text();
+            //currentPage = parseInt(currentPage);        
+            console.log(currentPage);
+
+            regXpage = $('select.selectpicker').find('option:selected').text();
+            //regXpage = parseInt(regXpage);
+            console.log(regXpage);
+
+            con++;
+            console.log("valor de con: "+ con);
+
+            if (con%2){
+                console.log("mostrar DESC");
+                console.log($(this));
+                $(this).find('span').removeClass('icon-move-up');
+                $(this).find('span').addClass('icon-move-down');
+
+                objDataGridComponent.getRenderDataGridComponent(
+                        objScopeApp.getPathScopeApplication(), '@', currentPage, regXpage, dataVal, 'DESC');            
+
+            }else{
+                console.log("mostrar ASC");
+                $(this).find('span').addClass('icon-move-up');
+                $(this).find('span').removeClass('icon-move-down');
+
+                objDataGridComponent.getRenderDataGridComponent(
+                        objScopeApp.getPathScopeApplication(), '@', currentPage, regXpage, dataVal, 'ASC'); 
+            }              
+        }
+        else
+        {
+            console.log("valor nulo");
         }
         
+                     
     });
+
+    
 }

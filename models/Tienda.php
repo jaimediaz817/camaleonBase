@@ -7,9 +7,9 @@
  *
  * @author JaimeI
  */
-class Tienda extends Model{
+class Tienda extends Model implements IModel{
     //put your code here
-    protected static $table = "Tienda";
+    protected static $table = "tienda";
     
     private $id;
     private $owner;
@@ -18,7 +18,7 @@ class Tienda extends Model{
     private $has_one = array(
         
             'Owner' => array(
-                'class' => 'Usuario',
+                'class' => 'usuario',
                 'join_as' => 'owner',
                 'join_with' => 'id'
             )

@@ -17,25 +17,174 @@
 
 /*------------------------[ IDS ]-----------------------------------------------*/
 #id-header-main{
-     border-bottom: 1px solid rgba(0,0,0,0.2);
+     border-bottom: 1px solid rgba(0,0,0,0.2);   
+     position: fixed;
+}
+
+/*MENU HAMBURGUESA RESPONSIVE*/
+button.navbar-toggle{
+    margin-right: 26px;
+}
+
+
+
+
+
+
+/*
+
+nav#id-navbarMain{
+    display: inline-block;
+}
+div#id-containerItems{
+    display: inline-block !important;
+}*/
+.colorDefault{
+    background: #848A8C;
+    color: white;
+}
+/*PANEL DE LA VENTANA FLOTANTE INICIO DE SESION / OPCIONES*/
+div.cls-header-panel-fltWindow{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    border-bottom: 1px solid #38A0C0;
+    /* border: 1px solid grey; */
+    /* font-size: 1em; */
+    height: 28px;
+    /* background: #7BD2EC; */
+    background-image: linear-gradient(to bottom, #73D2EF 0%, #41BBE0 100%);    
+}
+.cls-header-panel-fltWindow h2{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: white;
+    margin-left: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+hr.cls-hr-floating-window{
+    width: 72%;
+    height: 1px;
+    color: #8C908F;
+    background: #8C908F;
+    opacity: 0.2;
+    border: none;
+    border-radius: 48px;
+    /* z-index: 107; */
+    margin: 0;
+    padding: 0;
+}
+hr.cls-hr-vertical{
+    width: 1px;
+    height: 21px;
+    color: #8C908F;
+    background: #8C908F;
+    opacity: 0.2;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    float: right;
+    margin-top: -21px;
+    left: 72%;
+}
+/*ICONO CERRAR :: PANEL FLOATIN WINDOW*/ 
+span#id-span-close-fltWindow{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    float: right;
+    margin-top: 2px;
+    margin-right: 2px;
+    font-size: 23px;
+    color: #fff;
+    font-style: normal;
+    /*text-shadow: -3px -3px 3px #EAEAEF, 3px -3px 3px #F3F3F3, -3px 3px 3px #B5B5BF, 3px 3px 3px #C7C7CE;*/
+    text-shadow: -1px -1px 1px #6F6F6F, 1px 1px 1px #737373, -1px 1px 1px #8E8D8D, 1px -1px 1px #939191;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;       
+}
+span#id-span-close-fltWindow:hover{
+    text-shadow: -2px -2px 2px #6F6F6F, 2px 2px 2px #737373, -2px 2px 2px #636363, 2px -2px 2px #4B4B4B;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;   
+}
+/*HEADER BOTONERA ]-----------------------------------------*/
+div#cls-header-botonera{
+    height: 30px;
+    margin: 0;
+    background: #F9F9F9;
+    padding: 0;    
+}
+.border-top-title-fltWindow{
+    border-top: 1px solid rgba(1,1,1,0.1);
+    opacity: 1  
+}
+div.tab{
+    
+}
+div.cls-div-hv-bar{
+    position: relative;
+}
+div.cls-div-hv-inner{
+    
+}
+
+
+/*MEDIDAS ESTANDARES PARA APLICAR EN SECCIONES PORCIONADAS INDEPENDIENTES*/
+div.container-fluid{
+    margin-right: 0px !important;
+    padding-right: 0;
+}
+.space2xRight{
+    padding-right: 7px;
+}
+.space2xLeft {
+    padding-left: 7px;
+}
+.verticalSpace2x-bottom{
+    padding-bottom: 5px;
+}
+.verticalSpace1x-bottom{
+    padding-bottom: 1.5px;
+}
+.verticalSpace1x-top{
+    padding-top: 1.5px;
+}
+.verticalSpace2x-top{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/*tabla users*/
+div#id-datagridContainer{
+    background:  #fff;
+}
+
+
+section#id-sectionMainContainer{
+    width: 100%;
 }
 #id-login {
-    line-height: 46px;
+    line-height: 49px;
     height: 100%;
     padding: 0 20px;
     border-left: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0,0,0,0.2);
     cursor: pointer;
     -webkit-transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease;
-    
+    transition: background-color 0.5s ease;    
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;    
+    display: inline-block;
 }
 #id-login:hover{
     background-color: rgba(0,0,0,0.4);
     color: white;
 }
 
+/*VENTANA FLOTANTE UNA VEZ QUE SE INICIE LA SESION*/
 #id-window-userOptions {
     max-width: 150px;
     width: 150px;
@@ -61,22 +210,52 @@
     color: #fff;
 }
 div.cls-tittle-form {
-    margin-top: 15px;
+    margin-top: 0px;
 }
 /*---------------------------[ VENTANA DE LOGIN ]-------------------------------*/
 .cls-floating-window {
     background: #fff;
+    box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.15), 2px 3px 2px rgba(25, 23, 23, 0.095); 
+    -webkit-box-shadow: 3px 3px 24px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 24px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 24px -2px rgba(0,0,0,0.75);
     display: none;
     margin-top: 0px;
     /*position: absolute;*/
     max-width: 340px;
-    width: 365px;
-    height: auto;
-    border: 1px solid rgba(0,0,0,0.2);
+    /*width: 365px;*/
+    /*border: 1px solid rgba(0,0,0,0.2);*/
+    border: 1px solid rgba(63,159,188,0.7);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+    border-bottom: 3px solid #3F9FBC;
+    margin-top: 51px;
+    /*left: 74%;*/
+    padding: 0px 15px;
+    z-index: 101;
+    position: relative;
+}
+/*ADICIONANDO PADDING A CADA COMPONENTE INDIVIDUALMENTE ------------------------*/
+.paddingLeftAndRight{
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 4px;
+}
+.cls-confFloating-window{
     position: fixed;
-    margin-top: 46px;
-    left: 74%;
-    padding: 10px 15px;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;    
+/*        overflow: hidden;
+    overflow-y: auto;*/
+}
+.cls-scrollingWindow{
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;    
+}
+.cls-absolutePosition{
+    position: absolute;
 }
 .cls-floating-window form {
     margin-top: 20px;
@@ -84,6 +263,10 @@ div.cls-tittle-form {
 /*titulo de cada formulario*/
 div.cls-tittle-form{
     color: #2fabc4;
+}
+/*TITULO PANEL TAB ****************************/
+span.cls-span-tittle-panelTab{
+    margin-left: 13px;
 }
 /*INPUTS :: TEXT ---------------------------------------------------------------*/ 
 .cls-floating-window form input{
@@ -94,6 +277,23 @@ div.cls-tittle-form{
     border: 1px solid rgba(0,0,0,0.1);
     margin-bottom: 5px;
 }
+
+/*BOTONES SUBMIT#""*/
+input.cls-btn-submitSess{
+    background: rgba(0,0,0,0);
+    color: grey;
+    font-weight: bold;
+    border: 2px solid #C5C5C5 !important; 
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;     
+}
+input.cls-btn-submitSess:hover{
+    background: #C5C5C5;
+    color: white;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;     
+}    
+
 .cls-floating-window form input:focus{
    border-radius: 5px; 
 }
@@ -110,20 +310,51 @@ div.cls-tittle-form{
 }
 
 div.cls-small-text {
-    margin-top:  13px;
+    margin-top: 6px;
     font-size: 0.65em;
-    margin-bottom: 15px;
+    height: 41px;
+    margin-bottom: 0px;
+    background: #F9F9F9;
+    padding-top: 9px;
+    border-top: 1px solid rgba(1,1,1,0.1);
 }
 div.cls-small-text span {
     cursor: pointer;
 }
 div.cls-small-text span:last-child{
     float: right;
-}
-div.cls-small-text span:first-child{
-    float: left;
+    
+    width: 49%;
+    border: 1px solid #2aabd2;
+    text-align: center;
+    padding: 3px;
+    border-radius: 8px;    
+    
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;     
 }
 
+div.cls-small-text span:first-child{
+    float: left;
+    
+    width: 48%;
+    border: 1px solid #2aabd2;
+    text-align: center;
+    padding: 3px;
+    border-radius: 8px;    
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;     
+}
+div.cls-small-text span:first-child:hover{
+    background: #5bc0de;
+    color: #fff;
+    border: 1px solid #5bc0de;    
+}
+div.cls-small-text span:last-child:hover{
+    background: #5bc0de;
+    color: #fff;
+    border: 1px solid #5bc0de;
+}
 /*----------------------------[ VALIDACIONES REAL-TIME ]------------------------*/
 .inputCorrect{
     border: 1px solid #27ae60 !important;
@@ -133,3 +364,11 @@ div.cls-small-text span:first-child{
     border: 1px solid #c0392b !important;
     background: rgba(200,0,0,0.2);
 }
+
+
+@media (min-width: 200px) and (max-width: 480px){
+    
+    #id-login {
+        padding: 0 20px;
+    }    
+}    

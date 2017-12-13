@@ -67,12 +67,20 @@ spl_autoload_register(function ($classLoad){
         
         require_once PATH_BUSINESS . $classLoad .'.php';
     } elseif (file_exists( PATH_CONTROLLERS . $classLoad . '.php')) {        
-//        if (class_exists(PATH_CONTROLLERS . $classLoad . '.php')){
-//        ResourceBundleV2::writeDebugLOG("005", "instancia clase: " . $classLoad);
-            require_once PATH_CONTROLLERS . $classLoad .'.php';
-//        }
-//        exit("from:: APP-CONFIG No existe la libreria " .$classLoad . ".php a cargar ");
-    }     
+        //CONTROLLERS
+        require_once PATH_CONTROLLERS . $classLoad .'.php';
+    }
+        // MANAGER - DAO
+        elseif(file_exists( PATH_DAOS_MANAGER. $classLoad .'.php')){
+        //DAOS-MANAGER
+        require_once PATH_DAOS_MANAGER . $classLoad .'.php';
+    }  elseif(file_exists( PATH_INFERFACES_DAOS_MANAGER. $classLoad .'.php')){
+        //DAOS-INTERFACE
+        require_once PATH_INFERFACES_DAOS_MANAGER . $classLoad .'.php';
+    } elseif(file_exists( PATH_DTOS_TRANSFER_OBJECTS. $classLoad .'.php')){
+        //DTOS *****
+        require_once PATH_DTOS_TRANSFER_OBJECTS . $classLoad .'.php';
+    } 
     else {
         //exit("from:: APP-CONFIG No existe la libreria a cargar ");
     }
